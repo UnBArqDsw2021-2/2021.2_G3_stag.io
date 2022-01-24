@@ -1,28 +1,24 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-Demais diretrizes sobre a organização da wiki constam no Moodle Aprender 3.
-
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)_(Grupo)_(NomeDoProjeto)*. !!** 
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2021.2_G1_ProjetoPandora*. !!** 
- 
- (Apague essa seção)
-
-# Nome do Projeto
+# Stag.io
 
 **Código da Disciplina**: FGA0208<br>
-**Número do Grupo**: XX<br>
+**Número do Grupo**: 3<br>
 
 ## Alunos
 |Matrícula | Aluno |
 | -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+| 18/0096991  |  Álvaro Guimarães |
+| 18/0100831  |  Gabriel Avelino |
+| 18/0101617  |  Guilherme de Morais Richter |
+| 19/0014032  |  Guilherme Rogelin Vial |
+| 18/0018574  |  Hérya Rodrigues |
+| 18/0102087  |  Ian Fillipe |
+| 18/0102613  |  Italo Fernandes |
+| 18/0102656  |  Ítalo Vinícius |
+| 18/0103431  |  Joao Victor Valadao |
+| 17/0112004  |  Nathan Fernandes |
 
 ## Sobre 
-Descreva o seu projeto em linhas gerais. 
+O nosso projeto tem como objetivo facilitar a relação empresa-estudante por meio da disponibilização de vagas de estágio através da empresa e iniciativa de interesse por meio do estagiário.
 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
