@@ -1,0 +1,20 @@
+site_name: Stag.io
+
+repo_url: https://github.com/UnBArqDsw2021-2/2021.2_G3_stag.io
+repo_name: 'Stag.io'
+
+theme:
+  name: material
+  language: 'pt'
+  features:
+          - navigation.tabs
+  logo: 'assets/icons/logo.png'
+  favicon: 'assets/icons/logo-white.png'
+  icon:
+    repo: fontawesome/brands/github
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - Início: index.md
