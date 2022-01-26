@@ -16,6 +16,6 @@ Segue o molde para todo documento criado:
 
 # Versionamento
 
-Versão | Data | Modificação | Autor(es)
+Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |||||

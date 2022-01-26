@@ -18,3 +18,51 @@ extra_css:
 
 nav:
   - Início: index.md
+  - Base:
+    - Projeto Não Orientado a Abordagens Específicas:
+      - Design Sprint:
+        - Documento: Base/PNOAE/DesignSprint/Documento.md
+        - Prototipação:
+          - Protótipo de Baixa Fidelidade: Base/PNOAE/DesignSprint/Prototipacao/PrototipoBaixaFidelidade.md
+          - Planejamento da Avaliação do Protótipo de Alta Fidelidade: Base/PNOAE/DesignSprint/Prototipacao/PlanejAvalProtAltaFidelidade.md
+          - Protótipo de Alta Fidelidade: Base/PNOAE/DesignSprint/Prototipacao/PrototipoAltaFidelidade.md
+      - Requisitos:
+        - Pré-Rastreabilidade:
+          - 5W2H: Base/PNOAE/Requisitos/PreRastreabilidade/5W2H.md
+          - Mapa Mental: Base/PNOAE/Requisitos/PreRastreabilidade/MapaMental.md
+          - Rich Picture: Base/PNOAE/Requisitos/PreRastreabilidade/RichPicture.md
+          - Causa e Efeito: Base/PNOAE/Requisitos/PreRastreabilidade/CausaEfeito.md
+        - Rastreabilidade:
+          - Matriz de Rastreabilidade: Base/PNOAE/Requisitos/Rastreabilidade/MatrizRastreabilidade.md
+        - Elicitação:
+          - Brainstorming: Base/PNOAE/Requisitos/Elicitacao/Brainstorming.md
+          - StoryBoards: Base/PNOAE/Requisitos/Elicitacao/StoryBoards.md
+          - Introspecção: Base/PNOAE/Requisitos/Elicitacao/Introspeccao.md
+        - Priorização:
+          - MoSCoW: Base/PNOAE/Requisitos/Priorizacao/Moscow.md
+        - Modelagem:
+          - Especificação Suplementar: Base/PNOAE/Requisitos/Modelagem/EspecificacaoSuplementar.md
+          - Léxico: Base/PNOAE/Requisitos/Modelagem/Lexico.md
+    - Processos, Metodologias e Abordagens:
+      - Metodologia: Base/PMA/Metodologia.md
+      - Modelagem BPMN: Base/PMA/ModelagemBPMN.md
+    - Iniciativas Extras:
+      - Backlog do Produto:
+        - Histórias de Usuário:
+          - Metodologia: Base/IE/BacklogProduto/HistoriasUsuario/Metodologia.md
+          - Épicos:
+            - Épico 01: Base/IE/BacklogProduto/HistoriasUsuario/Epicos/Epico01.md
+      - Riscos:
+        - TAP: Base/IE/Riscos/TAP.md
+        - Plano de Gerenciamento de Risco: Base/IE/Riscos/PlanoGerenciamentoRisco.md
+      - Personas: Base/IE/Personas.md
+      - Valor, Custo e Risco: Base/IE/ValorCustoRisco.md
+    - Reuniões:
+      - Atas:
+        - 21/01/2022: Base/Reunioes/Atas/Ata1.md
+        - 24/01/2022: Base/Reunioes/Atas/Ata2.md
+        - 25/01/2022: Base/Reunioes/Atas/Ata3.md
+      - Sprint:
+        - Planejamento: Base/Reunioes/Sprint/Planejamento.md
+        - Revisão: Base/Reunioes/Sprint/Revisao.md
+    - Apresentação: Base/Apresentacao.md

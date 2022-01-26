@@ -34,6 +34,6 @@ A partir de um heatmap para verificar a disponibilidade de cada integrante e ass
 
 # Versionamento
 
-Versão | Data | Modificação | Autor(es) |
+Versão | Data | Modificação | Autor(es) | |
 |--|--|--|--|
 |1.0|24/01|Criação inicial da página Sobre|Ítalo Vinícius|

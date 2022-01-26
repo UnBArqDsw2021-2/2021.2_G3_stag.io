@@ -1,6 +1,6 @@
 # Introdução
 
-Esta ata apresenta as informações do que foi feito e abordado entre a equipe na primeira reunião do dia 26/01/22.
+Esta ata apresenta as informações do que foi feito e abordado entre a equipe na primeira reunião do dia 25/01/22.
 
 # Metodologia
 
@@ -16,6 +16,6 @@ Não atende.
 
 # Versionamento
 
-Versão | Data | Modificação | Autor(es)
+Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |0.1|25/01/22|Criação da ata|Ítalo Vinícius|
