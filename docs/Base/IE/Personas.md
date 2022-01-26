@@ -73,19 +73,19 @@ A existência da representação de um usuário mantém os desenvolvedores focad
 <p style="text-indent: 20px; text-align: justify">  
 Anti-personas são os usuários que o produto não deve ou consegue atingir devido a esse projeto não ser direcionado a esses usuários.</p>
 
-|     Persona     | Jéssica Prates                                                                                                                                                                 |
+|     Persona     | Pedro Henrique Abrante                                                                                                                                                                 |
 | :-------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     Status      | Anti-persona                                                                                                                                                                   |
-|      Foto       | <img src="../../assets/Base/Personas/Crianca.jpg" width="200px"><br>Figura 5 - Anti-persona. Fonte: <a href='https://www.pexels.com/pt-br/'>Pexels</a>                                      |
-|      Idade      | 20 anos                                                                                                                                                                        |
-|    Profissão    | Estagiária e estudante                                                                                                                                                         |
-|  Escolaridade   | Nível Superior Incompleto                                                                                                                                                      |
-|    Objetivos    | Se formar no seu curso de odontologia, construir sua própria clínica e sempre que possível realizar<br>uma viagem em família.                                                  |
-|   Habilidades   | Muito atenciosa aos detalhes, esforçada conquistando tudo que deseja, consegue cozinhar muito bem<br>fazendo um macarrão de brócolis e caipirinhas que toda sua família adora. |
-| Relacionamentos | Namora um menino da cidade vizinha, possui muitos amigos.                                                                                                                      |
-|   Requisitos    | Não perder tempo nos seus afazeres.                                                                                                                                            |
-|     Tarefas     | Acorda cedo para ir para o estágio, chegando a noite assistir aulas da faculdades e realizar as<br>tarefas do curso, além de ajudar com os afazeres de casa.                   |
-|  Expectativas   | Ao acessar a internet apenas quer assistir filmes e séries online ou acessar o site da faculdade,<br>assim, não tendo interesse neste tipo de site de prefeitura.              |
+|      Foto       | <img src="../../assets/Base/Personas/Crianca.jpg" width="200px"><br>Figura 4 - Anti-persona. Fonte: <a href='https://www.pexels.com/pt-br/'>Pexels</a>                                      |
+|      Idade      | 6 anos                                                                                                                                                                        |
+|    Profissão    | Estudante                                                                                                                                                 |
+|  Escolaridade    | Ensino Fundamental 1 incompleto                                                                                                                                                      |
+|    Objetivos    | Gostaria de ir ao espaço, se tornar advogado igual o pai e ser um bom jogador de basquete                                                  |
+|   Habilidades   | joga basquete muito bem, é muito inteligente e tira notas altas, é o mais rápido da turma e sabe um pouco de inglês |
+| Relacionamentos | Soteiro                                                                                                                     |
+|   Requisitos    | Ser divertido e ter desenho ou animaçâo                                                                                                                                           |
+|     Tarefas     | Arrumar a cama, comer frutas e aprender a somar                   |
+|  Expectativas   | Ao acessar a internet gostaria de assistir desenhos e filmes, e gostaria de jogar jogos onlines              |
 
 <figcaption> Tabela 4 - Anti-persona </figcaption>
 
@@ -98,4 +98,5 @@ BARBOSA S. D. J.; SILVA B. S. <strong>Interação Humano-Computador</strong> ed.
 Versão | Data | Modificação | Autor(es)
 |--|--|--|--|
 |1.0|26/01/22|Abertura do documento|João Victor Valadão|
-|1.0|26/01/22|Adicionando persona|Gabriel Avelino|
+|1.1|26/01/22|Adicionando persona|Gabriel Avelino|
+|1.2|26/01/22|Adicionando anti-persona|Ítalo Serra|
