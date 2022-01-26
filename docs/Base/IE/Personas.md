@@ -37,7 +37,7 @@ A existência da representação de um usuário mantém os desenvolvedores focad
 |     Persona     | Estela Koriandry                                                                                                                               |
 | :-------------: | :------------------------------------------------------------------------------------------------------------------------------------------------ |
 |     Status      | Persona secundária                                                                                                                                |
-|      Foto       | <img src="../../assets/Base/Personas/Universitario.jpg" width="200px"></br>Figura 3 - Persona Secundária. Fonte: <a href='https://www.pexels.com/pt-br/'>Pexels</a> |
+|      Foto       | <img src="../../assets/Base/Personas/Universitario.jpg" width="200px"></br>Figura 2 - Persona Secundária. Fonte: <a href='https://www.pexels.com/pt-br/'>Pexels</a> |
 |      Idade      | 20 anos.                                                                                                                                           |
 |    Profissão    | Cursando Línguas Estrangeiras Aplicadas.                                                                                                                                       |
 |  Escolaridade   | Nível médio completo.                                                                                                                            |
@@ -51,19 +51,20 @@ A existência da representação de um usuário mantém os desenvolvedores focad
 <figcaption> Tabela 2 - Persona secundária</figcaption>
 
 ### Persona terciária
-|     Persona     | Ana Carolina Pereira de Aguiar                                                                                                                      |
-| :-------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------- |
-|     Status      | Persona terciária                                                                                                                                   |
-|      Foto       | <img src="../../assets/Base/Personas/Empresa.jpg" width="200px"></br>Figura 4 - Persona Terciária. Fonte: <a href='https://www.pexels.com/pt-br/'>Pexels</a> |
-|      Idade      | 28 anos                                                                                                                                             |
-|    Profissão    | Advogada                                                                                                                                            |
-|  Escolaridade   | Nível Superior completo                                                                                                                             |
-|    Objetivos    | Sair da casa dos pais, ter o próprio escritório de advocacia e conhecer a Holanda                                                                   |
-|   Habilidades   | trabalha bem em equipe, é proativa, canta bem e gosta ler                                                                                           |
-| Relacionamentos | Solteira                                                                                                                                            |
-|   Requisitos    | Ser organizado e simples                                                                                                                            |
-|     Tarefas     | Trabalha de segunda a sexta, ajudar a arrumar a casa, fazer academia e estudar                                                                      |
-|  Expectativas   | Em quanto usar o site, espera conseguir ver as novas leis municipais, decretos e o diário oficial                                                   |
+
+|     Persona     | Daniel Ferreira da Serra                                                                                                                                       |
+| :-------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|     Status      | Persona terciária                                                                                                                                        |
+|      Foto       | <img src="../../assets/Base/Personas/Empresa.jpg" width="200px"> </br> Figura 3 - Persona Terciária. Fonte: <a href='https://www.pexels.com/pt-br/'>Pexels</a> |
+|      Idade      | 45 anos                                                                                                                                                  |
+|    Profissão    | Gerente                                                                                                                                              |
+|  Escolaridade   | Ensino Superior completo                                                                                                                                    |
+|    Objetivos    | Conseguir subir de cargo para diretor da empresa                                                                             |
+|   Habilidades   | Ótimo em relações interpessoais, é muito bom com contas e liderar pessoas                                                                                |
+| Relacionamentos | Casado e tem dois filhos                                                                                                                                 |
+|   Requisitos    | Contratar estagiários para auxiliar no trabalho                                                                                                              |
+|     Tarefas     | Trabalha de segunda a sexta, Buscar seu filho mais novo da escola e pagar as contas                                                                      |
+|  Expectativas   | Espera que o sistema seja fácil de aprender a usar, e que consiga disponibilizar vagas de estágio da empresa em que trabalha para pessoas que cursam administração                                |
 
 <figcaption> Tabela 3 - Persona terciária</figcaption>
 
@@ -97,3 +98,4 @@ BARBOSA S. D. J.; SILVA B. S. <strong>Interação Humano-Computador</strong> ed.
 Versão | Data | Modificação | Autor(es)
 |--|--|--|--|
 |1.0|26/01/22|Abertura do documento|João Victor Valadão|
+|1.0|26/01/22|Adicionando persona|Gabriel Avelino|
