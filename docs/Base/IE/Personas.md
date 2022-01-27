@@ -1,12 +1,12 @@
 # Introdução
 <p style="text-indent: 20px; text-align: justify">
-Um dos passos mais importantes do projeto é conhecer o perfil do usuário, pois assim teremos ideia do público alvo e de como o sistema vai se comportar perante a esse público, descrevendo cada cada situação de usuário, levando em conta as características de aparência, suas experiências, faixa etária dos envolvidos, suas habilidades e atividades.
+Um dos passos mais importantes do projeto é conhecer o perfil do usuário, pois assim teremos ideia do público alvo e de como o sistema vai se comportar perante a esse público, descrevendo cada situação de usuário, levando em conta as características de aparência, suas experiências, faixa etária dos envolvidos, suas habilidades e atividades.
 </p>
 
 
 # Metodologia
 <p style="text-indent: 20px; text-align: justify">
-Uma das melhores formas de auxiliar o designer do sistema na análise dos perfis dos usuários é por meio da criação de personas, que são personagens criados de maneira fictícia que servem para representar o público alvo que será a base dos usuários do projeto desenvolvido, sendo que cada persona criada deve ser representado como um usuário final que utilizará o sistema.
+Uma das melhores formas de auxiliar o designer do sistema na análise dos perfis dos usuários é por meio da criação de personas, que são personagens criados de maneira fictícia que servem para representar o público alvo que será a base dos usuários do projeto desenvolvido, sendo que cada persona criada deve ser reapresentada como um usuário final que utilizará o sistema.
 </p>
 
 <p style="text-indent: 20px; text-align: justify">
@@ -81,7 +81,7 @@ Anti-personas são os usuários que o produto não deve ou consegue atingir devi
 |    Profissão    | Estudante                                                                                                                                                 |
 |  Escolaridade    | Ensino Fundamental 1 incompleto                                                                                                                                                      |
 |    Objetivos    | Gostaria de ir ao espaço, se tornar advogado igual o pai e ser um bom jogador de basquete                                                  |
-|   Habilidades   | joga basquete muito bem, é muito inteligente e tira notas altas, é o mais rápido da turma e sabe um pouco de inglês |
+|   Habilidades   | Joga basquete muito bem, é muito inteligente e tira notas altas, é o mais rápido da turma e sabe um pouco de inglês |
 | Relacionamentos | Soteiro                                                                                                                     |
 |   Requisitos    | Ser divertido e ter desenho ou animaçâo                                                                                                                                           |
 |     Tarefas     | Arrumar a cama, comer frutas e aprender a somar                   |
@@ -95,7 +95,7 @@ BARBOSA S. D. J.; SILVA B. S. <strong>Interação Humano-Computador</strong> ed.
 
 # Versionamento
 
-Versão | Data | Modificação | Autor(es)
+Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|26/01/22|Abertura do documento|João Victor Valadão|
 |1.1|26/01/22|Adicionando persona|Gabriel Avelino|
