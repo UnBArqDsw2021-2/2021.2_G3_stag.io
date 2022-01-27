@@ -1,17 +1,17 @@
 # Introdução
-<p style="text-indent: 20px; text-align: justify">
+
 Um dos passos mais importantes do projeto é conhecer o perfil do usuário, pois assim teremos ideia do público alvo e de como o sistema vai se comportar perante a esse público, descrevendo cada situação de usuário, levando em conta as características de aparência, suas experiências, faixa etária dos envolvidos, suas habilidades e atividades.
-</p>
+
 
 
 # Metodologia
-<p style="text-indent: 20px; text-align: justify">
-Uma das melhores formas de auxiliar o designer do sistema na análise dos perfis dos usuários é por meio da criação de personas, que são personagens criados de maneira fictícia que servem para representar o público alvo que será a base dos usuários do projeto desenvolvido, sendo que cada persona criada deve ser reapresentada como um usuário final que utilizará o sistema.
-</p>
 
-<p style="text-indent: 20px; text-align: justify">
+Uma das melhores formas de auxiliar o designer do sistema na análise dos perfis dos usuários é por meio da criação de personas, que são personagens criados de maneira fictícia que servem para representar o público alvo que será a base dos usuários do projeto desenvolvido, sendo que cada persona criada deve ser reapresentada como um usuário final que utilizará o sistema.
+
+
+
 A existência da representação de um usuário mantém os desenvolvedores focados nos desejos e anseios da persona, que acabam sendo os anseios e desejos de um grupo de usuários final e real do projeto. Desse modo, as seguintes personas abaixo criadas pelo grupo tendem a mostrar quem realmente é o público alvo da aplicação.
-</p>
+
 
 
 ### Persona primária
@@ -19,7 +19,7 @@ A existência da representação de um usuário mantém os desenvolvedores focad
 |     Persona     | Samantha Eve Wilkins                                                                                                                                   |
 | :-------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     Status      | Persona primária                                                                                                                                         |
-|      Foto       | <img src="../../assets/Base/Personas/Ensino_medio.jpg"  width="200px"> </br> Figura 1 - Persona Primária. Fonte: <a href='https://www.pexels.com/pt-br/'>Pexels</a> |
+|      Foto       | <img src="../../../assets/Base/Personas/Ensino_medio.jpg"  width="200px"> </br> Figura 1 - Persona Primária. Fonte: <a href='https://www.pexels.com/pt-br/'>Pexels</a> |
 |      Idade      | 17 anos.                                                                                                                                                  |
 |    Profissão    | Estudante.                                                                                                                                             |
 |  Escolaridade   | Cursando o ensino médio.                                                                                                                                    |
@@ -37,7 +37,7 @@ A existência da representação de um usuário mantém os desenvolvedores focad
 |     Persona     | Estela Koriandry                                                                                                                               |
 | :-------------: | :------------------------------------------------------------------------------------------------------------------------------------------------ |
 |     Status      | Persona secundária                                                                                                                                |
-|      Foto       | <img src="../../assets/Base/Personas/Universitario.jpg" width="200px"></br>Figura 2 - Persona Secundária. Fonte: <a href='https://www.pexels.com/pt-br/'>Pexels</a> |
+|      Foto       | <img src="../../../assets/Base/Personas/Universitario.jpg" width="200px"></br>Figura 2 - Persona Secundária. Fonte: <a href='https://www.pexels.com/pt-br/'>Pexels</a> |
 |      Idade      | 20 anos.                                                                                                                                           |
 |    Profissão    | Cursando Línguas Estrangeiras Aplicadas.                                                                                                                                       |
 |  Escolaridade   | Nível médio completo.                                                                                                                            |
@@ -55,7 +55,7 @@ A existência da representação de um usuário mantém os desenvolvedores focad
 |     Persona     | Daniel Ferreira da Serra                                                                                                                                       |
 | :-------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     Status      | Persona terciária                                                                                                                                        |
-|      Foto       | <img src="../../assets/Base/Personas/Empresa.jpg" width="200px"> </br> Figura 3 - Persona Terciária. Fonte: <a href='https://www.pexels.com/pt-br/'>Pexels</a> |
+|      Foto       | <img src="../../../assets/Base/Personas/Empresa.jpg" width="200px"> </br> Figura 3 - Persona Terciária. Fonte: <a href='https://www.pexels.com/pt-br/'>Pexels</a> |
 |      Idade      | 45 anos                                                                                                                                                  |
 |    Profissão    | Gerente                                                                                                                                              |
 |  Escolaridade   | Ensino Superior completo                                                                                                                                    |
@@ -70,13 +70,13 @@ A existência da representação de um usuário mantém os desenvolvedores focad
 
 ### Anti-persona
 
-<p style="text-indent: 20px; text-align: justify">  
-Anti-personas são os usuários que o produto não deve ou consegue atingir devido a esse projeto não ser direcionado a esses usuários.</p>
+  
+Anti-personas são os usuários que o produto não deve ou consegue atingir devido a esse projeto não ser direcionado a esses usuários.
 
 |     Persona     | Pedro Henrique Abrante                                                                                                                                                                 |
 | :-------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 |     Status      | Anti-persona                                                                                                                                                                   |
-|      Foto       | <img src="../../assets/Base/Personas/Crianca.jpg" width="200px"><br>Figura 4 - Anti-persona. Fonte: <a href='https://www.pexels.com/pt-br/'>Pexels</a>                                      |
+|      Foto       | <img src="../../../assets/Base/Personas/Crianca.jpg" width="200px"><br>Figura 4 - Anti-persona. Fonte: <a href='https://www.pexels.com/pt-br/'>Pexels</a>                                      |
 |      Idade      | 6 anos                                                                                                                                                                        |
 |    Profissão    | Estudante                                                                                                                                                 |
 |  Escolaridade    | Ensino Fundamental 1 incompleto                                                                                                                                                      |
