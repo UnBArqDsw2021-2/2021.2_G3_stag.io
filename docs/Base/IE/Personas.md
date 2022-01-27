@@ -6,7 +6,7 @@ Um dos passos mais importantes do projeto é conhecer o perfil do usuário, pois
 
 # Metodologia
 
-Uma das melhores formas de auxiliar o designer do sistema na análise dos perfis dos usuários é por meio da criação de personas, que são personagens criados de maneira fictícia que servem para representar o público alvo que será a base dos usuários do projeto desenvolvido, sendo que cada persona criada deve ser reapresentada como um usuário final que utilizará o sistema.
+Uma das melhores formas de auxiliar o designer do sistema na análise dos perfis dos usuários é por meio da criação de personas, que são personagens criados de maneira fictícia que servem para representar o público alvo que será a base dos usuários do projeto desenvolvido, sendo que cada persona criada deve ser representada como um usuário final que utilizará o sistema.
 
 
 
