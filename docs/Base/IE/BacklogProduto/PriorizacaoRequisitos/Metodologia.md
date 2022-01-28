@@ -47,6 +47,40 @@ Um dos pontos positivos do MoSCoW é sua clareza para mostrar a importância de 
 e sua linguagem simples, além de possuir abstrações mais simples quando comparado a outras metodologias como "Valor, custo e risco"
 </p>
 
+## Requisitos Funcionais
+
+<center>
+
+| Requisito | Descrição | Prioridade |
+|:--:|:--:|:--:|
+| RF01 | Aplicar para vagas disponíveis | Must |
+| RF02 | Consultar status da solicitação de aplicação para a vaga | Must |
+| RF03 | Consultar vagas disponíveis | Must |
+| RF04 | Empresa pode analisar cada um que se candidatou para sua vaga e escolher quais manter | Must |
+| RF05 | Usuário candidato pode editar seus dados de perfil, inclusive seu currículo | Must |
+| RF06 | Permitir vagas para universitários e estudantes do ensino médio | Must |
+| RF07 | Empresa define informações claras sobre as vagas | Must |
+| RF08 | Fazer cadastro do usuário | Must |
+| RF09 | Diferenciar perfil de usuário (Empresa/interessado) | Must |
+| RF10 | Empresa tem que colocar o valor da bolsa | Must |
+| RF11 | A empresa pode editar seus dados de perfil | Must |
+| RF12 | Poder disponibilizar seu currículo para consulta das empresas | Should |
+| RF13 | Empresa pode acessar o perfil dos interessados em suas vagas para análise | Should |
+| RF14 | Diferenciar as vagas entre o ensino médio e superior | Should |
+| RF15 | Usuários podem acessar perfil das empresas | Should |
+| RF16 | Buscar vagas baseadas numa localização específica | Could |
+| RF17 | Candidato pode filtrar as vagas pelo valor da bolsa | Could |
+| RF18 | Candidato pode filtrar pela área de interesse | Could |
+| RF19 | Candidato pode filtrar vagas pelo curso | Could |
+| RF20 | Empresa pode filtrar os interessados em sua vaga por dados dos candidatos (tempo de experiência, escolaridade, ...) | Could |
+| RF21 | Candidato pode filtrar vagas por nome da empresa | Could |
+| RF22 | Candidato pode filtrar vagas por nível de escolaridade | Could |
+| RF23 | Candidato pode filtrar por estágio remoto ou presencial | Could |
+| RF24 | Vagas detalhadas por interesse | Would |
+| RF25 | Usuários candidatos podem detalhar suas áreas de interesse | Would |
+
+<figcaption>Tabela 1 - Representação dos requisitos funcionais</figcaption>
+
 # Bibliografia
 > Método MoSCoW: aprenda a priorizar as tarefas na sua agência. Rock Content - BR, 9 nov. 2019. Disponível em: <https://rockcontent.com/br/blog/metodo-moscow/>. Acesso em: 28 jan. 2022
 # Versionamento
@@ -54,3 +88,4 @@ e sua linguagem simples, além de possuir abstrações mais simples quando compa
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 | 1.0 | 28/01/2022 | Documentação sobre a técnica MoSCoW | Álvaro |
+| 1.1 | 28/01/2022 | Adição dos requisitos funcionais | Álvaro, Nathan |
