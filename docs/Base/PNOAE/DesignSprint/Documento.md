@@ -26,11 +26,29 @@ Inicia-se a etapa de criação dos protótipos da proposta escolhida, definindo 
 
 ## Test
 
- O último dia é reservado para testar o protótipo criado, podendo ser efetuado de diversas maneiras diferentes, sendo mais comum os testes de verificação e validação, aprimorando o projeto e prevenindo erros.
+O último dia é reservado para testar o protótipo criado, podendo ser efetuado de diversas maneiras diferentes, sendo mais comum os testes de verificação e validação, aprimorando o projeto e prevenindo erros.
 
 # Realização das etapas
 
-...
+## Unpack
+
+Durante essa etapa a equipe se reuniu para que os integrantes exibissem suas ideias e assim definir as diretrizes do projeto. Por meio da plataforma Miro, os integrantes criaram um Brainstormig. Em seguida foram desenvolvidos mapas mentais para orientar qual deveria ser o escopo e o funcionamento da aplicação.
+
+## Sketch
+
+Foram divididas algumas tarefas para os membros do grupo realizarem individualmente, desse modo cada integrante ficou responsável por criar uma planilha para o documento de 5W2H. Em seguida, a equipe foi dividida em trios e foram encarregados de criar um Rich Picture ou o documento de Personas.
+
+## Decide
+
+Baseados nos artefatos apresentados pelos trios, foi então decidido quais artefatos se encaixavam melhor no contexto da aplicação e em seguida foram direcionados aos trios a tarefa de desenvolver um StoryBoard por tipo de usuário, definido pelo documento de Personas.
+
+## Prototype
+
+Aínda está em processo kkkkkkk!
+
+## Test
+
+Não sei nem se vai ter !
 
 # Bibliografia
 
@@ -43,3 +61,4 @@ Inicia-se a etapa de criação dos protótipos da proposta escolhida, definindo 
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|27/01/2022|Abertura do documento|João Victor e Guilherme de Morais|
+|1.1|28/01/2022|Etapas executadas pelo grupo|João Victor e Guilherme de Morais|
