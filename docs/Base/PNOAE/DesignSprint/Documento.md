@@ -32,19 +32,19 @@ O último dia é reservado para testar o protótipo criado, podendo ser efetuado
 
 ## Unpack
 
-Durante essa etapa a equipe se reuniu para que os integrantes exibissem suas ideias e assim definir as diretrizes do projeto. Por meio da plataforma Miro, os integrantes criaram um Brainstormig. Em seguida foram desenvolvidos mapas mentais para orientar qual deveria ser o escopo e o funcionamento da aplicação.
+Durante essa etapa a equipe se reuniu para que os integrantes exibissem suas ideias e assim definir as diretrizes do projeto. Por meio da plataforma Miro, os integrantes criaram um [Brainstormig](../Requisitos/Elicitacao/Brainstorming.md). Em seguida foram desenvolvidos [Mapas Mentais](../Requisitos/PreRastreabilidade/MapaMental.md)  para orientar qual deveria ser o escopo e o funcionamento da aplicação.
 
 ## Sketch
 
-Foram divididas algumas tarefas para os membros do grupo realizarem individualmente, desse modo cada integrante ficou responsável por criar uma planilha para o documento de 5W2H. Em seguida, a equipe foi dividida em trios e foram encarregados de criar um Rich Picture ou o documento de Personas.
+Foram divididas algumas tarefas para os membros do grupo realizarem individualmente, desse modo cada integrante ficou responsável por criar uma planilha para o documento de [5W2H](../Requisitos/PreRastreabilidade/5W2H.md). Em seguida, a equipe foi dividida em trios e foram encarregados de criar um [Rich Picture](../Requisitos/PreRastreabilidade/RichPicture.md) ou o documento de [Personas](../../IE/Personas.md).
 
 ## Decide
 
-Baseados nos artefatos apresentados pelos trios, foi então decidido quais artefatos se encaixavam melhor no contexto da aplicação e em seguida foram direcionados aos trios a tarefa de desenvolver um StoryBoard por tipo de usuário, definido pelo documento de Personas.
+Baseados nos artefatos apresentados pelos trios, foi então decidido quais soluções melhor se encaixavam no contexto da aplicação e em seguida foram direcionados aos trios a tarefa de desenvolver um [StoryBoard](../Requisitos/Elicitacao/StoryBoards.md) por tipo de usuário, definido pelo documento de Personas.
 
 ## Prototype
 
-Aínda está em processo kkkkkkk!
+A partir de um encontro com todos os integrantes da equipe, foram decididos os principais pontos e artefatos que deveriam ser abordados nos protótipos, e qual seria a metodologia adotada para a sua realização, que estão registradas no arquivo de [Planejamento](Prototipacao/PlanejAvalProtAltaFidelidade.md). E a partir daí, confeccionamos os protótipos de [baixa](Prototipacao/PrototipoBaixaFidelidade.md) e [alta](Prototipacao/PrototipoAltaFidelidade.md) fidelidade, para representar como o projeto estará quando finalizado.
 
 ## Test
 
@@ -62,3 +62,4 @@ Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|27/01/2022|Abertura do documento|João Victor e Guilherme de Morais|
 |1.1|28/01/2022|Etapas executadas pelo grupo|João Victor e Guilherme de Morais|
+|1.2|30/01/2022|Prototipação e links para os arquivos|João Victor e Guilherme de Morais|
