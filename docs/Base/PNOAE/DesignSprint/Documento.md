@@ -48,11 +48,12 @@ A partir de um encontro com todos os integrantes da equipe, foram decididos os p
 
 ## Test
 
-Não sei nem se vai ter !
+Durante essa etapa o grupo optou em organizar uma reunião com todos os integrantes, para que de maneira colaborativa fossem identificados defeitos nos protótipos e sugerir melhorias. Desse modo a reunião foi conduzida pelo Ítalo Vinicius, onde após a introdução aos protótipos, fomos instruídos a tentar realizar algumas funcionalidades que os usuários terão acesso e caso algum integrante encontrasse alguma dificuldade o protótipo era alterado imediatamente. E por fim foram analisadas os aspectos em relação a usabilidade, confiabilidade, eficiência e portabilidade. 
 
 # Bibliografia
 
-> - "The Design Sprint". Disponível em https://www.gv.com/sprint/. Acesso em: 05 ago. 2021;
+> - "The Design Sprint". Disponível [aqui](https://www.gv.com/sprint/). Acesso em: 27 jan. 2022;
+> - "Design Sprint: entenda o que é e como fazer". Disponível [aqui](https://www.meupositivo.com.br/panoramapositivo/design-sprint/). Acesso em: 27 jan. 2022;
 > - [Documento Design Sprint do projeto Tá Na Mesa](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/blob/master/docs/1-Base/Projeto-Nao-Orientado-Abordagens-Especificas/Design-Sprint.md);
 > - [Documento Design Sprint do projeto Curumim](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/blob/main/docs/base/design-sprint/doc-design-sprint.md);
 
@@ -63,3 +64,4 @@ Versão | Data | Modificação | Autor(es) |
 |1.0|27/01/2022|Abertura do documento|João Victor e Guilherme de Morais|
 |1.1|28/01/2022|Etapas executadas pelo grupo|João Victor e Guilherme de Morais|
 |1.2|30/01/2022|Prototipação e links para os arquivos|João Victor e Guilherme de Morais|
+|1.3|31/01/2022|Tópicos pendentes e revisão|João Victor e Guilherme de Morais|
