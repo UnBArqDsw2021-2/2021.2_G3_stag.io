@@ -29,15 +29,15 @@ As histórias de usuário possuirão as seguintes características:
 </ul>
 
 # Épicos
-- [Épico 01 - Criação, edição e análise de perfil](/Epicos/Epico01.md) <br>
+- [Épico 01 - Criação, edição e análise de perfil](./Epicos/Epico01.md) <br>
 
-- [Épico 02 - Disponibilização de vagas](/Epicos/Epico02.md) <br>
+- [Épico 02 - Disponibilização de vagas](./Epicos/Epico02.md) <br>
 
-- [Épico 03 - Análise de candidatos](/Epicos/Epico03.md) <br>
+- [Épico 03 - Análise de candidatos](./Epicos/Epico03.md) <br>
 
-- [Épico 04 - Aplicação e consulta de vagas](/Epicos/Epico04.md) <br>
+- [Épico 04 - Aplicação e consulta de vagas](./Epicos/Epico04.md) <br>
 
-- [Épico 05 - Vagas específicas](/Epicos/Epico05.md) <br>
+- [Épico 05 - Vagas específicas](./Epicos/Epico05.md) <br>
 
 # Bibliografia
 > O Backlog do Produto - Product Backlog. O Dono do Produto, 9 jan. 2020. Disponível em: <https://odonodoproduto.com/backlog-do-produto/>. Acesso em: 01/02/2022.
