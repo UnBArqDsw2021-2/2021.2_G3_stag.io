@@ -1,6 +1,10 @@
 # Introdução
 
 Com este documento temos o objetivo de explicar como irá ocorrer o gerenciamento de risco. Faz parte do processo de planejamento de gerenciamento de projeto visando identificar os riscos envolvidos (riscos, pessoas e custos) em todo o processo de desenvolvimento do projeto. Mostrando como esses riscos serão identificados, mantidos ou contornados, trazendo suas soluções.
+ 
+ # Diagrama do Planejamento de Riscos
+ 
+<img src="../../../../../assets/Base/DiagramaPlanejamentoRisco/DiagramaPlanejamentoRisco.png" width="700px"></br>
 
 # Metodologia
 
@@ -64,6 +68,12 @@ Para descobrir e listar os riscos envolvidos em torno do projeto, o grupo se reu
 | Defeitos ou bugs na aplicação do projeto | Muito Alto | Alta | Realização de testes e verificação nos códigos conforme forem adicionados ao repositório | Restauração das últimas atualizações no código | 20 |
 | Ausência de testes ou testes fracos | Muito Alto | Baixa | Criar testes consistentes e coerentes | Melhorar ou criar novos testes | 10 |
 
+### Riscos externos
+| Risco | Impacto | Probabilidade | Prevenção | Resposta | Prioridade |
+| :---: | :-----: | :-----------: | :-------: | :------: | :--------: |
+| Baixa aprovação na aplicação | Alto | Média | Realizando questionários e pesquisas com o público-alvo da aplicação | Remodelar e adaptar o projeto comprindo as sugestões obtidas nas pesquisas e questionários | 12 |
+| Baixo utilização da aplicação | Alto | Muito alta | - | Divulgando o projeto | 20 |
+
 
 # Bibliografia
     
@@ -78,4 +88,5 @@ Para descobrir e listar os riscos envolvidos em torno do projeto, o grupo se reu
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|30/01/2022|Criação do Documento|Gabriel Avelino|
-|1.1|30/01/2022|Preenchimento das tabelas|Ítalo Serra e Gabriel Avelino|
+|1.1|31/01/2022|Preenchimento das tabelas|Ítalo Serra e Gabriel Avelino|
+|1.2|01/02/2022|Adicionando o diagrama e realizando a última tabela|Ítalo Serra|
