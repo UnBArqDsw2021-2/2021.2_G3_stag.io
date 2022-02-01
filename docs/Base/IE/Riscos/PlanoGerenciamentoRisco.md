@@ -4,7 +4,15 @@ Com este documento temos o objetivo de explicar como irá ocorrer o gerenciament
 
 # Metodologia
 
+Para descobrir e listar os riscos envolvidos em torno do projeto, o grupo se reuniu para decidir quais seriam esses riscos e seus impactos. Assim, foi decidido que os riscos seriam separados em certas categorias como descrito abaixo:
 
+<a>Riscos organizacionais:</a> São riscos relacionados a entregas e problemas de gerência da equipe, onde uma má distribuição de tarefas leva a vários problemas que afetam o projeto como um todo.
+
+<a>Riscos técnicos:</a> Esses riscos são aqueles que dificultam a realização do projeto por falta de conhecimento ou uso das ferramentas de software corretas.
+
+<a>Riscos de qualidade:</a> São riscos que ocorrem no processo de codificação do projeto, onde podem ocorrer bugs e problemas técnicos na hora em que o usuário esta utilizando.
+
+<a>Riscos externos:</a> Riscos que ja envolvem o produto final do projeto, onde verifica os riscos de mercado, de clientes e como afeta o meio ambiente.
 
 ### Probabilidade
 | Probabilidade | Peso |
@@ -59,10 +67,11 @@ Com este documento temos o objetivo de explicar como irá ocorrer o gerenciament
 
 # Bibliografia
     
-https://www.masterambiental.com.br/consultoria-ambiental/licenciamento-e-estudos-ambientais/plano-de-gerenciamento-de-risco-pgr/#:~:text=O%20Plano%20de%20Gerenciamento%20de,com%20o%20cronograma%20de%20adequação. Acessado em: 30/01/2022
+<a>https://www.masterambiental.com.br/consultoria-ambiental/licenciamento-e-estudos-ambientais/plano-de-gerenciamento-de-risco-pgr/#:~:text=O%20Plano%20de%20Gerenciamento%20de,com%20o%20cronograma%20de%20adequação </a>
+- Acessado em: 30/01/2022
 
-https://www.teclogica.com.br/riscos-em-um-projeto-de-software/
-Acessado em: 30/01/2022
+<a>https://www.teclogica.com.br/riscos-em-um-projeto-de-software/</a>
+- Acessado em: 30/01/2022
 
 # Versionamento
 
