@@ -64,3 +64,4 @@ Id requisito | requisito | prioridade | rastreabilidade | id história de usuár
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0| 28/01/2022 | Criação Documento | Nathan |
+|1.0| 28/01/2022 | Adição da matriz rastreabilidade | Nathan |
