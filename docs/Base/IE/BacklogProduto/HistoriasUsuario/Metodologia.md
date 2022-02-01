@@ -15,10 +15,10 @@ As histórias de usuário possuirão as seguintes características:
         <p><b>Descrição:</b> Apresenta qual usuário, qual necessidade e objetivo da necessidade.</p>
         <p>
         A descrição seguirá a seguinte estrutura:
-        ```
+        '''
         Eu, como um [backlog-tipo_usuario], quero [backlog-necessidade] para que eu 
         [backlog-objetivo].
-        ```
+        '''
         </p>
     </li>
     <li style="text-align: justify">
