@@ -11,10 +11,9 @@ Esta técnica de priorização analítica é utilizada na classificação de imp
 
 
 Id requisito | requisito | Benefício relativo | Penalidade relativa  | Valor relativo | Valor % | Custo relativo | Custo % | Risco relativo | Risco % | Prioridade 
-|--|--|--|--|--|
+|--|--|--|--|--|--|--|--|--|--|--|
 
 | RF01 | Aplicar para vagas disponíveis | | | | | | | | | |
-
 | RF02 | Consultar status da solicitação de aplicação para a vaga | | | | | | | | | |
 | RF03 | Consultar vagas disponíveis | | | | | | | | | |
 | RF04 | Empresa pode analisar cada um que se candidatou para sua vaga e escolher quais manter | | | | | | | | | |
