@@ -4,7 +4,7 @@ Com este documento temos o objetivo de explicar como irá ocorrer o gerenciament
  
  # Diagrama do Planejamento de Riscos
  
-<img src="../../../../../assets/Base/DiagramaPlanejamentoRisco/DiagramaPlanejamentoRisco.png" width="700px"></br>
+<img src="../../../assets/Base/DiagramaPlanejamentoRisco/DiagramaPlanejamentoRisco.png" width="700px"></br>
 
 # Metodologia
 
