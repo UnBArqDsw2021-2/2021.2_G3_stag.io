@@ -15,8 +15,8 @@ Etapas do processo de rastreamento do requisito:
 * evolução: processo de atualização dos elos de rastreabilidade, conforme surjam modificações nas entidades relacionadas ou nos próprios relacionamentos estabelecidos entre elas, ao longo do processo de desenvolvimento e de evolução do software.
 </p>
 
-Id requisito | requisito | prioridade | rastreabilidade
-|--|--|--|--|
+Id requisito | requisito | rastreabilidade
+|--|--|--|
 | RF01 | Aplicar para vagas disponíveis | Brainstorming |
 | RF02 | Consultar status da solicitação de aplicação para a vaga | Brainstorming |
 | RF03 | Consultar vagas disponíveis | Brainstorming e Introspecção |
