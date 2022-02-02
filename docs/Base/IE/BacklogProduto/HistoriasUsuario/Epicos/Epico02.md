@@ -22,8 +22,15 @@ Eu, como <b>usuário empresa</b>, quero <b>colocar o valor da bolsa na vaga</b> 
 Eu, como <b>usuário empresa</b>, quero <b>separar minhas vagas para ensino médio das vagas para ensino superior</b> para que eu <b>possa separar bem quais são os candidatos que eu espero para as minhas vagas</b>.
 </div>
 
+# US30 - Cadastrar vagas
+
+<div style="text-align: justify">
+Eu, como <b>usuário empresa</b>, quero <b>cadastrar vagas</b> para que eu <b>possa receber candidatos para analisar e eventualmente contratar</b>.
+</div>
+
 # Versionamento
 
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 | 1.0 | 01/02/2022 | Criação épico 02 | Álvaro |
+| 1.1 | 02/02/2022 | Adição de histórias de usuário | Álvaro |

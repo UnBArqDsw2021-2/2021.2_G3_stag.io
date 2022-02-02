@@ -16,8 +16,15 @@ Eu, como <b>usuário candidato</b>, quero <b>consultar o status da solicitação
 Eu, como <b>usuário candidato</b>, quero <b>consultar vagas disponíveis</b> para que eu <b>possa arranjar um estágio</b>.
 </div>
 
+# US28 - Receber notificação de mudança de status
+
+<div style="text-align: justify">
+Eu, como <b>usuário candidato</b>, quero <b>receber uma notificação caso o status de uma das minhas aplicações mude</b> para que eu <b>possa saber sobre a evolução ou negação da minha solicitação sem precisar ficar entrando no sistema o tempo todo para acompanhá-la</b>.
+</div>
+
 # Versionamento
 
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 | 1.0 | 01/02/2022 | Criação épico 04 | Álvaro |
+| 1.1 | 02/02/2022 | Adição de novas histórias de usuário | Álvaro |

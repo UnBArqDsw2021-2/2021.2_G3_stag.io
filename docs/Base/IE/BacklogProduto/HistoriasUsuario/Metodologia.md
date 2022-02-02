@@ -29,6 +29,8 @@ As histórias de usuário possuirão as seguintes características:
 </ul>
 
 # Épicos
+- [Épico 00 - Sistema](./Epicos/Epico00.md) <br>
+
 - [Épico 01 - Criação, edição e análise de perfil](./Epicos/Epico01.md) <br>
 
 - [Épico 02 - Disponibilização de vagas](./Epicos/Epico02.md) <br>
@@ -46,3 +48,4 @@ As histórias de usuário possuirão as seguintes características:
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 | 1.0 | 01/02/2022 | Adição da introdução | Álvaro |
+| 1.1 | 02/02/2022 | Adição de épicos | Álvaro |
