@@ -20,9 +20,19 @@ Utilizando desses conceitos foram desenvolvidos os seguintes artefatos:
 
 - **Review e Retrospective**: Reuniões para definir como serão as próximas Sprints e revisar o que foi desenvolvido.
 
+## Kanban
+
+O Kanban ficou conhecido por ser um "cartão" que sinalizava o fim do processo produtivo, e início de uma nova etapa. Com o objetivo de facilitar o controle de produção e gestão de tarefas, o Kanban se mostrou extremamente útil para definir a prioridade e organização das tasks, por meio de um fluxo de trabalho.
+O processo pode ser definido como um quadro branco separado por colunas, que permitem aos integrantes dividir o trabalho em segmentos menores por meio de cartões, onde são descritos as tasks, alocados na coluna apropriada. Assim, o grupo utilizou desses aspectos do Kanban através da extensão do ZenHub, onde o progresso de cada card poderia ser visualizado por cada integrante da equipe.
+
+<img src="../../../assets/Base/Kanban/zen_hub.png"  width="600px">
+
+## eXtreme Programming
+
 # Bibliografia
 
 > - "Scrum". Disponível [aqui](https://www.atlassian.com/br/agile/scrum). Acesso em: 31 jan. 2022;
+> - "Kanban: Conceito, como funciona, vantagens e implementação". Disponível [aqui](https://www.totvs.com/blog/negocios/kanban/#:~:text=O%20termo%20%E2%80%9CKanban%E2%80%9D%20%C3%A9%20de,ele%20se%20move%20pelo%20processo.). Acesso em: 02 fev. 2022;
 > - [Documento Design Sprint do projeto Tá Na Mesa](https://github.com/UnBArqDsw2021-1/2021.1_G02_TaNaMesa_docs/blob/master/docs/1-Base/Processos-Metodologias-Abordagens/Metodologia.md);
 > - [Documento Design Sprint do projeto Curumim](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/blob/main/docs/base/metodologia/metodologia.md);
 
@@ -31,3 +41,4 @@ Utilizando desses conceitos foram desenvolvidos os seguintes artefatos:
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|31/01/2022|Abertura do documento|João Victor e Guilherme de Morais|
+|1.1|02/02/2022|Metodologia Kanban|João Victor e Guilherme de Morais|
