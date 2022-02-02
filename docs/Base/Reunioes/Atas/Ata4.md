@@ -19,4 +19,4 @@ Não atende.
 
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
-|0.1|25/01/22|Criação da ata|Ítalo Vinícius|
+|0.1|02/02/22|Criação da ata|Ítalo Serra|
