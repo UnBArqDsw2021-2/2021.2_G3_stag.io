@@ -59,4 +59,4 @@ Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 | 1.0 | 28/01/2022 | Criação do documento | Guilherme Vial e Ian Ferreira |
 | 1.1 | 28/01/2022 | Adição de tópicos | Guilherme Vial e Ian Ferreira |
-| 1.2 | 02/02/2022 | Adição de tópicos | Guilherme Vial e Ian Ferreira |
+| 1.2 | 02/02/2022 | Revisão do documento | Guilherme Vial e Ian Ferreira e João Victor Valadão |
