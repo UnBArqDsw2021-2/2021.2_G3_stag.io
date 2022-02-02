@@ -13,7 +13,7 @@ A técnica de "Valor, custo e risco" tem como objetivo produzir uma tabela que p
 
 Elaboramos o passo a passo de como fizemos nossa priorização utilizando a técnica de valor, custo e risco.
 
-* Passo 1: Listar todos os requisitos em uma tabela. 
+* Passo 1: Listar todos os requisitos funcionais em uma tabela. 
 
 * Passo 2: Estimar o benefício relativo que cada recurso fornece ao cliente ou ao negócio de 1 a 9, em que 1 é o menos significativo e 9 é o mais significativo.
 
@@ -56,15 +56,10 @@ Id requisito | requisito | Benefício relativo | Penalidade relativa  | Valor re
 | RF23 | Candidato pode filtrar por estágio remoto ou presencial | 8 |6 | 14 | 0,053 | 5 | 0,026 | 4 | 0,025 | 1,039 |
 | RF24 | Vagas detalhadas por interesse | 8 | 7 | 15 | 0,057 | 4 | 0,021 | 4 | 0,025 | 1,239 |
 | RF25 | Usuários candidatos podem detalhar suas áreas de interesse | 6 | 5 | 11 | 0,041 | 5 | 0,026 | 5 | 0,032 | 0,706 |
-| RF26 | Criar um cadastro para se candidatar as vagas de estágio | 9 | 9 | 18 | 0,068 | 5 | 0,026 | 5 | 0,032 | 1,172 |
-| RF27 | Realizar login | 9 | 9 | 18 | 0,068 | 6 | 0,031 | 7 | 0,045 | 0,894 |
-| RF28 | Editar seu perfil a qualquer momento | 7 | 8 | 15 | 0,057 | 6 | 0,031 | 5 | 0,032 | 0,904 |
-| RF29 | Recuperar suas informações de login | 9 | 9 | 18 | 0,068 | 7 | 0,037 | 9 | 0,058 | 0,715 |
-| RF30 | Aplicar para uma vaga | 7 | 8 | 15 | 0,057 | 6 | 0,031 | 6 | 0,038 | 0,826|
-| RF31 | Ver situação de aplicação | 7 | 9 | 16 | 0,061 | 5 | 0,026 | 4 | 0,025 | 1,196 |
-| RF32 | Receber uma notificação caso o status ou descrição da vaga seja alterado | 9 | 7 | 16 | 0,061 | 6 | 0,031 | 5 | 0,032 | 0,968 |
-| RF34 | Escolher entre os candidatos à vaga | 9 | 9 | 18 | 0,068 | 6 | 0,031 | 4 | 0,025 | 1,214 |
-| RF35 | Conseguir cadastrar vagas de estágio | 9 | 9 | 18 | 0,068 | 5 | 0,026 | 3 | 0,019 | |
+| RF26 | Realizar login | 9 | 9 | 18 | 0,068 | 6 | 0,031 | 7 | 0,045 | 0,894 |
+| RF27 | Recuperar suas informações de login | 9 | 9 | 18 | 0,068 | 7 | 0,037 | 9 | 0,058 | 0,715 |
+| RF28 | Receber uma notificação caso o status ou descrição da vaga seja alterado | 9 | 7 | 16 | 0,061 | 6 | 0,031 | 5 | 0,032 | 0,968 |
+| RF30 | Conseguir cadastrar vagas de estágio | 9 | 9 | 18 | 0,068 | 5 | 0,026 | 3 | 0,019 | |
 |      | TOTAL | 262 | 262 | 524 | 1 | 188 | 1 | 155 | 1 | 1,317 |
 
 # Bibliografia
