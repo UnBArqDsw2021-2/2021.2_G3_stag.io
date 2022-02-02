@@ -13,19 +13,19 @@ A técnica de "Valor, custo e risco" tem como objetivo produzir uma tabela que p
 
 Elaboramos o passo a passo de como fizemos nossa priorização utilizando a técnica de valor, custo e risco.
 
-Passo 1: Listar todos os requisitos em uma tabela. 
+* Passo 1: Listar todos os requisitos em uma tabela. 
 
-Passo 2: Estimar o benefício relativo que cada recurso fornece ao cliente ou ao negócio de 1 a 9, em que 1 é o menos significativo e 9 é o mais significativo.
+* Passo 2: Estimar o benefício relativo que cada recurso fornece ao cliente ou ao negócio de 1 a 9, em que 1 é o menos significativo e 9 é o mais significativo.
 
-Passo 3: Estimar a penalidade que o negócio sofreria, se o recurso não for incluído, de 1 a 9, em que 1 é o com menor penalidade e 9 a maior penalidade.
+* Passo 3: Estimar a penalidade que o negócio sofreria, se o recurso não for incluído, de 1 a 9, em que 1 é o com menor penalidade e 9 a maior penalidade.
 
-Passo 4: A Coluna valor total é a soma do (Benefício Relativo * Peso Relativo + Penalidade Relativa * Peso Relativo), o peso relativo utilizado nesse caso foi de 1.
+* Passo 4: A Coluna valor total é a soma do (Benefício Relativo * Peso Relativo + Penalidade Relativa * Peso Relativo), o peso relativo utilizado nesse caso foi de 1.
 
-Passo 5: Estime o custo relativo de implementação de cada requisito, de 1 a 9.
+* Passo 5: Estime o custo relativo de implementação de cada requisito, de 1 a 9.
 
-Passo 6: Estime o grau relativo ao risco a cada requisito de uma escala de 1 a 9.
+* Passo 6: Estime o grau relativo ao risco a cada requisito de uma escala de 1 a 9.
 
-Passo 7: Calcular a prioridade para cada requisito usando: valor % / (custo % * Peso custo + risco % * Peso Risco). O Peso custo e risco aqui utilizados foram de 1.
+* Passo 7: Calcular a prioridade para cada requisito usando: valor % / (custo % * Peso custo + risco % * Peso Risco). O Peso custo e risco aqui utilizados foram de 1.
 </p>
 
 
