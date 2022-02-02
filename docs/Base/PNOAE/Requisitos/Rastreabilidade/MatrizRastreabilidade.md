@@ -42,17 +42,12 @@ Id requisito | requisito | rastreabilidade
 | RF23 | Candidato pode filtrar por estágio remoto ou presencial | Brainstorming e Introspecção |
 | RF24 | Vagas detalhadas por interesse | Brainstorming |
 | RF25 | Usuários candidatos podem detalhar suas áreas de interesse | Brainstorming |
-| RF26 | Criar um cadastro para se candidatar as vagas de estágio | Introspecção |
-| RF27 | Realizar login | Introspecção |
-| RF28 | Editar seu perfil a qualquer momento | Introspecção |
-| RF29 | Recuperar suas informações de login | Introspecção |
-| RF30 | Aplicar para uma vaga | Introspecção |
-| RF31 | Ver situação de aplicação | Introspecção |
-| RF32 | Receber uma notificação caso o status ou descrição da vaga seja alterado | Introspecção |
-| RF33 | O site precisa ser fácil é prático de se utilizar | Introspecção |
-| RF34 | Escolher entre os candidatos à vaga | Introspecção |
-| RF35 | Conseguir cadastrar vagas de estágio | Introspecção |
-| RF36 | O site precisa ser intuitivo | Introspecção |
+| RF26 | Realizar login | Introspecção |
+| RF27 | Recuperar suas informações de login | Introspecção |
+| RF28 | Receber uma notificação caso o status ou descrição da vaga seja alterado | Introspecção |
+| RF29 | O site precisa ser fácil e prático de se utilizar | Introspecção |
+| RF30 | Conseguir cadastrar vagas de estágio | Introspecção |
+| RF31 | O site precisa ser intuitivo | Introspecção |
 
 # Bibliografia
 
