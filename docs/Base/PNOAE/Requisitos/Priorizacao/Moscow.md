@@ -78,6 +78,12 @@ e sua linguagem simples, além de possuir abstrações mais simples quando compa
 | RF23 | Candidato pode filtrar por estágio remoto ou presencial | Could |
 | RF24 | Vagas detalhadas por interesse | Would |
 | RF25 | Usuários candidatos podem detalhar suas áreas de interesse | Would |
+| RF26 | Realizar login | Must |
+| RF27 | Recuperar suas informações de login | Must |
+| RF28 | Receber uma notificação caso o status ou descrição da vaga seja alterado | Could |
+| RF29 | O site precisa ser fácil e prático de se utilizar | Must |
+| RF30 | Conseguir cadastrar vagas de estágio | Must |
+| RF31 | O site precisa ser intuitivo | Should |
 
 <figcaption>Tabela 1 - Representação dos requisitos funcionais</figcaption>
 
@@ -89,3 +95,4 @@ Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 | 1.0 | 28/01/2022 | Documentação sobre a técnica MoSCoW | Álvaro |
 | 1.1 | 28/01/2022 | Adição dos requisitos funcionais | Álvaro, Nathan |
+| 1.2 | 02/02/2022 | Adição de novos requisitos | Álvaro, Nathan |
