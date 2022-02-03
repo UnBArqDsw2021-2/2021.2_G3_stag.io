@@ -25,7 +25,7 @@ Utilizando desses conceitos foram desenvolvidos os seguintes artefatos:
 O Kanban ficou conhecido por ser um "cartão" que sinalizava o fim do processo produtivo, e início de uma nova etapa. Com o objetivo de facilitar o controle de produção e gestão de tarefas, o Kanban se mostrou extremamente útil para definir a prioridade e organização das tasks, por meio de um fluxo de trabalho.
 O processo pode ser definido como um quadro branco separado por colunas, que permitem aos integrantes dividir o trabalho em segmentos menores por meio de cartões, onde são descritos as tasks, alocados na coluna apropriada. Assim, o grupo utilizou desses aspectos do Kanban através da extensão do ZenHub, onde o progresso de cada card poderia ser visualizado por cada integrante da equipe.
 
-<img src="../../assets/Base/Kanban/zen_hub.png"  width="600px">
+<img src="../../../assets/Base/Kanban/zen_hub.png"  width="600px">
 
 ## eXtreme Programming
 
