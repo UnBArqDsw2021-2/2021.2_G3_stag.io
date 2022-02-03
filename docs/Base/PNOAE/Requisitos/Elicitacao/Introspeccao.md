@@ -4,7 +4,7 @@ A introspecção é o método mais óbvio de elicitação, utilizado para tentar
 
 # Metodologia
 
-Com o uso da Introspecção, vimos que seria possível, por meio das [personas](../../../IE/Personas.md), comprovar e explorar diferentes realidades e casos de uso, pois desta maneira conseguiríamos imaginar quais requisitos, funcionais e não funcionais, e funções atenderia da melhor forma os usuários alvos da aplicação Web [Stag.io](../../../../index.md).  
+Com o uso da Introspecção, vimos que seria possível, por meio das [personas](../../../IE/Personas.md), comprovar e explorar diferentes realidades e casos de uso, pois desta maneira conseguiríamos imaginar quais requisitos, funcionais e não funcionais, e funções atenderiam da melhor forma os usuários alvos da aplicação Web [Stag.io](../../../../index.md).  
 
 
 | **id** | **Persona** | **função** |
@@ -59,4 +59,5 @@ Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 | 1.0 | 28/01/2022 | Criação do documento | Guilherme Vial e Ian Ferreira |
 | 1.1 | 28/01/2022 | Adição de tópicos | Guilherme Vial e Ian Ferreira |
-| 1.2 | 02/02/2022 | Revisão do documento | Guilherme Vial e Ian Ferreira e João Victor Valadão |
+| 1.2 | 02/02/2022 | Revisão do documento | Guilherme Vial, Ian Ferreira e João Victor Valadão |
+| 1.3 | 03/02/2022 | Revisão do documento | Guilherme Vial, Ian Ferreira e Hérya |
