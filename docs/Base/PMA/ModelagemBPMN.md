@@ -9,12 +9,12 @@ Nesse artefato buscamos representar os processos que fazem parte do desenvolvime
 
 [![Imagem1](../../assets/Base/BPMN/BPMN1.jpg)](../../assets/Base/BPMN/BPMN1.jpg)
 
-<figcaption>Figura 1: Modelo BPMN que defini como será o processo de entregas do projeto</figcaption>
+<figcaption>Figura 1: Modelo BPMN que define como será o processo de entregas do projeto</figcaption>
 
 
 [![Imagem2](../../assets/Base/BPMN/BPMN2.jpg)](../../assets/Base/BPMN/BPMN2.jpg)
 
-<figcaption>Figura 2: Modelo BPMN que defini como será as sprints da equipe</figcaption>
+<figcaption>Figura 2: Modelo BPMN que define como será as sprints da equipe</figcaption>
 
 # Bibliografia
 
@@ -26,3 +26,4 @@ Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 | 1.0 | 02/02/2022 | Criação do documento | Guilherme Vial e Ian Ferreira |
 | 1.1 | 02/02/2022 | Adição de tópicos | Guilherme Vial e Ian Ferreira |
+| 1.2 | 03/02/2022 | Revisão do documento | Guilherme de Morais, Guilherme Vial e Ian Ferreira |
