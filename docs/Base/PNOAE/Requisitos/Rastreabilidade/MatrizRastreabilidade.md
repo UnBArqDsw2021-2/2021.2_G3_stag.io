@@ -9,13 +9,13 @@ A rastreabilidade pode ser implementada por  um conjunto de elos ou ligações (
 No desenvolvimento de um sistema de software onde a rastreabilidade é utilizada, encontramos atividades associadas à rastreabilidade em quatro momentos.
 Etapas do processo de rastreamento do requisito:
 
-* definição: envolve a definição das entidades a serem rastreadas (artefatos, objetos), os tipos de relacionamentos a serem estabelecidos e sob que condiçoes eos elos deverão ser registrados.
+* definição: envolve a definição das entidades a serem rastreadas (artefatos, objetos), os tipos de relacionamentos a serem estabelecidos e sob que condições eos elos deverão ser registrados.
 * registros dos elos: envolve o registro explícito dos relacionamentos, envolvendo artefatos e entidades, nas situações e condições definidos anteriormente.
 * recuperação ou extração: dado um objeto ou artefato rastreável, e um tipo de relacionamento específico, implica em encontrar as entidades associadas;
 * evolução: processo de atualização dos elos de rastreabilidade, conforme surjam modificações nas entidades relacionadas ou nos próprios relacionamentos estabelecidos entre elas, ao longo do processo de desenvolvimento e de evolução do software.
 </p>
 
-Id requisito | requisito | rastreabilidade
+|Id requisito | requisito | rastreabilidade |
 |--|--|--|
 | RF01 | Aplicar para vagas disponíveis | Brainstorming |
 | RF02 | Consultar status da solicitação de aplicação para a vaga | Brainstorming |
@@ -48,6 +48,8 @@ Id requisito | requisito | rastreabilidade
 | RNF29 | O site precisa ser fácil e prático de se utilizar | Introspecção |
 | RF30 | Conseguir cadastrar vagas de estágio | Introspecção |
 | RNF31 | O site precisa ser intuitivo | Introspecção |
+
+<figcaption>Tabela 1 - Rastreabilidade</figcaption>
 
 # Bibliografia
 

@@ -52,7 +52,13 @@ nav:
         - Histórias de Usuário:
           - Metodologia: Base/IE/BacklogProduto/HistoriasUsuario/Metodologia.md
           - Épicos:
+            - Épico 00: Base/IE/BacklogProduto/HistoriasUsuario/Epicos/Epico00.md
             - Épico 01: Base/IE/BacklogProduto/HistoriasUsuario/Epicos/Epico01.md
+            - Épico 02: Base/IE/BacklogProduto/HistoriasUsuario/Epicos/Epico02.md
+            - Épico 03: Base/IE/BacklogProduto/HistoriasUsuario/Epicos/Epico03.md
+            - Épico 04: Base/IE/BacklogProduto/HistoriasUsuario/Epicos/Epico04.md
+            - Épico 05: Base/IE/BacklogProduto/HistoriasUsuario/Epicos/Epico05.md
+
       - Riscos:
         - TAP: Base/IE/Riscos/TAP.md
         - Plano de Gerenciamento de Risco: Base/IE/Riscos/PlanoGerenciamentoRisco.md
@@ -63,6 +69,7 @@ nav:
         - 21/01/2022: Base/Reunioes/Atas/Ata1.md
         - 24/01/2022: Base/Reunioes/Atas/Ata2.md
         - 25/01/2022: Base/Reunioes/Atas/Ata3.md
+        - 26/01/2022: Base/Reunioes/Atas/Ata4.md
       - Sprint:
         - Planejamento: Base/Reunioes/Sprint/Planejamento.md
         - Revisão: Base/Reunioes/Sprint/Revisao.md

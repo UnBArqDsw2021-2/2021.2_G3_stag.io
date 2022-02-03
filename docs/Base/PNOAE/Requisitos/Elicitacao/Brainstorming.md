@@ -10,7 +10,7 @@ Barbosa (2010) recomenda que uma sessão eficiente de brainstorming comece com p
 
 Durante a sessão, todos os integrantes puderam expressar suas ideias e opiniões sobre o que o projeto deveria englobar.  A figura 1 registra as ideias expostas e ponderadas pela equipe no brainstorming de funcionalidades da aplicação.
 
-<img alt = "Resultados Brainstorming" src="../../../../assets/Base/Brainstorm/Brainstorm.jpg"> 
+[![Imagem](../../../../assets/Base/Brainstorm/Brainstorm.jpg)](../../../../assets/Base/Brainstorm/Brainstorm.jpg)
 <figcaption> Figura 1 - Brainstorming para funcionalidades da aplicação </figcaption>
 
 # Requisitos elicitados

@@ -1,14 +1,11 @@
 # Introdução
 
-<p style="text-indent: 20px; text-align: justify">
 Quando as partes interessadas não podem concordar com as prioridades dos requisitos por meio de outras informações relativamente informais
 técnicas, pode ser útil aplicar um método mais analítico.
 Esta técnica de priorização analítica é utilizada na classificação de importância  relativa dos requisitos, depois que for identificados os requisitos essenciais ao produto que será entregue.
-</p>
 
 # Metodologia
 
-<p style="text-indent: 20px; text-align: justify">
 A técnica de "Valor, custo e risco" tem como objetivo produzir uma tabela que prioriza os requisitos sem que haja desbalanceamento por parte apenas do cliente ou do desenvolvedor. Ele envolve 3 papéis, o gerente, o representante dos clientes e o representante do desenvolvimento.
 
 Elaboramos o passo a passo de como fizemos nossa priorização utilizando a técnica de valor, custo e risco.
@@ -26,41 +23,414 @@ Elaboramos o passo a passo de como fizemos nossa priorização utilizando a téc
 * Passo 6: Estime o grau relativo ao risco a cada requisito de uma escala de 1 a 9.
 
 * Passo 7: Calcular a prioridade para cada requisito usando: valor % / (custo % * Peso custo + risco % * Peso Risco). O Peso custo e risco aqui utilizados foram de 1.
-</p>
 
+<table style="max-width: 70%;">
+    <tr>
+        <td>Id requisito</td>
+        <td>requisito</td>
+        <td>Benefício relativo</td>
+        <td>Penalidade relativa</td>
+        <td>Valor relativo</td>
+        <td>Valor %</td>
+        <td>Custo relativo</td>
+        <td>Custo %</td>
+        <td>Risco relativo</td>
+        <td>Risco %</td>
+        <td>Prioridade</td>
+    </tr>
+    <tr>
+        <td>RF01</td>
+        <td>Aplicar para vagas disponíveis</td>
+        <td>8</td>
+        <td>9</td>
+        <td>17</td>
+        <td>0,064</td>
+        <td>7</td>
+        <td>0,037</td>
+        <td>5</td>
+        <td>0,032</td>
+        <td>0,0927</td>
+    </tr>
+    <tr>
+        <td>RF02</td>
+        <td>Consultar status da solicitação de aplicação para a vaga</td>
+        <td>7</td>
+        <td>6</td>
+        <td>13</td>
+        <td>0,049</td>
+        <td>3</td>
+        <td>0,015</td>
+        <td>2</td>
+        <td>0,012</td>
+        <td>1,814</td>
+    </tr>
+    <tr>
+        <td>RF03</td>
+        <td>Consultar vagas disponíveis</td>
+        <td>9</td>
+        <td>9</td>
+        <td>18</td>
+        <td>0,068</td>
+        <td>6</td>
+        <td>0,031</td>
+        <td>5</td>
+        <td>0,032</td>
+        <td>1,079</td>
+    </tr>
+    <tr>
+        <td>RF04</td>
+        <td>Empresa pode analisar cada um que se candidatou para sua vaga e escolher quais manter</td>
+        <td>9</td>
+        <td>9</td>
+        <td>18</td>
+        <td>0,068</td>
+        <td>7</td>
+        <td>0,037</td>
+        <td>6</td>
+        <td>0,038</td>
+        <td>0,906</td>
+    </tr>
+    <tr>
+        <td>RF05</td>
+        <td>Usuário candidato pode editar seus dados de perfil, inclusive seu currículo</td>
+        <td>7</td>
+        <td>8</td>
+        <td>15</td>
+        <td>0,057</td>
+        <td>6</td>
+        <td>0,031</td>
+        <td>6</td>
+        <td>0,038</td>
+        <td>0,826</td>
+    </tr>
+    <tr>
+        <td>RF06</td>
+        <td>Permitir vagas para universitários e estudantes do ensino médio</td>
+        <td>9</td>
+        <td>9</td>
+        <td>18</td>
+        <td>0,068</td>
+        <td>4</td>
+        <td>0,021</td>
+        <td>2</td>
+        <td>0,012</td>
+        <td>2,060</td>
+    </tr>
+    <tr>
+        <td>RF07</td>
+        <td>Empresa define informações claras sobre as vagas</td>
+        <td>7</td>
+        <td>7</td>
+        <td>14</td>
+        <td>0,053</td>
+        <td>5</td>
+        <td>0,026</td>
+        <td>3</td>
+        <td>0,019</td>
+        <td>1,177</td>
+    </tr>
+    <tr>
+        <td>RF08</td>
+        <td>Fazer cadastro do usuário</td>
+        <td>9</td>
+        <td>9</td>
+        <td>18</td>
+        <td>0,068</td>
+        <td>6</td>
+        <td>0,031</td>
+        <td>4</td>
+        <td>0,025</td>
+        <td>1,214</td>
+    </tr>
+    <tr>
+        <td>RF09</td>
+        <td>Diferenciar perfil de usuário (Empresa/interessado)</td>
+        <td>9</td>
+        <td>8</td>
+        <td>17</td>
+        <td>0,064</td>
+        <td>7</td>
+        <td>0,037</td>
+        <td>7</td>
+        <td>0,045</td>
+        <td>0,780</td>
+    </tr>
+    <tr>
+        <td>RF10</td>
+        <td>Empresa tem que colocar o valor da bolsa</td>
+        <td>6</td>
+        <td>7</td>
+        <td>13</td>
+        <td>0,049</td>
+        <td>4</td>
+        <td>0,021</td>
+        <td>3</td>
+        <td>0,019</td>
+        <td>1,225</td>
+    </tr>
+    <tr>
+        <td>RF11</td>
+        <td>A empresa pode editar seus dados de perfil</td>
+        <td>7</td>
+        <td>7</td>
+        <td>14</td>
+        <td>0,053</td>
+        <td>6</td>
+        <td>0,031</td>
+        <td>5</td>
+        <td>0,032</td>
+        <td>0,841</td>
+    </tr>
+    <tr>
+        <td>RF12</td>
+        <td>Poder disponibilizar seu currículo para consulta das empresas</td>
+        <td>7</td>
+        <td>9</td>
+        <td>16</td>
+        <td>0,061</td>
+        <td>7</td>
+        <td>0,037</td>
+        <td>5</td>
+        <td>0,032</td>
+        <td>0,884</td>
+    </tr>
+    <tr>
+        <td>RF13</td>
+        <td>Empresa pode acessar o perfil dos interessados em suas vagas para análise</td>
+        <td>8</td>
+        <td>9</td>
+        <td>17</td>
+        <td>0,064</td>
+        <td>7</td>
+        <td>0,037</td>
+        <td>5</td>
+        <td>0,032</td>
+        <td>0,927</td>
+    </tr>
+    <tr>
+        <td>RF14</td>
+        <td>Diferenciar as vagas entre o ensino médio e superior</td>
+        <td>6</td>
+        <td>7</td>
+        <td>13</td>
+        <td>0,049</td>
+        <td>4</td>
+        <td>0,021</td>
+        <td>3</td>
+        <td>0,019</td>
+        <td>1,225</td>
+    </tr>
+    <tr>
+        <td>RF15</td>
+        <td>Usuários podem acessar perfil das empresas</td>
+        <td>8</td>
+        <td>9</td>
+        <td>17</td>
+        <td>0,064</td>
+        <td>7</td>
+        <td>0,037</td>
+        <td>5</td>
+        <td>0,032</td>
+        <td>0,927</td>
+    </tr>
+    <tr>
+        <td>RF16</td>
+        <td>Buscar vagas baseadas numa localização específica</td>
+        <td>7</td>
+        <td>6</td>
+        <td>13</td>
+        <td>0,049</td>
+        <td>5</td>
+        <td>0,026</td>
+        <td>4</td>
+        <td>0,025</td>
+        <td>0,960</td>
+    </tr>
+    <tr>
+        <td>RF17</td>
+        <td>Candidato pode filtrar as vagas pelo valor da bolsa</td>
+        <td>7</td>
+        <td>5</td>
+        <td>12</td>
+        <td>0,045</td>
+        <td>5</td>
+        <td>0,026</td>
+        <td>4</td>
+        <td>0,025</td>
+        <td>0,882</td>
+    </tr>
+    <tr>
+        <td>RF18</td>
+        <td>Candidato pode filtrar pela área de interesse</td>
+        <td>8</td>
+        <td>7</td>
+        <td>15</td>
+        <td>0,057</td>
+        <td>5</td>
+        <td>0,026</td>
+        <td>4</td>
+        <td>0,025</td>
+        <td>1,117</td>
+    </tr>
+    <tr>
+        <td>RF19</td>
+        <td>Filtrar as vagas de estágio por curso</td>
+        <td>7</td>
+        <td>7</td>
+        <td>14</td>
+        <td>0,053</td>
+        <td>5</td>
+        <td>0,025</td>
+        <td>4</td>
+        <td>0,025</td>
+        <td>1,060</td>
+    </tr>
+    <tr>
+        <td>RF20</td>
+        <td>Empresa pode filtrar os interessados em sua vaga por dados dos candidatos (tempo de experiência, escolaridade, ...)</td>
+        <td>8</td>
+        <td>7</td>
+        <td>13</td>
+        <td>0,049</td>
+        <td>6</td>
+        <td>0,031</td>
+        <td>4</td>
+        <td>0,025</td>
+        <td>0,875</td>
+    </tr>
+    <tr>
+        <td>RF21</td>
+        <td>Candidato pode filtrar vagas por nome da empresa</td>
+        <td>6</td>
+        <td>7</td>
+        <td>13</td>
+        <td>0,049</td>
+        <td>5</td>
+        <td>0,026</td>
+        <td>4</td>
+        <td>0,025</td>
+        <td>0,960</td>
+    </tr>
+    <tr>
+        <td>RF22</td>
+        <td>Filtrar as vagas de estágio por nível de escolaridade</td>
+        <td>6</td>
+        <td>6</td>
+        <td>12</td>
+        <td>0,045</td>
+        <td>5</td>
+        <td>0,026</td>
+        <td>4</td>
+        <td>0,025</td>
+        <td>0,882</td>
+    </tr>
+    <tr>
+        <td>RF23</td>
+        <td>Candidato pode filtrar por estágio remoto ou presencial</td>
+        <td>8</td>
+        <td>6</td>
+        <td>14</td>
+        <td>0,053</td>
+        <td>5</td>
+        <td>0,026</td>
+        <td>4</td>
+        <td>0,025</td>
+        <td>1,039</td>
+    </tr>
+    <tr>
+        <td>RF24</td>
+        <td>Vagas detalhadas por interesse</td>
+        <td>8</td>
+        <td>7</td>
+        <td>15</td>
+        <td>0,057</td>
+        <td>4</td>
+        <td>0,021</td>
+        <td>4</td>
+        <td>0,025</td>
+        <td>1,239</td>
+    </tr>
+    <tr>
+        <td>RF25</td>
+        <td>Usuários candidatos podem detalhar suas áreas de interesse</td>
+        <td>6</td>
+        <td>5</td>
+        <td>11</td>
+        <td>0,041</td>
+        <td>5</td>
+        <td>0,026</td>
+        <td>5</td>
+        <td>0,032</td>
+        <td>0,706</td>
+    </tr>
+    <tr>
+        <td>RF26</td>
+        <td>Realizar login</td>
+        <td>9</td>
+        <td>9</td>
+        <td>18</td>
+        <td>0,068</td>
+        <td>6</td>
+        <td>0,031</td>
+        <td>7</td>
+        <td>0,045</td>
+        <td>0,894</td>
+    </tr>
+    <tr>
+        <td>RF27</td>
+        <td>Recuperar suas informações de login</td>
+        <td>9</td>
+        <td>9</td>
+        <td>18</td>
+        <td>0,068</td>
+        <td>7</td>
+        <td>0,037</td>
+        <td>9</td>
+        <td>0,058</td>
+        <td>0,715</td>
+    </tr>
+    <tr>
+        <td>RF28</td>
+        <td>Receber uma notificação caso o status ou descrição da vaga seja alterado</td>
+        <td>9</td>
+        <td>7</td>
+        <td>16</td>
+        <td>0,061</td>
+        <td>6</td>
+        <td>0,031</td>
+        <td>5</td>
+        <td>0,032</td>
+        <td>0,968</td>
+    </tr>
+    <tr>
+        <td>RF30</td>
+        <td>Conseguir cadastrar vagas de estágio</td>
+        <td>9</td>
+        <td>9</td>
+        <td>18</td>
+        <td>0,068</td>
+        <td>5</td>
+        <td>0,026</td>
+        <td>3</td>
+        <td>0,019</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>TOTAL</td>
+        <td>262</td>
+        <td>262</td>
+        <td>524</td>
+        <td>1</td>
+        <td>188</td>
+        <td>1</td>
+        <td>155</td>
+        <td>1</td>
+        <td>1,317</td>
+    </tr>
+</table>
 
-Id requisito | requisito | Benefício relativo | Penalidade relativa  | Valor relativo | Valor % | Custo relativo | Custo % | Risco relativo | Risco % | Prioridade 
-|--|--|--|--|--|--|--|--|--|--|--|
-| RF01 | Aplicar para vagas disponíveis | 8 | 9 | 17 | 0,064 | 7 | 0,037 | 5 | 0,032 | 0,0927 |
-| RF02 | Consultar status da solicitação de aplicação para a vaga | 7 | 6 | 13 | 0,049 | 3 | 0,015 | 2 | 0,012 | 1,814 |
-| RF03 | Consultar vagas disponíveis | 9 | 9 | 18 | 0,068 | 6 | 0,031 | 5 | 0,032 | 1,079 |
-| RF04 | Empresa pode analisar cada um que se candidatou para sua vaga e escolher quais manter | 9 | 9 | 18 | 0,068 | 7 | 0,037 | 6 | 0,038 | 0,906 |
-| RF05 | Usuário candidato pode editar seus dados de perfil, inclusive seu currículo | 7 | 8 | 15 | 0,057 | 6 | 0,031 | 6 | 0,038 | 0,826 |
-| RF06 | Permitir vagas para universitários e estudantes do ensino médio | 9 | 9 | 18 | 0,068 | 4 | 0,021 | 2 | 0,012 | 2,060 |
-| RF07 | Empresa define informações claras sobre as vagas | 7 | 7 | 14 | 0,053 | 5 | 0,026 | 3 | 0,019 | 1,177 |
-| RF08 | Fazer cadastro do usuário | 9 | 9 | 18 | 0,068 | 6 | 0,031 | 4 | 0,025 | 1,214 |
-| RF09 | Diferenciar perfil de usuário (Empresa/interessado) | 9 | 8 | 17 | 0,064 |7 | 0,037 | 7 | 0,045 | 0,780 |
-| RF10 | Empresa tem que colocar o valor da bolsa | 6 | 7 | 13 | 0,049 | 4 | 0,021| 3 | 0,019 | 1,225 |
-| RF11 | A empresa pode editar seus dados de perfil |7 | 7 | 14 | 0,053 | 6 | 0,031 | 5 | 0,032 | 0,841 |
-| RF12 | Poder disponibilizar seu currículo para consulta das empresas | 7 | 9| 16 | 0,061 | 7 | 0,037 | 5 | 0,032 | 0,884 |
-| RF13 | Empresa pode acessar o perfil dos interessados em suas vagas para análise | 8 | 9 | 17 | 0,064 | 7 | 0,037 | 5 | 0,032 | 0,927 |
-| RF14 | Diferenciar as vagas entre o ensino médio e superior | 6 | 7 | 13 | 0,049 | 4 | 0,021 | 3 | 0,019 | 1,225 |
-| RF15 | Usuários podem acessar perfil das empresas | 8 | 9 | 17 | 0,064 | 7 | 0,037 | 5 | 0,032 | 0,927 |
-| RF16 | Buscar vagas baseadas numa localização específica | 7 | 6 | 13 | 0,049 | 5 | 0,026 | 4 | 0,025 | 0,960 |
-| RF17 | Candidato pode filtrar as vagas pelo valor da bolsa | 7 | 5 | 12 | 0,045 | 5 | 0,026 | 4 | 0,025 | 0,882 |
-| RF18 | Candidato pode filtrar pela área de interesse | 8 | 7 | 15 | 0,057 | 5 | 0,026 | 4 | 0,025 | 1,117 |
-| RF19 | Filtrar as vagas de estágio por curso | 7 | 7 | 14 | 0,053 | 5 | 0,025 | 4 | 0,025 | 1,060 |
-| RF20 | Empresa pode filtrar os interessados em sua vaga por dados dos candidatos (tempo de experiência, escolaridade, ...) | 8 | 7 | 13 | 0,049 | 6 | 0,031 | 4 | 0,025 | 0,875 |
-| RF21 | Candidato pode filtrar vagas por nome da empresa | 6 | 7 | 13 | 0,049 | 5 | 0,026 | 4 | 0,025 | 0,960 |
-| RF22 | Filtrar as vagas de estágio por nível de escolaridade | 6 | 6 | 12 | 0,045| 5 | 0,026 | 4 | 0,025 | 0,882 |
-| RF23 | Candidato pode filtrar por estágio remoto ou presencial | 8 |6 | 14 | 0,053 | 5 | 0,026 | 4 | 0,025 | 1,039 |
-| RF24 | Vagas detalhadas por interesse | 8 | 7 | 15 | 0,057 | 4 | 0,021 | 4 | 0,025 | 1,239 |
-| RF25 | Usuários candidatos podem detalhar suas áreas de interesse | 6 | 5 | 11 | 0,041 | 5 | 0,026 | 5 | 0,032 | 0,706 |
-| RF26 | Realizar login | 9 | 9 | 18 | 0,068 | 6 | 0,031 | 7 | 0,045 | 0,894 |
-| RF27 | Recuperar suas informações de login | 9 | 9 | 18 | 0,068 | 7 | 0,037 | 9 | 0,058 | 0,715 |
-| RF28 | Receber uma notificação caso o status ou descrição da vaga seja alterado | 9 | 7 | 16 | 0,061 | 6 | 0,031 | 5 | 0,032 | 0,968 |
-| RF30 | Conseguir cadastrar vagas de estágio | 9 | 9 | 18 | 0,068 | 5 | 0,026 | 3 | 0,019 | |
-|      | TOTAL | 262 | 262 | 524 | 1 | 188 | 1 | 155 | 1 | 1,317 |
+<figcaption>Tabela 1 - Valor, Custo e Risco</figcaption>
 
 # Bibliografia
 

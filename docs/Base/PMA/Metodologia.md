@@ -25,14 +25,21 @@ Utilizando desses conceitos foram desenvolvidos os seguintes artefatos:
 O Kanban ficou conhecido por ser um "cartão" que sinalizava o fim do processo produtivo, e início de uma nova etapa. Com o objetivo de facilitar o controle de produção e gestão de tarefas, o Kanban se mostrou extremamente útil para definir a prioridade e organização das tasks, por meio de um fluxo de trabalho.
 O processo pode ser definido como um quadro branco separado por colunas, que permitem aos integrantes dividir o trabalho em segmentos menores por meio de cartões, onde são descritos as tasks, alocados na coluna apropriada. Assim, o grupo utilizou desses aspectos do Kanban através da extensão do ZenHub, onde o progresso de cada card poderia ser visualizado por cada integrante da equipe.
 
+<center>
 <img src="../../../assets/Base/Kanban/zen_hub.png"  width="600px">
+</center>
+
+<figcaption>Imagem 1 - Kanban utilizando Zenhub</figcaption>
 
 ## eXtreme Programming
 
-A terceira e última metodologia que a nossa equipe escolheu é uma que consegue se integrar muito bem com o Scrum e o Kanban: é o eXtreme Programming, popularmente chamado de XP. A ideia principal por trás de utilizá-la é que essa é uma metodologia bastante focada em fazer com que a equipe de desenvolvimento evite falhas no projeto.<br>
-Durante o processo de desenvolvimento, essas falhas podem ocorrer em diversos pontos, e elas são causadas principalmente por falhas na comunicação com cliente, não atendimento de expectativas levantadas, falta de testes suficientes e planejamentos mal feitos.<br>
-O XP então se encaixa de forma excelente em equipes pequenas, que possuem requisitos relativamente vagos e buscam evitar tais problemas, admitindo que passe diariamente por algumas mudanças, mas que o produto final ainda assim tenha qualidade. E partindo do ponto que o XP preza por ver os integrantes como humanos, entende-se que estão sempre suscetíveis a erros e atrasos. Logo, a ideia é se ter economia, e focar no que é realmente necessário de forma objetiva e menos custosa possível.<br>
-Logo, o XP é um conjunto de 5 valores, alguns princípios e várias práticas, que torna o processo de desenvolvimento mais efetivo e eficaz. Esses cinco valores são: comunicação, simplicidade, feedback, coragem e respeito. Esses valores passam por vários princípios, que são, dentre vários, benefício-mútuo, melhoria, diversidade, fluxo, qualidade, passos pequenos, aceitação da responsabilidade, dentre outros. Assim, tais valores e princípios buscam guiar de forma humanizada as práticas em si do XP como metodologia de desenvolvimento, que dentro de quatro esferas enumeram-se para melhorar diretamente o desenvolvimento do código: <br>
+A terceira e última metodologia que a nossa equipe escolheu é uma que consegue se integrar muito bem com o Scrum e o Kanban: é o eXtreme Programming, popularmente chamado de XP. A ideia principal por trás de utilizá-la é que essa é uma metodologia bastante focada em fazer com que a equipe de desenvolvimento evite falhas no projeto.
+
+Durante o processo de desenvolvimento, essas falhas podem ocorrer em diversos pontos, e elas são causadas principalmente por falhas na comunicação com cliente, não atendimento de expectativas levantadas, falta de testes suficientes e planejamentos mal feitos.
+
+O XP então se encaixa de forma excelente em equipes pequenas, que possuem requisitos relativamente vagos e buscam evitar tais problemas, admitindo que passe diariamente por algumas mudanças, mas que o produto final ainda assim tenha qualidade. E partindo do ponto que o XP preza por ver os integrantes como humanos, entende-se que estão sempre suscetíveis a erros e atrasos. Logo, a ideia é se ter economia, e focar no que é realmente necessário de forma objetiva e menos custosa possível.
+
+Logo, o XP é um conjunto de 5 valores, alguns princípios e várias práticas, que torna o processo de desenvolvimento mais efetivo e eficaz. Esses cinco valores são: comunicação, simplicidade, feedback, coragem e respeito. Esses valores passam por vários princípios, que são, dentre vários, benefício-mútuo, melhoria, diversidade, fluxo, qualidade, passos pequenos, aceitação da responsabilidade, dentre outros. Assim, tais valores e princípios buscam guiar de forma humanizada as práticas em si do XP como metodologia de desenvolvimento, que dentro de quatro esferas enumeram-se para melhorar diretamente o desenvolvimento do código:
 
 - **Gestão**: cliente presente, time coeso, ritmo sustentável, posse coletiva;
 
