@@ -32,7 +32,7 @@ Para a definição dos léxicos, utilizamos a técnica Léxico Ampliado da Lingu
 |Currículo|Objeto|Coletivo de competências e atividades realizadas por um estudante durante o seu histórico de vida.|Recebe o registro de informações de um estudante;<br>Recebe o registro de interesses de um estudante.|-|
 |Filtrar|Verbo|Selecionar dentre várias opções uma ou várias desejadas diante algum critério.|Permite o estudante selecionar as vagas que deseja;<br> - Permite a empresa selecionar os estudantes que deseja;<br>Permite o estudante selecionar as categorias de vaga que deseja.|-|
 |Localização|Objeto|Local em que se situa um objeto.|Local em que se situa uma vaga;<br>Local em que se situa uma empresa;<br>Local em que se situa um estudante.|-|
-|Empresa|Objeto|Organização econômica que explorar um ramo de negócio e oferece ao mercado bens e/ou serviços.|Uma empresa oferece uma vaga de estágio;<br>Uma empresa contrata um estagiário para ocupar uma vaga que possui.|-|
+|Empresa|Objeto|Organização econômica que explora um ramo de negócio e oferece ao mercado bens e/ou serviços.|Uma empresa oferece uma vaga de estágio;<br>Uma empresa contrata um estagiário para ocupar uma vaga que possui.|-|
 |Perfil|Objeto|Descrição de uma pessoa em características específicas.|Um estudante possui seu perfil com suas informações;<br>Uma empresa possui seu perfil com suas informações.|Currículo|
 |Interesse|Objeto|Ato de se ter afinidade sobre algo.|Um estudante registra interesse em uma vaga;<br>Um estudante tem interesse em categorias de vaga.|Curso|
 |Interessado|Estado|Aquele que revela interesse em algo.|Um estudante passa a estar interessado em uma vaga se registra interesse nela.|-|
