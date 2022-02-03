@@ -14,7 +14,7 @@ Esta sprint possui os objetivos listados abaixo e está sendo mapeada por meio d
 - Desenvolver documentação e artefatos relacionados ao Módulo Projeto Não Orientado a Abordagens Específicas;
 - Desenvolver documentação e artefatos relacionados ao Módulo Processos/Metodologias/Abordagens;
 - Desenvolver documentação e artefatos relacionados ao Módulo Iniciativas extras;
-- Desenvolver documentação e artefatos relacionados as Reuniões e apresentação.
+- Desenvolver documentação e artefatos relacionados as Reuniões e apresentações.
 
 # Metodologia
 
@@ -132,3 +132,4 @@ Esta sprint possui os objetivos listados abaixo e está sendo mapeada por meio d
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|28/01/2022| Elaboração do documento |Ítalo Vinícius, Hérya|
+|2.0|03/02/2022| Revisão do documento |Gabriel Avelino|
