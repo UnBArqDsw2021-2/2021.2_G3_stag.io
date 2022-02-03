@@ -13,11 +13,11 @@ Os cenários principais são:
 - Teste com a perspectiva de uma empresa que precisa de estagiários;
 - Teste com a perspectiva de um candidato que precisa de um estágio;
 - Teste com a perspectiva de um candidato se inscrever em alguma vaga;
-- Teste de login em um conta.
+- Teste de login em uma conta.
 
-Para cada um destes casos utilizamos o **Flow** do Figma para criar sequencias lógicas e assim criar uma interatividade por meio do **UsabilityHub**, precisamos mencionar que os protótipos também foram desenvolvidos por meio do **Figma**, facilitando na abstração do design do projeto.
+Para cada um destes casos utilizamos o **Flow** do Figma para criar sequências lógicas e assim criar uma interatividade por meio do **UsabilityHub**, precisamos mencionar que os protótipos também foram desenvolvidos por meio do **Figma**, facilitando na abstração do design do projeto.
 
-Duas perguntas forma elaboradas, majoritariamente:
+Duas perguntas foram elaboradas, majoritariamente:
 
 - Foi difícil completar estes passos ?
     - Sim
@@ -27,14 +27,14 @@ Duas perguntas forma elaboradas, majoritariamente:
     - 1: Pouco intuitivo
     - 5: Muito intuitivo
 
-O motivo de ter apenas duas perguntas é que o **UsabilityHub** já nos adiciona várias informações me relação aos protótipos, por exemplo:
+O motivo de ter apenas duas perguntas é que o **UsabilityHub** já nos adiciona várias informações em relação aos protótipos, por exemplo:
 
 - Heatmaps: Mostrando quais são os lugares mais acessados por nosso público
 - Clicks: Mostrando todos os cliques que foram feitos nas telas dos nossos protótipos
 
 ## Compartilhar testes
 
-Com os fluxos já prontos, compartilhamos com o público alvo em relação ao uso da aplicação, que são estudantes, utilizamos grupos da UnB da matéria de Engenharia de Software tanto do Telegram quanto do WhatsApp.
+Com os fluxos já prontos, compartilhamos com o público alvo os testes, que são estudantes, utilizamos grupos da UnB da matéria de Engenharia de Software tanto do Telegram quanto do WhatsApp, todos o links redirecionavam para os testes no UsabilityHub
 
 Os resultados serão descritos no documento da Avaliação do Protótipo de Alta fidelidade.
 
@@ -53,3 +53,4 @@ Os resultados serão descritos no documento da Avaliação do Protótipo de Alta
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|03/02/22|Criação do documento|Ítalo Vinícius|
+|2.0|03/02/22|Revisão do documento|Álvaro e Hérya|

@@ -4,7 +4,7 @@ O protótipo de baixa fidelidade, comumente chamado de protótipo de papel, poss
 
 # Metodologia
 
-Normalmente o protótipo de papel é feita a mão, desenhando toda a interface em uma folha, porém, para mostrar o que foi desenvolvido optamos por criá-lo no [Figma](https://www.figma.com), mas representando todos os princípios que são pregados ao criar um protótipo de baixa fidelidade.  
+Normalmente o protótipo de papel é feito a mão, desenhando toda a interface em uma folha, porém, para mostrar o que foi desenvolvido optamos por criá-lo no [Figma](https://www.figma.com), mas representando todos os princípios que são pregados ao criar um protótipo de baixa fidelidade.  
 
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FrpB45uiQVI8DFuec5c9OgJ%2FStag.io---Baixa-fidelidade%3Fnode-id%3D5%253A4%26scaling%3Dcontain%26page-id%3D0%253A1%26starting-point-node-id%3D5%253A4" allowfullscreen></iframe>
@@ -21,3 +21,4 @@ Normalmente o protótipo de papel é feita a mão, desenhando toda a interface e
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|03/02/2022|Criando documento de protótipo de baixa fidelidade|Ian Ferreira e Ítalo Vinícius|
+|2.0|03/02/22|Revisão do documento|Álvaro e Hérya|

@@ -2,9 +2,9 @@
 
 Tendo a preparação para a avaliação realizada, o grupo seguiu para a avaliação do protótipo de alta fidelidade, produzido na etapa anterior. O protótipo produzido integralmente no Figma, para facilitar a interação dos convidados à análise com este artefato.
 
-Logo, o objetivo dessa avaliação é analisar e levantar o nível de qualidade que o protótipo de alta fidelidade foi construído. Assim, neste documento os avaliadores analisam o material registrado para atribuir significado aos dados coletados quando à experiência dos usuários aqui representados pelos entrevistados, quanto aos seus perfis.
+Logo, o objetivo dessa avaliação é analisar e levantar o nível de qualidade que o protótipo de alta fidelidade foi construído. Assim, neste documento os avaliadores analisam o material registrado para atribuir significado aos dados coletados quando à experiência dos usuários aqui representados pelos testadores, quanto aos seus perfis.
 
-Este documento é atribuído ao framework DECIDE predominantemente à atividade de letra E, que representa a fase de "evaluate", em português "avaliar". O avaliadores devem estar atentos a aspectos da avaliação realizada antes de tirar as conclusões e divulgar resultados, considerando principalmente o grau de confiabilidade dos dados, a validade externa do estudo e a validade ecológica do estudo.
+Este documento é atribuído ao framework DECIDE predominantemente à atividade de letra E, que representa a fase de "evaluate", em português "avaliar". Os avaliadores devem estar atentos a aspectos da avaliação realizada antes de tirar as conclusões e divulgar resultados, considerando principalmente o grau de confiabilidade dos dados, a validade externa do estudo e a validade ecológica do estudo.
 
 # Metodologia
 
@@ -177,10 +177,10 @@ Tarefa: Gostaria que você fizesse o login no sistema, acessasse alguma das vaga
 Por meio dos resultados obtidos pudemos identificar os seguinte problemas:
 
 - A tarefa não foi definida de uma maneira muito clara
-- Identificar se uma demandas estava encerrada foi complexo
+- Identificar se uma demanda estava encerrada foi uma tarefa complexa, principalmente por não configurar uma página como objetivo
 - Os locais onde se localizam os botões são intuitivos
 - Por meio do heatmap percebemos que as pessoas tiveram uma maior assertividade nos botões desejados
-- A média da intuitividade do usuário supera o valor 4, sendo muito boa pára afirmar que as sequências lógicas do sistema fazem sentido
+- A média da intuitividade do usuário supera o valor 4, sendo muito boa para afirmar que as sequências lógicas do sistema fazem sentido
 
 # Bibliografia
 
@@ -193,3 +193,4 @@ Por meio dos resultados obtidos pudemos identificar os seguinte problemas:
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|03/02/22|Criação do documento|Ítalo Vinícius|
+|2.0|03/02/22|Revisão do documento|Álvaro e Hérya|
