@@ -1,6 +1,6 @@
 # Introdução
 <p style="text-indent: 20px; text-align: justify">
-O rastreamento de requissitos é utilizado para prover relacionamentos entre requisitos, arquitetura e implementação final do sisterma e possibilita uma adequada compreensão dos relacionamentos de dependência entre requisitos e através dos artefatos de requisistos, de arquitetura e implementação.
+O rastreamento de requisitos é utilizado para prover relacionamentos entre requisitos, arquitetura e implementação final do sistema e possibilita uma adequada compreensão dos relacionamentos de dependência entre requisitos e através dos artefatos de requisitos, de arquitetura e implementação.
 A rastreabilidade pode ser implementada por  um conjunto de elos ou ligações (links) entre requisitos inter-relacionados, entre requisitos e suas fontes, e entre requisitos e os componentes que os implementam.
 </p>
 
@@ -45,9 +45,9 @@ Id requisito | requisito | rastreabilidade
 | RF26 | Realizar login | Introspecção |
 | RF27 | Recuperar suas informações de login | Introspecção |
 | RF28 | Receber uma notificação caso o status ou descrição da vaga seja alterado | Introspecção |
-| RF29 | O site precisa ser fácil e prático de se utilizar | Introspecção |
+| RNF29 | O site precisa ser fácil e prático de se utilizar | Introspecção |
 | RF30 | Conseguir cadastrar vagas de estágio | Introspecção |
-| RF31 | O site precisa ser intuitivo | Introspecção |
+| RNF31 | O site precisa ser intuitivo | Introspecção |
 
 # Bibliografia
 
@@ -59,3 +59,4 @@ Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0| 28/01/2022 | Criação Documento | Nathan |
 |1.1| 01/02/2022 | Adição da matriz rastreabilidade | Nathan |
+|1.2| 03/02/2022 | Revisões ortográficas | Álvaro |

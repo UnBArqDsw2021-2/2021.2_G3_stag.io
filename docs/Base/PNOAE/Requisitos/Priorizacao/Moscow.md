@@ -35,7 +35,7 @@ anteriores ficarem maiores do que o esperado
 </p>
 <br />
 <p style="text-indent: 20px; text-align: justify">
-No último nível temos o <i>Would/Want/Won’t Have</i>, onde a equipe responsável pelo projeto gerencie as expectativas sobre
+No último nível temos o <i>Would/Want/Won’t Have</i>, onde a equipe responsável pelo projeto gerencia as expectativas sobre
 o que será ou não incluído em uma entrega específica. É um nível muito importante pois ele ajuda a evitar o crescimento desorganizado
 do projeto, já que com este nível a equipe pode gerenciar o que é ou não prioridade no momento e quando pode virar prioridade.
 </p>
@@ -81,9 +81,9 @@ e sua linguagem simples, além de possuir abstrações mais simples quando compa
 | RF26 | Realizar login | Must |
 | RF27 | Recuperar suas informações de login | Must |
 | RF28 | Receber uma notificação caso o status ou descrição da vaga seja alterado | Could |
-| RF29 | O site precisa ser fácil e prático de se utilizar | Must |
+| RNF29 | O site precisa ser fácil e prático de se utilizar | Must |
 | RF30 | Conseguir cadastrar vagas de estágio | Must |
-| RF31 | O site precisa ser intuitivo | Should |
+| RNF31 | O site precisa ser intuitivo | Should |
 
 <figcaption>Tabela 1 - Representação dos requisitos funcionais</figcaption>
 
@@ -96,3 +96,4 @@ Versão | Data | Modificação | Autor(es) |
 | 1.0 | 28/01/2022 | Documentação sobre a técnica MoSCoW | Álvaro |
 | 1.1 | 28/01/2022 | Adição dos requisitos funcionais | Álvaro, Nathan |
 | 1.2 | 02/02/2022 | Adição de novos requisitos | Álvaro, Nathan |
+| 1.3 | 03/02/2022 | Revisões ortográficas | Álvaro |

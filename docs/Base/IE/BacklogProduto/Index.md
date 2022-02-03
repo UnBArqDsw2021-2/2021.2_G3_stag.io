@@ -55,9 +55,9 @@ O nosso backlog foi feito com as seguintes propriedades:
 | RF26 | Realizar login | Must | US26 |
 | RF27 | Recuperar suas informações de login | Must | US27 |
 | RF28 | Receber uma notificação caso o status ou descrição da vaga seja alterado | Could | US28 |
-| RF29 | O site precisa ser fácil e prático de se utilizar | Must | US29 |
+| RNF29 | O site precisa ser fácil e prático de se utilizar | Must | US29 |
 | RF30 | Conseguir cadastrar vagas de estágio | Must | US30 |
-| RF31 | O site precisa ser intuitivo | Should | US31 |
+| RNF31 | O site precisa ser intuitivo | Should | US31 |
 
 <figcaption>Tabela 1 - Backlog</figcaption>
 
@@ -71,3 +71,4 @@ Versão | Data | Modificação | Autor(es) |
 | 1.0 | 28/01/2022 | Introdução ao conceito de backlog | Álvaro, Nathan |
 | 1.1 | 01/02/2022 | Adição da tabela de backlog | Álvaro |
 | 1.2 | 02/02/2022 | Adição de requisitos | Álvaro |
+| 1.3 | 03/02/2022 | Revisões ortográficas | Álvaro |

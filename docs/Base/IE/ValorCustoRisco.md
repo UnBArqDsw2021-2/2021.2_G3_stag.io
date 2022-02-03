@@ -9,7 +9,7 @@ Esta técnica de priorização analítica é utilizada na classificação de imp
 # Metodologia
 
 <p style="text-indent: 20px; text-align: justify">
-A técnica de "Valor, custo e risco" tem como objetivo produzir uma tabela que prioriza os requisitos sem que haja desbalanceamento por parte apenas do cliente, do desenvolvedor. Ele envolve 3 papeis, o gerente, o representante dos clientes e o representante do desenvolvimento.
+A técnica de "Valor, custo e risco" tem como objetivo produzir uma tabela que prioriza os requisitos sem que haja desbalanceamento por parte apenas do cliente ou do desenvolvedor. Ele envolve 3 papéis, o gerente, o representante dos clientes e o representante do desenvolvimento.
 
 Elaboramos o passo a passo de como fizemos nossa priorização utilizando a técnica de valor, custo e risco.
 
@@ -40,7 +40,7 @@ Id requisito | requisito | Benefício relativo | Penalidade relativa  | Valor re
 | RF07 | Empresa define informações claras sobre as vagas | 7 | 7 | 14 | 0,053 | 5 | 0,026 | 3 | 0,019 | 1,177 |
 | RF08 | Fazer cadastro do usuário | 9 | 9 | 18 | 0,068 | 6 | 0,031 | 4 | 0,025 | 1,214 |
 | RF09 | Diferenciar perfil de usuário (Empresa/interessado) | 9 | 8 | 17 | 0,064 |7 | 0,037 | 7 | 0,045 | 0,780 |
-| RF10 | Empresa tem que colocar o valor da bolsa | 6 | 7 | 13 | 0,049 | 4 | 0,0 21| 3 | 0,019 | 1,225 |
+| RF10 | Empresa tem que colocar o valor da bolsa | 6 | 7 | 13 | 0,049 | 4 | 0,021| 3 | 0,019 | 1,225 |
 | RF11 | A empresa pode editar seus dados de perfil |7 | 7 | 14 | 0,053 | 6 | 0,031 | 5 | 0,032 | 0,841 |
 | RF12 | Poder disponibilizar seu currículo para consulta das empresas | 7 | 9| 16 | 0,061 | 7 | 0,037 | 5 | 0,032 | 0,884 |
 | RF13 | Empresa pode acessar o perfil dos interessados em suas vagas para análise | 8 | 9 | 17 | 0,064 | 7 | 0,037 | 5 | 0,032 | 0,927 |
@@ -71,3 +71,4 @@ Id requisito | requisito | Benefício relativo | Penalidade relativa  | Valor re
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0| 01/02/2022 | Criação da Documentação | Nathan |
+|1.1| 03/02/2022 | Revisões ortográficas | Álvaro |

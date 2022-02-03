@@ -7,7 +7,7 @@ no sistema, propondo critérios mínimos para aceitação e o valor de negócio 
 </p>
 
 <p style="text-indent: 20px; text-align: justify">
-As histórias de usuário possuirão as seguintes características:
+As histórias de usuário possuirá como característica:
 </p>
 
 <ul>
@@ -15,18 +15,13 @@ As histórias de usuário possuirão as seguintes características:
         <p><b>Descrição:</b> Apresenta qual usuário, qual necessidade e objetivo da necessidade.</p>
         <p>
         A descrição seguirá a seguinte estrutura:
-        ```
-        Eu, como um [backlog-tipo_usuario], quero [backlog-necessidade] para que eu 
-        [backlog-objetivo].
-        ```
         </p>
     </li>
-    <li style="text-align: justify">
-    <p><b>Critérios de aceitação:</b> Demonstram as condições mínimas necessárias para que a história seja
-    considerada entregue após a construção do produto. Os critérios de aceitação descrevem as informações
-    necessárias para o funcionamento do produto com base na Descrição.</p>
-    </li>
 </ul>
+```
+Eu, como um [backlog-tipo_usuario], quero [backlog-necessidade] para que eu 
+[backlog-objetivo].
+```
 
 # Épicos
 - [Épico 00 - Sistema](./Epicos/Epico00.md) <br>
@@ -49,3 +44,4 @@ Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 | 1.0 | 01/02/2022 | Adição da introdução | Álvaro |
 | 1.1 | 02/02/2022 | Adição de épicos | Álvaro |
+| 1.2 | 03/02/2022 | Revisões ortográficas | Álvaro |
