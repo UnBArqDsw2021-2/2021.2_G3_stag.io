@@ -18,6 +18,7 @@ As histórias de usuário possuirá como característica:
         </p>
     </li>
 </ul>
+
 ```
 Eu, como um [backlog-tipo_usuario], quero [backlog-necessidade] para que eu 
 [backlog-objetivo].
