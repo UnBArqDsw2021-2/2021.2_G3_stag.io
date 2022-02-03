@@ -41,6 +41,7 @@ ID | Requisito |
 |RF21|Usuários interessados podem filtrar vagas por empresa
 |RF22|Usuários interessados podem filtrar vagas por modalidade (remoto ou presencial)
  
+<figcaption> Tabela 1 - Requisitos elicitados </figcaption>
 
 # Bibliografia
 > BARBOSA S. D. J.; SILVA B. S. Interação Humano-Computador ed. Elsevier, 2010.
@@ -50,6 +51,6 @@ ID | Requisito |
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 | 1.0 | 31/01/2022 | Elaboração do documento | Hérya |
-
+| 2.0 | 03/02/2022 | Revisão | Gabriel Avelino, Guilherme Morais, Hérya 
 
 
