@@ -32,7 +32,7 @@ O último dia é reservado para testar o protótipo criado, podendo ser efetuado
 
 ## Unpack
 
-Durante essa etapa a equipe se reuniu para que os integrantes exibissem suas ideias e assim definir as diretrizes do projeto. Por meio da plataforma Miro, os integrantes criaram um [Brainstormig](../Requisitos/Elicitacao/Brainstorming.md). Em seguida foram desenvolvidos [Mapas Mentais](../Requisitos/PreRastreabilidade/MapaMental.md)  para orientar qual deveria ser o escopo e o funcionamento da aplicação.
+Durante essa etapa a equipe se reuniu para que os integrantes exibissem suas ideias e assim definir as diretrizes do projeto. Por meio da plataforma Miro, os integrantes criaram um [Brainstorming](../Requisitos/Elicitacao/Brainstorming.md). Em seguida foram desenvolvidos [Mapas Mentais](../Requisitos/PreRastreabilidade/MapaMental.md)  para orientar qual deveria ser o escopo e o funcionamento da aplicação.
 
 ## Sketch
 
