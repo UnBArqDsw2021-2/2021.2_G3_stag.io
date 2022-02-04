@@ -21,7 +21,11 @@
 O nosso projeto tem como objetivo facilitar a relação empresa-estudante por meio da disponibilização de vagas de estágio através da empresa e iniciativa de interesse por meio do estagiário.
 
 ## Screenshots Primeira Entrega <<FOCO: DSW(Base)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
+![PrototipoAltaFidel](docs/assets/Base/Screenshots/PrototipoAltaFidel.png)
+![MapaMental](docs/assets/Base/Screenshots/MapaMental.png)
+![RichPicture](docs/assets/Base/Screenshots/RichPicture.png)
+![CausaEfeito](docs/assets/Base/Screenshots/CausaEfeito.png)
+![Brainstorming](docs/assets/Base/Screenshots/Brainstorming.png)
 
 ## Vídeo(s) Primeira Entrega <<FOCO: DSW(Base)>>
 #### [Projeto Não Orientado a Abordagens Específicas](https://youtu.be/5NcT44FWfZE)
@@ -49,7 +53,7 @@ Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcioname
 Adicione o(s)s vídeo(s) da Entrega Final.
 
 ## Descritivo dos Principais Aspectos Técnicos 
-**Principal(is) Metodologia(s) Adotada(s)**: xxxxxx<br>
+**Principal(is) Metodologia(s) Adotada(s)**: Scrum e eXtreme Programming<br>
 **Principais Linguagens Utilizadas e/ou Pretendidas**: xxxxxx<br>
 **Principais Tecnologias Utilizadas e/ou Pretendidas**: xxxxxx<br>
 **Principal(is) Estilo(s) Arquitetural(is) Adotado(s)**: xxxxxx<br>
