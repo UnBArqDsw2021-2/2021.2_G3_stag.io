@@ -24,7 +24,11 @@ O nosso projeto tem como objetivo facilitar a relação empresa-estudante por me
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Primeira Entrega.
 
 ## Vídeo(s) Primeira Entrega <<FOCO: DSW(Base)>>
-Adicione o(s)s vídeo(s) da Primeira Entrega.
+#### [Projeto Não Orientado a Abordagens Específicas](https://youtu.be/5NcT44FWfZE)
+
+#### [Processos/Metodologias/Abordagens](https://youtu.be/l8euKtAe2IY)
+
+#### [Iniciativas Extras](https://youtu.be/w_Ton-SwaQE)
 
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
