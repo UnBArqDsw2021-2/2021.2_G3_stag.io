@@ -1,29 +1,27 @@
 # Introdução
-<p style="text-indent: 20px; text-align: justify">
+
 O Backlog do produto é como uma lista de desejos dos usuários da aplicação, onde nele é apresentado
 de maneira transparente aos interessados a visão do que é ou ainda será tal produto. Além disso, o
 Backlog serve para apoiar a equipe que está desenvolvendo o produto quanto à disponibilidade do que já
 foi feito e visualização do que ainda deve ser feito.
-</p>
-<br />
-<p style="text-indent: 20px; text-align: justify">
-Foi criado então uma planilha na ferramenta Excel que exibe essa lista de desejos dos usuários e suas
+
+
+Foi criado então uma tabela que exibe essa lista de desejos dos usuários e suas
 histórias de usuário (US), que representam um aspecto muito importante no Backlog, pois as US ajudam
 a transmitir a necessidade dos diferentes perfis de usuários utilizando uma linguagem fácil e clara,
 o que ajuda no desenvolvimento do produto.
-</p>
+
 
 # Backlog
-<p style="text-indent: 20px; text-align: justify">
+
 O nosso backlog foi feito com as seguintes propriedades:
-</p>
 
-- <div style="text-align: justify"><b>Id requisito: </b>Identificador único para cada requisito, auxiliando na rastreabilidade de cada item e evitando redundâncias;</div>
-- <div style="text-align: justify"><b>Requisito: </b>Descrição do requisito, de forma breve;</div>
-- <div style="text-align: justify"><b>Prioridade: </b>Informa qual é o valor de negócio de cada item do backlog;</div>
-- <div style="text-align: justify"><b>Id história de usuário: </b>Identificador único da história de usuário, relacionando os requisitos a suas histórias;</div>
 
-<center>
+- <b>Id requisito: </b>Identificador único para cada requisito, auxiliando na rastreabilidade de cada item e evitando redundâncias;
+- <b>Requisito: </b>Descrição do requisito, de forma breve;
+- <b>Prioridade: </b>Informa qual é o valor de negócio de cada item do backlog;
+- <b>Id história de usuário: </b>Identificador único da história de usuário, relacionando os requisitos a suas histórias;
+
 
 | Id requisito | Requisito | Prioridade | Id história de usuário |
 |:--:|:--:|:--:|:--:|
@@ -58,6 +56,7 @@ O nosso backlog foi feito com as seguintes propriedades:
 | RNF29 | O site precisa ser fácil e prático de se utilizar | Must | US29 |
 | RF30 | Conseguir cadastrar vagas de estágio | Must | US30 |
 | RNF31 | O site precisa ser intuitivo | Should | US31 |
+
 
 <figcaption>Tabela 1 - Backlog</figcaption>
 
