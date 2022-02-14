@@ -29,42 +29,44 @@ A equipe criou uma issue para cada artefato que deveria ser entregue nesta etapa
 </thead>
 <tbody>
   <tr>
-    <td rowspan="8">Projeto Orientado a Abordagens Tradicionais</td>
-    <td>Diagrama de classes</td>
-    <td>Guilherme de Morais e Ian </td>
-  </tr>
-  <tr>
-    <td>Diagrama de pacotes</td>
-    <td>Guilherme Vial e Hérya</td>
-  </tr>
-  <tr>
-    <td>Diagrama de componentes</td>
-    <td>Álvaro e Ítalo Vinícius</td>
-  </tr>
-  <tr>
-    <td>Diagrama de sequência</td>
-    <td>Gabriel e João </td>
-  </tr>
-  <tr>
-    <td>Diagrama de comunicação</td>
-    <td>Ítalo Fernandes e Nathan</td>
-  </tr>
-  <tr>
-    <td>Diagrama de atividades</td>
+    <td rowspan="3">Modelagem estática</td>
+    <td>Diagrama de Classes</td>
     <td>Guilherme de Morais e Ian</td>
   </tr>
   <tr>
-    <td>Diagrama de estados</td>
+    <td>Diagrama de Pacotes</td>
     <td>Guilherme Vial e Hérya</td>
   </tr>
   <tr>
-    <td>Critérios de aceitação do backlog do produto</td>
-    <td>Álvaro e Ítalo Vinícius</td>
+    <td>Diagrama de Componentes</td>
+    <td>Ítalo V. e Álvaro</td>
+  </tr>
+  <tr>
+    <td rowspan="4">Modelagem dinâmica</td>
+    <td>Diagrama de Sequência</td>
+    <td>Gabriel e João</td>
+  </tr>
+  <tr>
+    <td>Diagrama de Comunicação</td>
+    <td>Ítalo F. e Nathan</td>
+  </tr>
+  <tr>
+    <td>Diagrama de Atividades</td>
+    <td>Guilherme de Morais e Ian</td>
+  </tr>
+  <tr>
+    <td>Diagrama de Estados</td>
+    <td>Guilherme Vial e Hérya</td>
+  </tr>
+  <tr>
+    <td>Modelagem ágil</td>
+    <td>Backlog do produto e critérios de aceitação</td>
+    <td>Ítalo V. e Álvaro</td>
   </tr>
   <tr>
     <td rowspan="2">Iniciativas extras</td>
-    <td>Casos de uso</td>
-    <td>Gabriel e João </td>
+    <td>Casos de usos</td>
+    <td>Gabriel e João</td>
   </tr>
   <tr>
     <td>Modelagem de dados</td>
@@ -73,15 +75,15 @@ A equipe criou uma issue para cada artefato que deveria ser entregue nesta etapa
   <tr>
     <td rowspan="3">Reuniões</td>
     <td>Atas</td>
-    <td>Ítalo Fernandes e Nathan</td>
+    <td>Ítalo F. e Nathan</td>
   </tr>
   <tr>
-    <td>Planejamento</td>
+    <td>Sprint</td>
     <td>Guilherme Vial e Hérya</td>
   </tr>
   <tr>
     <td>Revisão</td>
-    <td>Álvaro e Ítalo Vinícius</td>
+    <td>Ítalo V. e Álvaro</td>
   </tr>
   <tr>
     <td>Apresentação</td>
@@ -102,4 +104,6 @@ A equipe criou uma issue para cada artefato que deveria ser entregue nesta etapa
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|14/02/2022|Elaboração do documento|Hérya|
+|2.0|14/02/2022|Atualização da Tabela 1|Hérya, Ítalo V.|
+
 
