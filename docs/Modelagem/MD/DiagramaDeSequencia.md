@@ -15,6 +15,12 @@ Utilizando a notação UML, o nosso grupo optou por utilizar a plataforma LucidC
 
 <figcaption> Diagrama de Sequência - Cadastro de Usuário</figcaption>
 
+## Candidatar em uma vaga de estágio
+
+<img src="../../../assets/Modelagem/DiagramaSequencia/diagramaVagas.jpeg"  width="600px">
+
+<figcaption> Diagrama de Sequência - Candidatar em uma vaga de estágio</figcaption>
+
 # Bibliografia
 
 > - "Diagrama de Esquemas UML". Disponível [aqui](https://support.microsoft.com/pt-br/office/criar-um-diagrama-de-sequ%C3%AAncia-uml-c61c371b-b150-4958-b128-902000133b26). Acesso em: 11 fev. 2022;
@@ -26,3 +32,4 @@ Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0| 11/02/2022 | Abertura do Documento | João Victor |
 |1.1| 14/02/2022 | Diagrama de cadastro | João Victor e Gabriel|
+|1.2| 15/02/2022 | Diagrama de busca para vagas de estágio | João Victor e Gabriel|
