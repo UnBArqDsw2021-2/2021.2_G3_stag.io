@@ -13,12 +13,28 @@ O Diagrama de Estados é um tipo de diagrama UML dinâmico que mostra os vários
     * Ações de atividade: executadas dentro do estado;
 * Eventos/Transições: representa a mudança de um estado devido às ações externas sobre um objeto.
 
-A *Figura 1* mostra a representação dos elementos.
-
-[![Imagem](../../../../assets/Modelagem/DiagramaDeEstados/LegendaDiagrama.png)](../../../../assets/Modelagem/DiagramaDeEstados/LegendaDiagrama.png)
-<figcaption> Figura 1 - Representação dos elementos  </figcaption>
-
 # Diagramas
+
+**Realização de Login**
+
+[![Imagem](../../../../assets/Modelagem/DiagramaDeEstados/DiagramaAutenticacao.png)](../../../../assets/Modelagem/DiagramaDeEstados/DiagramaAutenticacao.png)
+<figcaption> Figura 1 - Diagrama de autenticação  </figcaption>
+
+**Busca por candidatos**
+
+[![Imagem](../../../../assets/Modelagem/DiagramaDeEstados/DiagramaBuscaCandidato.png)](../../../../assets/Modelagem/DiagramaDeEstados/DiagramaBuscaCandidato.png)
+<figcaption> Figura 2 - Diagrama de busca de candidatos  </figcaption>
+
+
+**Busca por vagas**
+
+[![Imagem](../../../../assets/Modelagem/DiagramaDeEstados/DiagramaVagas.png)](../../../../assets/Modelagem/DiagramaDeEstados/DiagramaVagas.png)
+<figcaption> Figura 3 - Diagrama de busca por vagas  </figcaption>
+
+**Ver perfil**
+
+[![Imagem](../../../../assets/Modelagem/DiagramaDeEstados/DiagramaPerfil.png)](../../../../assets/Modelagem/DiagramaDeEstados/DiagramaPerfil.png)
+<figcaption> Figura 4 - Diagrama de perfil  </figcaption>
 
 # Bibliografia
 
@@ -35,3 +51,4 @@ A *Figura 1* mostra a representação dos elementos.
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|15/02/2022|Elaboração de introdução e metodologia| Hérya|
+|1.1|15/02/2022|Adição dos diagramas| Hérya, Guilherme Vial |
