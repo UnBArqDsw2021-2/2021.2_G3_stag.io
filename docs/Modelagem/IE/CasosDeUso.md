@@ -11,6 +11,24 @@ Sendo eles definidos na imagem abaixo:
 <figcaption>Figura 1 : Componetes Casos de Uso</figcaption>
 </center>
 
+## Diagramas Caso de Uso
+
+A gente definiu dois diagramas principais de caso de uso, um para candidatos (estudantes do ensino médio, universitários, profissionais com pouca experiência) e outra para empresas.
+
+### Caso de uso - Candidato
+
+<center>
+<img src="../../../../assets/Modelagem/CasosDeUso/CasoDeUsoCandidato.png" width="700px"></br>
+<figcaption>Figura 2 : Diagrama caso de uso Candidato</figcaption>
+</center>
+
+### Caso de uso - Empresa
+
+<center>
+<img src="../../../../assets/Modelagem/CasosDeUso/CasoDeUsoEmpresa.png" width="700px"></br>
+<figcaption>Figura 3 : Diagrama caso de uso Empresa</figcaption>
+</center>
+
 
 # Bibliografia
 
@@ -23,4 +41,5 @@ Sendo eles definidos na imagem abaixo:
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|14/02/22|Abertura do documento|Gabriel Avelino|
-|1.1|14/02/22|Adicionando diagramas|Gabriel Avelino e João Victor|
+|1.1|15/02/22|Adicionando diagrama candidato|Gabriel Avelino e João Victor|
+|1.2|16/02/22|Adicionando diagrama empresa|Gabriel Avelino e João Victor|
