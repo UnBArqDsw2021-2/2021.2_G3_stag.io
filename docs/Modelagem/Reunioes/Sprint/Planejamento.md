@@ -104,6 +104,5 @@ A equipe criou uma issue para cada artefato que deveria ser entregue nesta etapa
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|14/02/2022|Elaboração do documento|Hérya|
-|2.0|14/02/2022|Atualização da Tabela 1|Hérya, Ítalo V.|
-
-
+|1.1|14/02/2022|Atualização da Tabela 1|Hérya, Ítalo V.|
+|1.2|14/02/2022|Correções|Guilherme Vial|
