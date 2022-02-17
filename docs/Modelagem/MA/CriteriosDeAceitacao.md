@@ -77,7 +77,7 @@ Eu, como <b>usuário candidato</b>, quero <b>editar meus dados de perfil, inclus
 
 Critérios de aceitação:
 
-- <div style="text-align: justify">Deve haver na apicação a opção "Ver perfil"</div>
+- <div style="text-align: justify">Deve haver na aplicação a opção "Ver perfil"</div>
 - <div style="text-align: justify">Na tela de perfil, deve haver um botão "Editar"</div>
 - <div style="text-align: justify">O usuário candidato deve poder alterar seu email e/ou sua senha, entre outras opções de perfil</div>
 - <div style="text-align: justify">O usuário candidato deve poder subir um novo arquivo de currículo</div>
