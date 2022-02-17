@@ -104,7 +104,7 @@ A gente definiu dois diagramas principais de caso de uso, um para candidatos (es
 </center>
 <br/>
 
-## Gerenciar perfil empresa
+## Gerenciar Perfil - Empresa
 <center>
 
 | Caso 6          | Informações                                                                                                                                                                                                                                                 |
