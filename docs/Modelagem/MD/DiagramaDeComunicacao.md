@@ -38,6 +38,21 @@ O Frame é uma moldura usada para nomear e delimitar o diagrama, sendo que, o no
 </figcaption>
 </center>
 
+# Diagramas
+
+## Diagrama estudante
+
+<img src="../../../../assets/Modelagem/DiagramaDeComunicacao/diagrama-estudant_.png" width="700"></br>
+<figcaption>Figura 4: Diagrama do fluxo de estudante</figcaption>
+</center>
+
+## Diagrama empresa
+
+<img src="../../../../assets/Modelagem/DiagramaDeComunicacao/diagrama_empresa.png" width="700"></br>
+<figcaption>Figura 5: Diagrama do fluxo de empresa</figcaption>
+</center>
+
+
 # Bibliografia   
 > - [Diagrama de comunicação do projeto Curumim](https://github.com/UnBArqDsw2021-1/2021.1_G6_Curumim/blob/main/docs/modelagem/modelagem-dinamica/diagrama-de-comunicacao.md);
 > - [Diagrama de comunicação do projeto Animalesco](https://github.com/UnBArqDsw2021-1/2021.1_G01_Animalesco_docs/blob/main/docs/pages/communication-diagram.md);
@@ -49,3 +64,4 @@ O Frame é uma moldura usada para nomear e delimitar o diagrama, sendo que, o no
 Versão | Data | Modificação | Autor(es) | 
 |--|--|--|--| 
 |1.0|16/02/2022|Criação do documentação|Ítalo Serra| 
+|1.1|16/02/2022|Criação dos diagramas|Nathan Serra|
