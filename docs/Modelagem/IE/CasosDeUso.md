@@ -164,3 +164,4 @@ Versão | Data | Modificação | Autor(es) |
 |1.1|15/02/22|Adicionando diagrama candidato|Gabriel Avelino e João Victor|
 |1.2|16/02/22|Adicionando diagrama empresa|Gabriel Avelino e João Victor|
 |1.3|16/02/22|Tabelas de casos de uso|Gabriel Avelino e João Victor|
+|1.4|17/02/22|Revisão do documento|Álvaro Leles, Gabriel Avelino e Ítalo Vinícius|
