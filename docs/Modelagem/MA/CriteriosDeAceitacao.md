@@ -90,7 +90,7 @@ Eu, como <b>usuário empresa</b>, quero <b>editar meu perfil</b> para que eu <b>
 
 Critérios de aceitação:
 
-- <div style="text-align: justify">Deve haver na apicação a opção "Ver perfil"</div>
+- <div style="text-align: justify">Deve haver na aplicação a opção "Ver perfil"</div>
 - <div style="text-align: justify">Na tela de perfil, deve haver um botão "Editar"</div>
 - <div style="text-align: justify">O usuário empresa deve poder alterar seu email e/ou sua senha, entre outras opções de perfil</div>
 
