@@ -1,6 +1,6 @@
 # Introdução
 
-O Diagrama de Classes é um tipo de modelagem que tem como objetivo mostrar a estrutura de um sistema no nível de classes, ou seja, ele define quais as classes a aplicação terá, e define as suas características, restrições e relacionamentos.
+O Diagrama de Classes é um tipo de modelagem que tem como objetivo mostrar a estrutura de um sistema no nível de classes, ou seja, ele define quais as classes que a aplicação terá, e define as suas características, restrições e relacionamentos.
 
 Uma classe padrão tem um formato retangular e possui três partes principais:
 
@@ -15,7 +15,7 @@ Além disso cada classe está ligada a uma outra por meio de um tipo de relacion
 
 # Metodologia
 
-Desenvolvemos o Diagrama de Classes utilizando o site [Lucidchart](https://www.lucidchart.com/pages/), e para a sua criação, partimos do que definimos nos [requisitos elicitados](../../Base/PNOAE/Requisitos/Rastreabilidade/MatrizRastreabilidade.md), no [protótipo de alta fidelidade](../../Base/PNOAE/DesignSprint/Prototipacao/PrototipoAltaFidelidade.md) e principalmente, na [modelagem de dados](../IE/ModelagemDeDados.md)
+Desenvolvemos o Diagrama de Classes utilizando o site <a href="https://www.lucidchart.com/pages/" target="_blank">Lucidchart</a>, e para a sua criação, partimos do que definimos nos [requisitos elicitados](../../Base/PNOAE/Requisitos/Rastreabilidade/MatrizRastreabilidade.md), no [protótipo de alta fidelidade](../../Base/PNOAE/DesignSprint/Prototipacao/PrototipoAltaFidelidade.md) e principalmente, na [modelagem de dados](../IE/ModelagemDeDados.md)
 
 [![Login](../../assets/Modelagem/DiagramaDeClasses/DiagramaDeClasses.png)](../../assets/Modelagem/DiagramaDeClasses/DiagramaDeClasses.png)
 <center>Figura 1: Diagrama de Classes</center>
@@ -31,6 +31,8 @@ Desenvolvemos o Diagrama de Classes utilizando o site [Lucidchart](https://www.l
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 | 1.0 | 16/02/2022 |Criação do documento | Guilherme de Morais e Ian Ferreira |
+| 1.1 | 17/02/2022 |Revisão do documento | Álvaro Leles, Guilherme de Morais, Ian Ferreira e Ítalo Vinícius |
+
 
 
 
