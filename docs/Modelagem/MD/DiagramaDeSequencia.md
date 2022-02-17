@@ -6,20 +6,20 @@ Esses diagramas são utilizados por desenvolvedores de software para facilitar o
 
 # Metodologia
 
-Utilizando a notação UML, o nosso grupo optou por utilizar a plataforma LucidChart já que esta disponibiliza os pacotes e as ferramentas básicas de um diagrama de sequência, além de simplificar a lógica das operações e funções da aplicação e permitir que vários integrantes modifiquem o diagrama simultaneamente.
+Utilizando a notação UML, o nosso grupo optou por utilizar a plataforma <a href="https://www.lucidchart.com/pages/" target="_blank">Lucidchart</a> já que esta disponibiliza os pacotes e as ferramentas básicas de um diagrama de sequência, além de simplificar a lógica das operações e funções da aplicação e permitir que vários integrantes modifiquem o diagrama simultaneamente.
 
 # Diagramas
 ## Cadastro de Usuário
 
 <img src="../../../assets/Modelagem/DiagramaSequencia/diagramaCadastro.jpeg"  width="600px">
 
-<figcaption> Diagrama de Sequência - Cadastro de Usuário</figcaption>
+<figcaption>Figura 1: Diagrama de Sequência - Cadastro de Usuário</figcaption>
 
 ## Candidatar em uma vaga de estágio
 
 <img src="../../../assets/Modelagem/DiagramaSequencia/diagramaVagas.jpeg"  width="600px">
 
-<figcaption> Diagrama de Sequência - Candidatar em uma vaga de estágio</figcaption>
+<figcaption>Figura 2: Diagrama de Sequência - Candidatar em uma vaga de estágio</figcaption>
 
 # Bibliografia
 
@@ -33,3 +33,4 @@ Versão | Data | Modificação | Autor(es) |
 |1.0| 11/02/2022 | Abertura do Documento | João Victor |
 |1.1| 14/02/2022 | Diagrama de cadastro | João Victor e Gabriel|
 |1.2| 15/02/2022 | Diagrama de busca para vagas de estágio | João Victor e Gabriel|
+|1.3| 17/02/2022 | Revisão do arquivo | Álvaro e Ítalo V.|
