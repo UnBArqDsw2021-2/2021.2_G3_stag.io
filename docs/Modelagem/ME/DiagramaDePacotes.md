@@ -4,9 +4,11 @@ Os Diagramas de Pacotes são diagramas UML estáticos estruturais utilizados par
 
 # Metodologia
 
-O desenvolvimento do diagrama leva em consideração as técnologias e estruturas que serão adotadas no projeto. Sendo assim, o diagrama de pacotes representa os módulos que serão desenvolvidos na API do projeto.
+O desenvolvimento do diagrama leva em consideração as tecnologias e estruturas que serão adotadas no projeto. Sendo assim, o diagrama de pacotes representa os módulos que serão desenvolvidos na API do projeto.
 
 [![imagem](../../assets/Modelagem/Diagrama de pacotes/DiagramaPacotes.png)](../../assets/Modelagem/Diagrama de pacotes/DiagramaPacotes.png)
+
+<figcaption> Figura 1 - Diagrama de pacotes  </figcaption>
 
 # Bibliografia
 
@@ -21,3 +23,4 @@ Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|15/02/2022|Adição de introdução|Hérya|
 |1.1|16/02/2022|Adição de tópicos|Hérya, Guilherme Vial|
+|1.2|17/02/2022|Revisão do documento|Guilherme de Morais, Ian|
