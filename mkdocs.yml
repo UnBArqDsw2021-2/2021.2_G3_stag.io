@@ -86,7 +86,7 @@ nav:
         - Diagrama de Atividades: Modelagem/MD/DiagramaDeAtividades.md
         - Diagrama de Estados: Modelagem/MD/DiagramaDeEstados.md
       - Modelagem ágil: 
-        - Backlog do produto: Base\IE\BacklogProduto\Index.md
+        - Backlog do produto: Modelagem/MA/backlog.md
         - Critérios de aceitação do backlog do produto: Modelagem/MA/CriteriosDeAceitacao.md
     - Iniciativas extras:
       - Casos de uso: Modelagem/IE/CasosDeUso.md

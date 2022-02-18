@@ -16,12 +16,10 @@ o que ajuda no desenvolvimento do produto.
 
 O nosso backlog foi feito com as seguintes propriedades:
 
-
 - <b>Id requisito: </b>Identificador único para cada requisito, auxiliando na rastreabilidade de cada item e evitando redundâncias;
 - <b>Requisito: </b>Descrição do requisito, de forma breve;
 - <b>Prioridade: </b>Informa qual é o valor de negócio de cada item do backlog;
 - <b>Id história de usuário: </b>Identificador único da história de usuário, relacionando os requisitos a suas histórias;
-
 
 | Id requisito | Requisito | Prioridade | Id história de usuário |
 |:--:|:--:|:--:|:--:|
@@ -61,8 +59,10 @@ O nosso backlog foi feito com as seguintes propriedades:
 <figcaption>Tabela 1 - Backlog</figcaption>
 
 # Bibliografia
+
 > Schwaber, Ken; Sutherland, Jeff. O Guia do Scrum, O Guia Definitivo para o Scrum: As Regras do Jogo. 2020.
 > O Backlog do Produto - Product Backlog. O Dono do Produto, 9 jan. 2020. Disponível em: <https://odonodoproduto.com/backlog-do-produto/>. Acesso em: 28/01/2022.
+
 # Versionamento
 
 Versão | Data | Modificação | Autor(es) |

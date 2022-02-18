@@ -16,23 +16,35 @@ A Message é uma linha que interliga duas Lifelines, e possui uma seta, acima da
 O Frame é uma moldura usada para nomear e delimitar o diagrama, sendo que, o nome precisa estar na parte superior direita. 
 
 <center>
-<img src="../../../../assets/Modelagem/DiagramaDeComunicacao/lifeline.png" width="700"></br>
+
+[![imagem](../../assets/Modelagem/DiagramaDeComunicacao/lifeline.png)](../../assets/Modelagem/DiagramaDeComunicacao/lifeline.png)
+
 <figcaption>Figura 1: exemplo de um Lifeline</figcaption>
+
 </center>
 
 <center>
-<img src="../../../../assets/Modelagem/DiagramaDeComunicacao/message.png" width="700"></br>
+
+[![imagem](../../assets/Modelagem/DiagramaDeComunicacao/message.png)](../../assets/Modelagem/DiagramaDeComunicacao/message.png)
+
 <figcaption>Figura 2: exemplo de um Message</figcaption>
+
 </center>
 
 <center>
-<img src="../../../../assets/Modelagem/DiagramaDeComunicacao/frame1.png" width="700"></br>
+
+[![imagem](../../assets/Modelagem/DiagramaDeComunicacao/frame1.png)](../../assets/Modelagem/DiagramaDeComunicacao/frame1.png)
+
 <figcaption>Figura 3: Primeiro exemplo de um Frame</figcaption>
+
 </center>
 
 <center>
-<img src="../../../../assets/Modelagem/DiagramaDeComunicacao/frame2.png" width="700"></br>
+
+[![imagem](../../assets/Modelagem/DiagramaDeComunicacao/frame2.png)](../../assets/Modelagem/DiagramaDeComunicacao/frame2.png)
+
 <figcaption>Figura 4: Segundo exemplo de um Frame
+
 <br/>
 <small>Figuras 1 ao 4 estão disponíveis em: https://www.uml-diagrams.org/communication-diagrams.html#sequence-expression</small>
 </figcaption>
@@ -42,14 +54,22 @@ O Frame é uma moldura usada para nomear e delimitar o diagrama, sendo que, o no
 
 ## Diagrama estudante
 
-<img src="../../../../assets/Modelagem/DiagramaDeComunicacao/diagrama_estudante.png" width="700"></br>
+<center>
+
+[![imagem](../../assets/Modelagem/DiagramaDeComunicacao/diagrama_estudante.png)](../../assets/Modelagem/DiagramaDeComunicacao/diagrama_estudante.png)
+
 <figcaption>Figura 4: Diagrama do fluxo de estudante</figcaption>
+
 </center>
 
 ## Diagrama empresa
 
-<img src="../../../../assets/Modelagem/DiagramaDeComunicacao/diagrama_empresa.png" width="700"></br>
+<center>
+
+[![imagem](../../assets/Modelagem/DiagramaDeComunicacao/diagrama_empresa.png)](../../assets/Modelagem/DiagramaDeComunicacao/diagrama_empresa.png)
+
 <figcaption>Figura 5: Diagrama do fluxo de empresa</figcaption>
+
 </center>
 
 
@@ -66,3 +86,4 @@ Versão | Data | Modificação | Autor(es) |
 |1.0|16/02/2022|Criação do documentação|Ítalo Serra| 
 |1.1|16/02/2022|Criação dos diagramas|Nathan Serra|
 |1.2|18/02/2022|Corrigindo imagens e legendas|Ítalo V.|
+|1.3|18/02/2022|Corrigindo caminho das imagens na produção|Ítalo V.|
