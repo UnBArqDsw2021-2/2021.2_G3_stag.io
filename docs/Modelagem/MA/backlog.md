@@ -34,10 +34,15 @@ O nosso backlog foi feito com as seguintes propriedades:
 | RF09 | Diferenciar perfil de usuário (Empresa/interessado) | Must |  |
 | RF10 | Empresa tem que colocar o valor da bolsa | Must | US11 |
 | RF11 | A empresa pode editar seus dados de perfil | Must | US04 |
+| RF26 | Realizar login | Must | US26 |
+| RF27 | Recuperar suas informações de login | Must | US27 |
+| RNF29 | O site precisa ser fácil e prático de se utilizar | Must | US29 |
+| RF30 | Conseguir cadastrar vagas de estágio | Must | US30 |
 | RF12 | Poder disponibilizar seu currículo para consulta das empresas | Should | US05 |
 | RF13 | Empresa pode acessar o perfil dos interessados em suas vagas para análise | Should | US06 |
 | RF14 | Diferenciar as vagas entre o ensino médio e superior | Should | US12 |
 | RF15 | Usuários podem acessar perfil das empresas | Should | US07 |
+| RNF31 | O site precisa ser intuitivo | Should | US31 |
 | RF16 | Buscar vagas baseadas numa localização específica | Could | US19 |
 | RF17 | Candidato pode filtrar as vagas pelo valor da bolsa | Could | US20 |
 | RF18 | Candidato pode filtrar pela área de interesse | Could | US21 |
@@ -46,14 +51,9 @@ O nosso backlog foi feito com as seguintes propriedades:
 | RF21 | Candidato pode filtrar vagas por nome da empresa | Could | US23 |
 | RF22 | Candidato pode filtrar vagas por nível de escolaridade | Could | US24 |
 | RF23 | Candidato pode filtrar por estágio remoto ou presencial | Could | US25 |
+| RF28 | Receber uma notificação caso o status ou descrição da vaga seja alterado | Could | US28 |
 | RF24 | Vagas detalhadas por interesse | Would |  |
 | RF25 | Usuários candidatos podem detalhar suas áreas de interesse | Would | US08 |
-| RF26 | Realizar login | Must | US26 |
-| RF27 | Recuperar suas informações de login | Must | US27 |
-| RF28 | Receber uma notificação caso o status ou descrição da vaga seja alterado | Could | US28 |
-| RNF29 | O site precisa ser fácil e prático de se utilizar | Must | US29 |
-| RF30 | Conseguir cadastrar vagas de estágio | Must | US30 |
-| RNF31 | O site precisa ser intuitivo | Should | US31 |
 
 
 <figcaption>Tabela 1 - Backlog</figcaption>
@@ -71,3 +71,4 @@ Versão | Data | Modificação | Autor(es) |
 | 1.1 | 01/02/2022 | Adição da tabela de backlog | Álvaro |
 | 1.2 | 02/02/2022 | Adição de requisitos | Álvaro |
 | 1.3 | 03/02/2022 | Revisões ortográficas | Álvaro |
+| 1.4 | 018/02/2022 | Reordenando prioridades | Ítalo V. |
