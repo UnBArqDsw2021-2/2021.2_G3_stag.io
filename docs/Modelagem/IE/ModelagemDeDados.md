@@ -101,7 +101,7 @@ Descrição: **Define os dados de uma localização dentro do Brasil.**
 
 Entidade: **CURSO**
 
-Descrição: **Define os dados da Pessoa que será cadastrada na agenda e seu gerente.**
+Descrição: **Define os dados de um curso, seja universitário ou graus do ensino médio.**
 
 |  Atributo  | Propriedades do atributo |            Tipo de Dado           |  Tamanho   |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :--------: | :-------------------------------------------------------: |
@@ -112,7 +112,7 @@ Descrição: **Define os dados da Pessoa que será cadastrada na agenda e seu ge
 
 Entidade: **INSTITUICAO**
 
-Descrição: **Define os dados da Pessoa que será cadastrada na agenda e seu gerente.**
+Descrição: **Define os dados de uma instituição de ensino.**
 
 |  Atributo  | Propriedades do atributo |            Tipo de Dado           |  Tamanho   |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :--------: | :-------------------------------------------------------: |
@@ -123,7 +123,7 @@ Descrição: **Define os dados da Pessoa que será cadastrada na agenda e seu ge
 
 Entidade: **ESCOLARIDADE**
 
-Descrição: **Define os dados da Pessoa que será cadastrada na agenda e seu gerente.**
+Descrição: **Define os dados de um nível de escolaridade.**
 
 |  Atributo  | Propriedades do atributo |            Tipo de Dado           |  Tamanho   |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :--------: | :-------------------------------------------------------: |
@@ -133,7 +133,7 @@ Descrição: **Define os dados da Pessoa que será cadastrada na agenda e seu ge
 
 Entidade: **CANDIDATO**
 
-Descrição: **Define os dados da Pessoa que será cadastrada na agenda e seu gerente.**
+Descrição: **Define os dados de um estudante candidato a estagiário.**
 
 |  Atributo  | Propriedades do atributo |            Tipo de Dado           |  Tamanho   |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :--------: | :-------------------------------------------------------: |
@@ -148,9 +148,9 @@ Descrição: **Define os dados da Pessoa que será cadastrada na agenda e seu ge
 |idLocalizacao|chave estrangeira, obrigatório|int|-|Identificador da localização de um candidato. |
 
 
-Entidade: **deseja**
+Relacionamento: **deseja**
 
-Descrição: **Define relacionamento que corresponde a um autorrelacionamento sobre PESSOA e seu gerente com cardinalidade _n:m._**
+Descrição: **Define relacionamento que corresponde a um candidato desejar (aplicar a) uma vaga, com cardinalidade _n:m._**
 
 |  Atributo  | Propriedades do atributo |            Tipo de Dado           |  Tamanho   |                         Descrição                         |
 | :--------: | :--------------------: | :---------------------------------: | :--------: | :-------------------------------------------------------: |
@@ -169,3 +169,4 @@ Descrição: **Define relacionamento que corresponde a um autorrelacionamento so
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 | 1.0 | 16/02/2022 |Criação do documento | Guilherme de Morais e Ian Ferreira |
+| 1.1 | 18/02/2022 |Correção de erros no Dicionário de Dados | Guilherme de Morais |
