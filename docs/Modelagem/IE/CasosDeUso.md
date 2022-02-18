@@ -7,8 +7,10 @@ Um caso de uso basicamente representa a interação entre um ator que pode ser u
 Sendo eles definidos na imagem abaixo:
 
 <center>
-<img src="../../../../assets/Modelagem/CasosDeUso/acoesCasoDeUso.png" width="700px"></br>
+
+[![imagem](../../assets/Modelagem/CasosDeUso/acoesCasoDeUso.png)](../../assets/Modelagem/CasosDeUso/acoesCasoDeUso.png)
 <figcaption>Figura 1 : Componetes Casos de Uso</figcaption>
+
 </center>
 
 ## Diagramas Caso de Uso
@@ -18,8 +20,10 @@ A gente definiu dois diagramas principais de caso de uso, um para candidatos (es
 ### Caso de uso - Candidato
 
 <center>
-<img src="../../../../assets/Modelagem/CasosDeUso/CasoDeUsoCandidato.png" width="700px"></br>
+
+[![imagem](../../assets/Modelagem/CasosDeUso/CasoDeUsoCandidato.png)](../../assets/Modelagem/CasosDeUso/CasoDeUsoCandidato.png)
 <figcaption>Figura 2 : Diagrama caso de uso Candidato</figcaption>
+
 </center>
 
 ## Cadastrar Candidato
@@ -84,8 +88,10 @@ A gente definiu dois diagramas principais de caso de uso, um para candidatos (es
 ### Caso de uso - Empresa
 
 <center>
-<img src="../../../../assets/Modelagem/CasosDeUso/CasoDeUsoEmpresa.png" width="700px"></br>
+
+[![imagem](../../assets/Modelagem/CasosDeUso/CasoDeUsoEmpresa.png)](../../assets/Modelagem/CasosDeUso/CasoDeUsoEmpresa.png)
 <figcaption>Figura 3 : Diagrama caso de uso Empresa</figcaption>
+
 </center>
 
 
@@ -165,3 +171,4 @@ Versão | Data | Modificação | Autor(es) |
 |1.2|16/02/22|Adicionando diagrama empresa|Gabriel Avelino e João Victor|
 |1.3|16/02/22|Tabelas de casos de uso|Gabriel Avelino e João Victor|
 |1.4|17/02/22|Revisão do documento|Álvaro Leles, Gabriel Avelino e Ítalo Vinícius|
+|1.5|17/02/22|Corrigindo caminho da imagem na produção|Ítalo V.|
