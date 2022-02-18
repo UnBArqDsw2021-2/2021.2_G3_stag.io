@@ -33,8 +33,8 @@ O Frame é uma moldura usada para nomear e delimitar o diagrama, sendo que, o no
 <center>
 <img src="../../../../assets/Modelagem/DiagramaDeComunicacao/frame2.png" width="700"></br>
 <figcaption>Figura 4: Segundo exemplo de um Frame
-
-<small>figuras 1 ao 4 estão disponíveis em: https://www.uml-diagrams.org/communication-diagrams.html#sequence-expression</small>
+<br/>
+<small>Figuras 1 ao 4 estão disponíveis em: https://www.uml-diagrams.org/communication-diagrams.html#sequence-expression</small>
 </figcaption>
 </center>
 
@@ -42,7 +42,7 @@ O Frame é uma moldura usada para nomear e delimitar o diagrama, sendo que, o no
 
 ## Diagrama estudante
 
-<img src="../../../../assets/Modelagem/DiagramaDeComunicacao/diagrama-estudant_.png" width="700"></br>
+<img src="../../../../assets/Modelagem/DiagramaDeComunicacao/diagrama_estudante.png" width="700"></br>
 <figcaption>Figura 4: Diagrama do fluxo de estudante</figcaption>
 </center>
 
@@ -65,3 +65,4 @@ Versão | Data | Modificação | Autor(es) |
 |--|--|--|--| 
 |1.0|16/02/2022|Criação do documentação|Ítalo Serra| 
 |1.1|16/02/2022|Criação dos diagramas|Nathan Serra|
+|1.2|18/02/2022|Corrigindo imagens e legendas|Ítalo V.|

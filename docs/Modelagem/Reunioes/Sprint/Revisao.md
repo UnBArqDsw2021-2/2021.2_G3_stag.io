@@ -82,6 +82,8 @@ Quando as mudanças solicitadas forem resolvidas, o autor deve informar o reviso
 </tbody>
 </table>
 
+<figcaption> Tabela 1 - Divisão das revisões por demandas </figcaption>
+
 # Bibliografia
 
 > Scrum Reference Card | Scrum Reference Card. , [s.d.]. Disponível em: <https://scrumreferencecard.com/scrum-reference-card/>. Acesso em: 28 jan. 2022
@@ -91,3 +93,4 @@ Quando as mudanças solicitadas forem resolvidas, o autor deve informar o reviso
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|14/02/2022| Elaboração do documento |Ítalo Vinícius, Álvaro|
+|1.1|18/02/2022| Adicionando legenda á tabela |Ítalo V.|

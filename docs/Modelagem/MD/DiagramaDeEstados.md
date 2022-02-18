@@ -17,23 +17,23 @@ O Diagrama de Estados é um tipo de diagrama UML dinâmico que mostra os vários
 
 **Realização de Login**
 
-[![Imagem](../../../../assets/Modelagem/DiagramaDeEstados/DiagramaAutenticacao.png)](../../../../assets/Modelagem/DiagramaDeEstados/DiagramaAutenticacao.png)
+[![Imagem](../../assets/Modelagem/DiagramaDeEstados/DiagramaAutenticacao.png)](../../assets/Modelagem/DiagramaDeEstados/DiagramaAutenticacao.png)
 <figcaption> Figura 1 - Diagrama de autenticação  </figcaption>
 
 **Busca por candidatos**
 
-[![Imagem](../../../../assets/Modelagem/DiagramaDeEstados/DiagramaBuscaCandidato.png)](../../../../assets/Modelagem/DiagramaDeEstados/DiagramaBuscaCandidato.png)
+[![Imagem](../../assets/Modelagem/DiagramaDeEstados/DiagramaBuscaCandidato.png)](../../assets/Modelagem/DiagramaDeEstados/DiagramaBuscaCandidato.png)
 <figcaption> Figura 2 - Diagrama de busca de candidatos  </figcaption>
 
 
 **Busca por vagas**
 
-[![Imagem](../../../../assets/Modelagem/DiagramaDeEstados/DiagramaVagas.png)](../../../../assets/Modelagem/DiagramaDeEstados/DiagramaVagas.png)
+[![Imagem](../../assets/Modelagem/DiagramaDeEstados/DiagramaVagas.png)](../../assets/Modelagem/DiagramaDeEstados/DiagramaVagas.png)
 <figcaption> Figura 3 - Diagrama de busca por vagas  </figcaption>
 
 **Ver perfil**
 
-[![Imagem](../../../../assets/Modelagem/DiagramaDeEstados/DiagramaPerfil.png)](../../../../assets/Modelagem/DiagramaDeEstados/DiagramaPerfil.png)
+[![Imagem](../../assets/Modelagem/DiagramaDeEstados/DiagramaPerfil.png)](../../assets/Modelagem/DiagramaDeEstados/DiagramaPerfil.png)
 <figcaption> Figura 4 - Diagrama de perfil  </figcaption>
 
 # Bibliografia
@@ -52,3 +52,4 @@ Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|15/02/2022|Elaboração de introdução e metodologia| Hérya|
 |1.1|15/02/2022|Adição dos diagramas| Hérya, Guilherme Vial |
+|1.2|18/02/2022|Corrigindo diretório das imagens|Ítalo V.|

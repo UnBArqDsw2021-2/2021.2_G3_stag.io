@@ -347,4 +347,4 @@ Critérios de aceitação:
 
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
-| 1.0 | 15/02/2022 | Criação dos critérios de aceitação | Álvaro, Ítalo |
+| 1.0 | 15/02/2022 | Criação dos critérios de aceitação | Álvaro, Ítalo V.|
