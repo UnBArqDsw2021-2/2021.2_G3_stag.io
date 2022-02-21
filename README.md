@@ -41,9 +41,9 @@ O nosso projeto tem como objetivo facilitar a relação empresa-estudante por me
 ![Modelagem de dados](docs/assets/Modelagem/Screenshots/ModelagemDeDados.png)
 
 ## Vídeo(s) Segunda Entrega <<FOCO: DSW(Modelagem)>>
-#### [Diagramas estáticos](https://youtu.be/oxusPLq8VHQ)
+#### [Modelagem estática](https://youtu.be/oxusPLq8VHQ)
 
-#### [Diagramas dinâmicos](https://youtu.be/f45Bx3hbbCM)
+#### [Modelagem dinâmica](https://youtu.be/f45Bx3hbbCM)
 
 #### [Modelagem Ágil](https://youtu.be/NrrG9FC6HvE)
 
