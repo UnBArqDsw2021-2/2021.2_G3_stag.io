@@ -35,10 +35,19 @@ O nosso projeto tem como objetivo facilitar a relação empresa-estudante por me
 #### [Iniciativas Extras](https://youtu.be/w_Ton-SwaQE)
 
 ## Screenshots Segunda Entrega <<FOCO: DSW(Modelagem)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Segunda Entrega.
+![Diagrama de classes](docs/assets/Modelagem/Screenshots/DiagramaDeClasses.png)
+![Diagrama de atividades](docs/assets/Modelagem/Screenshots/DiagramaDeAtividades.png)
+![CriteriosDeAceitação](docs/assets/Modelagem/Screenshots/CriteriosDeAceitação.png)
+![Modelagem de dados](docs/assets/Modelagem/Screenshots/ModelagemDeDados.png)
 
 ## Vídeo(s) Segunda Entrega <<FOCO: DSW(Modelagem)>>
-Adicione o(s)s vídeo(s) da Segunda Entrega.
+#### [Diagramas estáticos](https://youtu.be/oxusPLq8VHQ)
+
+#### [Diagramas dinâmicos](https://youtu.be/f45Bx3hbbCM)
+
+#### [Modelagem Ágil](https://youtu.be/NrrG9FC6HvE)
+
+#### [Iniciativas extras e reuniões](https://youtu.be/4xZfjb-JQ7o)
 
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
