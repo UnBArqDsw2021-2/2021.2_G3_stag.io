@@ -99,3 +99,16 @@ nav:
         - Planejamento: Modelagem/Reunioes/Sprint/Planejamento.md
         - Revisão: Modelagem/Reunioes/Sprint/Revisao.md
     - Apresentação: Modelagem/Apresentacao.md
+  - Padrões de projeto:
+    - GRASPs: PadroesDeProjeto/GRASPs/GRASPs.md
+    - GOFs: PadroesDeProjeto/GOFs/GOFs.md
+    - Padrões Extras: PadroesDeProjeto/PadroesExtras/PadroesExtras.md
+    - Iniciativas extras: 
+      - Guia de estilo: PadroesDeProjeto/IE/GuiaDeEstilo.md
+    - Reuniões:
+      - Atas:
+        - 11/03/2022: PadroesDeProjeto/Reunioes/Atas/Ata1.md
+      - Sprint:
+        - Planejamento: PadroesDeProjeto/Reunioes/Sprint/Planejamento.md
+        - Revisão: PadroesDeProjeto/Reunioes/Sprint/Revisao.md
+    - Apresentação: PadroesDeProjeto/Apresentacao.md
