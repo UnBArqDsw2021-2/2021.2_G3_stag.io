@@ -37,11 +37,21 @@ O guia de estilo tem como público alvo os membros da equipe do projeto, para qu
 [![Vaga](../../assets/PadroesDeProjeto/GuiaDeEstilo/Vaga.png)](../../assets/PadroesDeProjeto/GuiaDeEstilo/Vaga.png)
 <center>Figura 7: Vaga</center>
 
+## Tipografia
+
+A fonte usada no protótipo foi a <a href="https://fonts.google.com/specimen/Poppins?preview.text_type=custom" target="_blank">Poppins</a>, projetado por Ninad Kale e Jonny Pinhorn.
+
+[![ExempFontPoppins](../../assets/PadroesDeProjeto/GuiaDeEstilo/poppins_example.png)](../../assets/PadroesDeProjeto/GuiaDeEstilo/poppins_example.png)
+<center>Figura 8: Exemplo fonte Poppins</center>
+
 # Bibliografia
+
+> Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação.
 
 # Versionamento
 
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 | 1.0 | 14/03/2022 | Adição Inicial dos Elementos de Interface | Álvaro Leles |
-| 1.0 | 15/03/2022 | Introduçao do documento | Gabriel Avelino |
+| 1.1 | 15/03/2022 | Introduçao do documento | Gabriel Avelino |
+| 1.2 | 15/03/2022 | Adição da Tipografia e Bibliografia | Álvaro Leles |
