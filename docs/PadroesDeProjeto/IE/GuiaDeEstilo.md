@@ -16,6 +16,9 @@ O guia de estilo tem como público alvo os membros da equipe do projeto, para qu
 # Elementos de interface
 
 ## Disposição espacial e grid
+
+As imagens a seguir representam a disposição espacial dos componentes das telas do nosso protótipo. Essas imagens podem ser usadas como ferramenta para confirmar ou repensar a estrutura de nossas telas.
+
 [![TelaInicial](../../assets/PadroesDeProjeto/GuiaDeEstilo/TelaInicial.png)](../../assets/PadroesDeProjeto/GuiaDeEstilo/TelaInicial.png)
 <center>Figura 1: Tela Inicial</center>
 
@@ -43,6 +46,20 @@ A fonte usada no protótipo foi a <a href="https://fonts.google.com/specimen/Pop
 
 [![ExempFontPoppins](../../assets/PadroesDeProjeto/GuiaDeEstilo/poppins_example.png)](../../assets/PadroesDeProjeto/GuiaDeEstilo/poppins_example.png)
 <center>Figura 8: Exemplo fonte Poppins</center>
+
+## Símbolos não tipográficos
+
+Abaixo tem-se os símbolos utilizados em nosso protótipo, dispô-los aqui permite a equipe manter uma mesma linha de símbolos caso seja necessário adicionar mais.
+
+<center>
+
+| Ícones |||||
+|:--:|:--:|:--:|:--:|:--:|
+| [![iconEdit](../../assets/PadroesDeProjeto/GuiaDeEstilo/icons/edit.png)](../../assets/PadroesDeProjeto/GuiaDeEstilo/icons/edit.png) | [![iconArrowDown](../../assets/PadroesDeProjeto/GuiaDeEstilo/icons/arrowDown.png)](../../assets/PadroesDeProjeto/GuiaDeEstilo/icons/arrowDown.png) | [![iconEye](../../assets/PadroesDeProjeto/GuiaDeEstilo/icons/eye.png)](../../assets/PadroesDeProjeto/GuiaDeEstilo/icons/eye.png) | [![iconAdd](../../assets/PadroesDeProjeto/GuiaDeEstilo/icons/add.png)](../../assets/PadroesDeProjeto/GuiaDeEstilo/icons/add.png) | [![iconProfile](../../assets/PadroesDeProjeto/GuiaDeEstilo/icons/profile.png)](../../assets/PadroesDeProjeto/GuiaDeEstilo/icons/profile.png) |
+
+<figcaption>Tabela 1 - Ícones</figcaption>
+
+</center>
 
 # Bibliografia
 
