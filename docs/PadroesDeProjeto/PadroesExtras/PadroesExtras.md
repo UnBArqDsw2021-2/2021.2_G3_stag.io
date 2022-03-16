@@ -4,19 +4,50 @@
 
 Proposto por Trygve Reenskaug, o padrão MVC é uma sigla para Model (modelo), View (visão) e Controller (controle), que representam as etapas para sua execução, para facilitar as trocas de informações entre o sistema e o usuário. Devido a sua simplicidade este padrão é um dos mais utilizados por programadores, visto que consegue manter o nível de eficiência do projeto alto, mesmo apresentando arquitetura muito mais simples que os outros padrões. 
 
+MVC |  | 
+|--|--|
+|[![Login](../../assets/PadroesDeProjeto/first_MVC.png)](../../assets/PadroesDeProjeto/first_MVC.png)|[![Login](../../assets/PadroesDeProjeto/intro_MVC.png)](../../assets/PadroesDeProjeto/intro_MVC.png)|
+
+<center>
+<figcaption>
+Figura 1: Diagrama MVC e divisão de arquivos
+</figcaption>
+</center>
+
 ## Metodologia
 
 ### Model
 
-Essa camada é responsável pela leitura, escrita e validação de dados que são enviadas pelo controller. Também é onde ficam definido o modo que a empresa trabalha e seus processos para execução do serviço. Desse modo, o grupo optou por implementar inicialmente o método **verVagasEstagio()**, para listar algumas vagas disponíveis em um arquivo Json, que futuramente será feita por uma consuta ao banco de dados. Onde inicialmente fazemos a leitura do arquivo Json e criamos a função **stag()** que será responsável por armazenar as vagas disponíveis, e posteriormente utilizamos o método **stag.verVagasEstagio** para salvar os dados do arquivo Json em uma lista, e por fim, retornar essa lista sempre que a função for chamada.
+Essa camada é responsável pela leitura, escrita e validação de dados que são enviadas pelo controller. Também é onde ficam definidos o modo que a empresa trabalha e seus processos para execução do serviço. Desse modo, o grupo optou por implementar inicialmente o método **verVagasEstagio()**, para listar algumas vagas disponíveis em um arquivo Json, que futuramente será feita por uma consulta ao banco de dados. Onde inicialmente fazemos a leitura do arquivo Json e criamos a função **stag()** que será responsável por armazenar as vagas disponíveis, e posteriormente utilizamos o método **stag.verVagasEstagio** para salvar os dados do arquivo Json em uma lista, e por fim, retornar essa lista sempre que a função for chamada.
+
+[![Login](../../assets/PadroesDeProjeto/model.png)](../../assets/PadroesDeProjeto/model.png)
+<center>
+<figcaption>
+Figura 2: Exemplo de Model
+</figcaption>
+</center>
 
 ### View
 
-Essa camada é responsável pela interação com o usuário, são onde entram em cenas os padrões "estéticos" da aplicação, onde os arquivos armazenados nessa camada são aqueles totalmente ligada a parte visual do projeto. Devido ao fato que essa parte da aplicação só será produzido mais a frente do semestre, decidimos criar um único arquivo de View utilizando Html simples, apenas para ilustrar os resultados produzidos pelas outras camadas, nesse caso, vamos resgatar a variável que armazenou os dados das vagas disponíveis para exibi-las em cards até o final lista.
+Essa camada é responsável pela interação com o usuário, são onde entram em cenas os padrões "estéticos" da aplicação, onde os arquivos armazenados nessa camada são aqueles totalmente ligados a parte visual do projeto. Devido ao fato que essa parte da aplicação só será produzido mais a frente do semestre, decidimos criar um único arquivo de View utilizando Html simples, apenas para ilustrar os resultados produzidos pelas outras camadas, nesse caso, vamos resgatar a variável que armazenou os dados das vagas disponíveis para exibi-las em cards até o final lista.
+
+[![Login](../../assets/PadroesDeProjeto/views.png)](../../assets/PadroesDeProjeto/views.png)
+<center>
+<figcaption>
+Figura 3: Exemplo de View
+</figcaption>
+</center>
 
 ### Controller
 
-Essa camada é responsável por lidar com as requisições do usuário, gerenciando a aplicação como um todo, o Controller funciona como um intermediário entre a Model e a View, requisitando as entradas e forncendo as eventuais saídas entre as outras camadas. Criamos um controller simples até essa etapa do projeto, declarado como uma variável do tipo **stag** para que tenha acesso ao método **verVagasEstagio()**, e permitir a circulação desses dados entre os arquivos da Model e da View.
+Essa camada é responsável por lidar com as requisições do usuário, gerenciando a aplicação como um todo, o Controller funciona como um intermediário entre a Model e a View, requisitando as entradas e fornecendo as eventuais saídas entre as outras camadas. Criamos um controller simples até essa etapa do projeto, declarado como uma variável do tipo **stag** para que tenha acesso ao método **verVagasEstagio()**, e permitir a circulação desses dados entre os arquivos da Model e da View.
+
+[![Login](../../assets/PadroesDeProjeto/controller.png)](../../assets/PadroesDeProjeto/controller.png)
+<center>
+<figcaption>
+Figura 4: Exemplo de Controller
+</figcaption>
+</center>
 
 ## Vantagens
 
@@ -29,6 +60,13 @@ Essa camada é responsável por lidar com as requisições do usuário, gerencia
 * Tempo: Uma vez que vários integrantes conseguem trabalhar ao mesmo tempo na aplicação, ocorre então uma redução no tempo total do projeto.  
 
 * Evoluções/Ajustes: Quando forem necessárias mudanças, o projeto estará mais suscetível a elas, já que os componentes não estão "enrijecidos" e dependentes. 
+
+[![Login](../../assets/PadroesDeProjeto/imagem_site01.png)](../../assets/PadroesDeProjeto/imagem_site01.png)
+<center>
+<figcaption>
+Figura 5: Modelo MVC do protótipo de Stag.io
+</figcaption>
+</center>
 
 ### Observações
 Instruções para rodar a aplicação:<br/>
@@ -65,3 +103,5 @@ como funciona isso
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|15/03/2022|Abertura do documento|João Victor e Ítalo Serra|
+|1.1|15/03/2022|Processos do padrão MVC|João Victor e Ítalo Serra|
+|1.2|15/03/2022|Imagens do código|João Victor e Ítalo Serra|
