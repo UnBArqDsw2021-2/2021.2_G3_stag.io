@@ -61,6 +61,57 @@ Abaixo tem-se os símbolos utilizados em nosso protótipo, dispô-los aqui permi
 
 </center>
 
+## Padrões de cores
+
+Após discussões e reuniões dos integrantes do grupo foi realizado a escolha das cores principais do projeto Stag.io, baseando-se no protótipo realizado pela equipe.
+
+### Cores Principais
+
+[![CoresPrimarias](../../assets/PadroesDeProjeto/GuiaDeEstilo/PrimaryColors.png)](../../assets/PadroesDeProjeto/GuiaDeEstilo/PrimaryColors.png)
+<center>Figura 9: Palhetas de cores principais</center>
+
+As cores principais foram feitas ergonômicamentes para a visualização do usuário, com cores que não sejam muito fortes para incomodar sua visão, fazendo com que seja agradável de se utilizar o sistema.
+
+### Cores Secundárias
+
+[![CoresSecundarias](../../assets/PadroesDeProjeto/GuiaDeEstilo/SecundaryColors.png)](../../assets/PadroesDeProjeto/GuiaDeEstilo/SecundaryColors.png)
+<center>Figura 10: Palhetas de cores secundárias</center>
+
+As palhetas de cores secundárias foram escolhidas para informações complementares como POP-UPS e alguns botões destacados.
+
+## Elementos de interação
+
+### Estilos de interação
+
+O usuário irá realizar as interações com o site através de elementos não tipográficos e de botões ou hiperlinks contendo elementos tipográficos.
+
+[![Botões](../../assets/PadroesDeProjeto/GuiaDeEstilo/ElementosDeInteracao.png)](../../assets/PadroesDeProjeto/GuiaDeEstilo/ElementosDeInteracao.png)
+<center>Figura 11: Botões interativos</center>
+
+### Seleção de um estilo
+
+O estilo foi escolhido de forma a maximizar a eficiência do usuário e a padronização das interações com o sistema, tão quanto para facilitar a visualização das principais ferramentas ao mesmo tempo mantento a simplicidade da aplicação.
+
+## Elementos de ação
+
+### Preenchimento de um campo
+
+Todos os campos de preenchimento devem ser preenchidos manualmente pelo usuário seguindo suas necessidades.
+
+[![Campos](../../assets/PadroesDeProjeto/GuiaDeEstilo/ElementosAcao.png)](../../assets/PadroesDeProjeto/GuiaDeEstilo/ElementosAcao.png)
+<center>
+Figura 11: Botões interativos
+</center>
+
+### Seleção e ativação
+
+O usuário tem liberdade para fazer quaisquer seleções desejadas dentro do site, portanto nao há necessidade de bloqueio da seleção.
+
+As ativações presentes no site estão fundadas principalmente nos fundamentos de usabilidade possibilitando uma maior liberdade para o usuário.
+
+## Vocabulários e padrões
+
+
 # Bibliografia
 
 > Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação.
@@ -72,3 +123,4 @@ Versão | Data | Modificação | Autor(es) |
 | 1.0 | 14/03/2022 | Adição Inicial dos Elementos de Interface | Álvaro Leles |
 | 1.1 | 15/03/2022 | Introduçao do documento | Gabriel Avelino |
 | 1.2 | 15/03/2022 | Adição da Tipografia e Bibliografia | Álvaro Leles |
+| 1.3 | 16/03/2022 | Adição das cores e Elementos de ação e interação| Gabriel Avelino |
