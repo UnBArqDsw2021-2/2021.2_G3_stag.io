@@ -6,7 +6,17 @@ Proposto por Trygve Reenskaug, o padrão MVC é uma sigla para Model (modelo), V
 
 ## Metodologia
 
-como funciona isso
+### Model
+
+Essa camada é responsável pela leitura, escrita e validação de dados que são enviadas pelo controller. Também é onde ficam definido o modo que a empresa trabalha e seus processos para execução do serviço. Desse modo, o grupo optou por implementar inicialmente o método **verVagasEstagio()**, para listar algumas vagas disponíveis em um arquivo Json, que futuramente será feita por uma consuta ao banco de dados. Onde inicialmente fazemos a leitura do arquivo Json e criamos a função **stag()** que será responsável por armazenar as vagas disponíveis, e posteriormente utilizamos o método **stag.verVagasEstagio** para salvar os dados do arquivo Json em uma lista, e por fim, retornar essa lista sempre que a função for chamada.
+
+### View
+
+Essa camada é responsável pela interação com o usuário, são onde entram em cenas os padrões "estéticos" da aplicação, onde os arquivos armazenados nessa camada são aqueles totalmente ligada a parte visual do projeto. Devido ao fato que essa parte da aplicação só será produzido mais a frente do semestre, decidimos criar um único arquivo de View utilizando Html simples, apenas para ilustrar os resultados produzidos pelas outras camadas, nesse caso, vamos resgatar a variável que armazenou os dados das vagas disponíveis para exibi-las em cards até o final lista.
+
+### Controller
+
+Essa camada é responsável por lidar com as requisições do usuário, gerenciando a aplicação como um todo, o Controller funciona como um intermediário entre a Model e a View, requisitando as entradas e forncendo as eventuais saídas entre as outras camadas. Criamos um controller simples até essa etapa do projeto, declarado como uma variável do tipo **stag** para que tenha acesso ao método **verVagasEstagio()**, e permitir a circulação desses dados entre os arquivos da Model e da View.
 
 ## Vantagens
 
@@ -19,6 +29,12 @@ como funciona isso
 * Tempo: Uma vez que vários integrantes conseguem trabalhar ao mesmo tempo na aplicação, ocorre então uma redução no tempo total do projeto.  
 
 * Evoluções/Ajustes: Quando forem necessárias mudanças, o projeto estará mais suscetível a elas, já que os componentes não estão "enrijecidos" e dependentes. 
+
+### Observações
+Instruções para rodar a aplicação:<br/>
+``` Navegue ate docs\assets\PadroesDeProjeto\AppPrototype```<br/>
+``` npm install --save```<br/>
+``` node app.js```
 
 # Padrão Middleware
 
@@ -33,11 +49,11 @@ como funciona isso
 
 ## Vantagens
 
-* Comunicação entre diferentes tipos de aplicações:
+* Comunicação entre diferentes tipos de aplicações: O Middleware foi desenvolvido para suportar as arquiteturas por meio de métodos orientados a processos, permitindo que dados possam ser movidos de uma aplicação para outra.
 
-* Acesso a tecnologias distintas:
+* Acesso a tecnologias distintas: A integração que é feita pelo Middleware permite prover acesso a diferentes tecnologias e localizadas em diferentes ambientes físicos.
 
-* Processamento de informações:
+* Processamento de informações: Com o Middleware intermediando informações de fontes distintas, elas passam a ser filtradas e refinadas, reduzindo consideravelmente o volume de dados processados e apresentando apenas as informações de alto-nível.
 
 # Bibliografia
 > - Grupo Curumim. Padrões Emergentes: API. Matéria de Arquitetura e Desenho de Software, 2021. Disponível em: <https://unbarqdsw2021-1.github.io/2021.1_G6_Curumim/padroes-de-projeto/padroes_emergentes/>. Acesso em: 14/03/2022.
