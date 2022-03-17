@@ -109,8 +109,27 @@ O usuário tem liberdade para fazer quaisquer seleções desejadas dentro do sit
 
 As ativações presentes no site estão fundadas principalmente nos fundamentos de usabilidade possibilitando uma maior liberdade para o usuário.
 
-## Vocabulários e padrões
+## Vocabulário e padrões
 
+### Terminologia
+
+Nosso site tem foco na conexão entre empresas e interessados em estágios, então a terminologia das palavras devem ser simples, de forma a possibilitar uma comunicação clara e direta entre estes dois envolvidos, com no máximo, terminologias mais específicas relacionadas ao tema de estágios.
+
+### Tipos de tela
+
+Como já mostrado no protótipo de alta fidelidade nesta documentação, as telas elaboradas para a aplicação são:
+
+- Tela Inicial
+- Cadastro de candidato
+- Cadastro de empresa
+- Perfil do candidato
+- Vagas do candidato
+- Vagas disponíveis
+- Descrição de vaga
+
+### Sequências de diálogos (feedback e confirmação de ações)
+
+Na aplicação haverá <i>dialogs</i> para comunicar ao usuário suas ações, sendo confirmações de ações como algo salvo com sucesso, requisições de confirmação, como algo se algo deve realmente ser excluído, por exemplo, ou comunicações de erro.
 
 # Bibliografia
 
@@ -124,3 +143,4 @@ Versão | Data | Modificação | Autor(es) |
 | 1.1 | 15/03/2022 | Introduçao do documento | Gabriel Avelino |
 | 1.2 | 15/03/2022 | Adição da Tipografia e Bibliografia | Álvaro Leles |
 | 1.3 | 16/03/2022 | Adição das cores e Elementos de ação e interação| Gabriel Avelino |
+| 1.4 | 17/03/2022 | Adição da seção Vocabulário e Padrões | Álvaro Leles |
