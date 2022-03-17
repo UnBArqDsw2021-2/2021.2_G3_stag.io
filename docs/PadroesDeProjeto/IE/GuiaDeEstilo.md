@@ -70,7 +70,7 @@ Após discussões e reuniões dos integrantes do grupo foi realizado a escolha d
 [![CoresPrimarias](../../assets/PadroesDeProjeto/GuiaDeEstilo/PrimaryColors.png)](../../assets/PadroesDeProjeto/GuiaDeEstilo/PrimaryColors.png)
 <center>Figura 9: Palhetas de cores principais</center>
 
-As cores principais foram feitas ergonômicamentes para a visualização do usuário, com cores que não sejam muito fortes para incomodar sua visão, fazendo com que seja agradável de se utilizar o sistema.
+As cores principais foram feitas ergonômicamente para a visualização do usuário, com cores que não sejam muito fortes para incomodar sua visão, fazendo com que seja agradável de se utilizar o sistema.
 
 ### Cores Secundárias
 
@@ -90,7 +90,7 @@ O usuário irá realizar as interações com o site através de elementos não t
 
 ### Seleção de um estilo
 
-O estilo foi escolhido de forma a maximizar a eficiência do usuário e a padronização das interações com o sistema, tão quanto para facilitar a visualização das principais ferramentas ao mesmo tempo mantento a simplicidade da aplicação.
+O estilo foi escolhido de forma a maximizar a eficiência do usuário e a padronização das interações com o sistema, tão quanto para facilitar a visualização das principais ferramentas ao mesmo tempo mantendo a simplicidade da aplicação.
 
 ## Elementos de ação
 
