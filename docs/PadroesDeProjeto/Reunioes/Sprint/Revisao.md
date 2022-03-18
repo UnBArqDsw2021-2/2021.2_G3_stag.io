@@ -11,6 +11,7 @@ Quando as mudanças solicitadas forem resolvidas, o autor deve informar o reviso
 <table>
 <thead>
   <tr>
+    <th>Categoria</th>
     <th>Tarefa</th>
     <th>Revisores</th>
   </tr>
@@ -18,19 +19,41 @@ Quando as mudanças solicitadas forem resolvidas, o autor deve informar o reviso
 <tbody>
   <tr>
     <td rowspan="1">GRASPs</td>
+    <td></td>
     <td>Ítalo V. e Nathan</td>
   </tr>
   <tr>
     <td rowspan="1">GOFs</td>
+    <td></td>
     <td>Ítalo F., João, Álvaro e Gabriel</td>
   </tr>
   <tr>
     <td rowspan="1">Padrões extras</td>
+    <td></td>
     <td>Hérya e Guilherme Vial</td>
   </tr>
   <tr>
-    <td rowspan="1">Iniciativas extras - Guia de estilo</td>
+    <td rowspan="1">Iniciativas extras</td>
+    <td>Guia de estilo</td>
     <td>Ian e Guilherme de Morais</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Reuniões</td>
+    <td>Atas</td>
+    <td>Nathan</td>
+  </tr>
+  <tr>
+    <td>Sprint</td>
+    <td>Ítalo F.</td>
+  </tr>
+  <tr>
+    <td>Revisão</td>
+    <td>Hérya</td>
+  </tr>
+  <tr>
+    <td>Apresentação</td>
+    <td></td>
+    <td>Todos</td>
   </tr>
 </tbody>
 </table>
