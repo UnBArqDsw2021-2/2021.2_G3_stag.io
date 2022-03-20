@@ -75,11 +75,11 @@ Esse padrão objetiva a utilização de uma boa prática que é o baixo acoplame
 
 Na nossa aplicação, para os princípios desse padrão, o baixo acoplamento se encontra na modelagem e relacionamento das principais classes do nosso [Diagrama de Classes](../../Modelagem/ME/DiagramaDeClasse.md), **Candidato**, **Vaga** e **Empresa**
 
-- Em todos os relacionamentos, **Candidato** e **Vaga**, **Candidato** e **Empresa**, e **Vaga** e **Empresa**, utilizamos o Acoplamento de Dados, ou seja, passamos de uma classe para outra apenas os dados necessários para que está classe faça seu trabalho.
+- Em todos os relacionamentos, **Candidato** e **Vaga**, **Candidato** e **Empresa**, e **Vaga** e **Empresa**, utilizamos o Acoplamento de Dados, ou seja, passamos de uma classe para outra apenas os dados necessários para que esta classe faça seu trabalho.
 
 ### Justificativa
 
-Vimos que esse padrão seria útil para usarmos no projeto, pois utilizando do baixo acoplamento, as classe se tornam mais independentes, facilitando assim a sua reutilização, além de que se tornam mais fáceis de testar, já que temos menos dependências para gerenciar.
+Vimos que esse padrão seria útil para usarmos no projeto, pois utilizando do baixo acoplamento, as classes se tornam mais independentes, facilitando assim a sua reutilização, além de que se tornam mais fáceis de testar, já que temos menos dependências para gerenciar.
 
 
 ## Controlador (Controller)
@@ -113,7 +113,7 @@ Vimos que esse padrão seria útil para usarmos no projeto, pois para manter o b
 
 ## Invenção/Fabricação Pura (Pure Fabrication)
 
-A invenção pura é um padrão de projeto que tem o objetivo de basicamente preservar outros dois padrões já utilizados no projeto, que são a alta coesão e o baixo acoplamento. Ela é principalmente utilizada quando para a manutenção desses dois padrões, a utilização do padrão Especialista já não é suficiente. E para isso, somente criar classes a partir do conceito do domínio não é garantia de atender aos baixo acoplamento e alta coesão, no sentido que para atendê-los, o projetista cria uma classe artificial que não faz parte desse domínio, removendo características não coesas das classes de domínios de negócios, como por exemplo, a variação de comportamentos. 
+A invenção pura é um padrão de projeto que tem o objetivo de basicamente preservar outros dois padrões já utilizados no projeto, que são a alta coesão e o baixo acoplamento. Ela é principalmente utilizada quando para a manutenção desses dois padrões, a utilização do padrão Especialista já não é suficiente. E para isso, somente criar classes a partir do conceito do domínio não é garantia de atender ao baixo acoplamento e alta coesão, no sentido que para atendê-los, o projetista cria uma classe artificial que não faz parte desse domínio, removendo características não coesas das classes de domínios de negócios, como por exemplo, a variação de comportamentos. 
 
 ### Uso no projeto
 
@@ -164,3 +164,4 @@ Esse padrão é importante para o nosso projeto, pois seguindo ele, conseguimos 
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|15/03/2022|Criando documento dos Padrões GRASPs |Guilherme e Ian|
+|1.1|20/03/2022|Revisão do documento |Guilherme, Ian e Ítalo|
