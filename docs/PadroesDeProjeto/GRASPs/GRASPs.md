@@ -164,4 +164,4 @@ Esse padrão é importante para o nosso projeto, pois seguindo ele, conseguimos 
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|15/03/2022|Criando documento dos Padrões GRASPs |Guilherme e Ian|
-|1.1|20/03/2022|Revisão do documento |Guilherme, Ian e Ítalo|
+|1.1|20/03/2022|Revisão do documento |Guilherme, Ian e Ítalo V.|
