@@ -49,12 +49,6 @@ O padrão multiton será utilizado em nosso projeto com o objetivo de limitar as
 [![](https://i.imgur.com/bdjBzTy.png)
 ](https://i.imgur.com/bdjBzTy.png)
 
-##### Código
-
-```javascript
-
-```
-
 ## Padrões estruturais
 
 As interações entre objetos de um sistema pode causar grande dependência entre os elementos, de forma a aumentar a complexidade de eventuais alterações no funcionamento do sistema. Padrões estruturais estão preocupados com como classes e objetos são compostos para formar estruturas maiores e procuram diminuir o acoplamento entre os objetos de um sistema orientado a objetos.
