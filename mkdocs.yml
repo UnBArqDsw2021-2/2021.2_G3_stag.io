@@ -102,7 +102,7 @@ nav:
   - Padrões de projeto:
     - GRASPs: PadroesDeProjeto/GRASPs/GRASPs.md
     - GOFs:
-      - GOFs: PadroesDeProjeto/GOFs/GOFs.md
+      - Padrões utilizados: PadroesDeProjeto/GOFs/GOFs.md
       - Padrões não utilizados: PadroesDeProjeto/GOFs/PadroesNaoUtilizados.md
     - Padrões Extras: PadroesDeProjeto/PadroesExtras/PadroesExtras.md
     - Iniciativas extras: 

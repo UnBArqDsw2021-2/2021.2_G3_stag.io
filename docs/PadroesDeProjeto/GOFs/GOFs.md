@@ -14,13 +14,12 @@ Alguns projetos necessitam que algumas classes tenham apenas uma instância. O p
 
 Em nosso projeto, o padrão poderá ser aplicado para garantir a criação de apenas uma instância da aplicação e do banco de dados, garantindo que não haja perda de desempenho.
 
-#### Modelagem
+##### Modelagem
 
-[![](https://i.imgur.com/ymd7vX2.png)
-](https://i.imgur.com/ymd7vX2.png)
+[![Singleton](../../assets/PadroesDeProjeto/SingletonModelagem.png)](../../assets/PadroesDeProjeto/SingletonModelagem.png)
 
 
-#### Código
+##### Código
 
 A própria função construtora MyApp é responsável por garantir o retorno da mesma instância do objeto sempre que for invocada, ou criar uma nova instância caso ainda não exista.
 
@@ -48,6 +47,8 @@ O padrão multiton será utilizado em nosso projeto com o objetivo de limitar as
 
 [![](https://i.imgur.com/bdjBzTy.png)
 ](https://i.imgur.com/bdjBzTy.png)
+
+[![Multiton](../../assets/PadroesDeProjeto/MultitonModelagem.png)](../../assets/PadroesDeProjeto/MultitonModelagem.png)
 
 #### Código
 
@@ -218,4 +219,5 @@ Será utilizado no projeto, por exemplo, nas ações que a empresa contrante tem
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|16/03/2022|Criando template do documento|Ítalo V., Hérya, Guilherme Vial, Nathan|
-|2.0|18/03/2022|Adição de padrões estruturais|Hérya|
+|2.0|17/03/2022|Adição de padrões criacionais|Guilherme Vial|
+|3.0|18/03/2022|Adição de padrões estruturais|Hérya|
