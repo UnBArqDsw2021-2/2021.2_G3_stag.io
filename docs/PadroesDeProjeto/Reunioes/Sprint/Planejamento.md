@@ -31,12 +31,12 @@ A equipe criou uma issue para cada artefato que deveria ser entregue nesta etapa
 </thead>
 <tbody>
   <tr>
-    <td>GOFs</td>
+    <td>GRASPs</td>
     <td>Documento e modelagem</td>
     <td>Ian, Guilherme de Morais</td>
   </tr>
   <tr>
-    <td>GRASPs</td>
+    <td>GOFs</td>
     <td>Documento, modelagem e código</td>
     <td>Ítalo V., Nathan, Hérya, Guilherme Vial</td>
   </tr>
