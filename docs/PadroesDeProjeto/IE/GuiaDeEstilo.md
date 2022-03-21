@@ -68,16 +68,16 @@ Após discussões e reuniões dos integrantes do grupo foi realizado a escolha d
 ### Cores Principais
 
 [![CoresPrimarias](../../assets/PadroesDeProjeto/GuiaDeEstilo/PrimaryColors.png)](../../assets/PadroesDeProjeto/GuiaDeEstilo/PrimaryColors.png)
-<center>Figura 9: Palhetas de cores principais</center>
+<center>Figura 9: Paletas de cores principais</center>
 
 As cores principais foram feitas ergonômicamente para a visualização do usuário, com cores que não sejam muito fortes para incomodar sua visão, fazendo com que seja agradável de se utilizar o sistema.
 
 ### Cores Secundárias
 
 [![CoresSecundarias](../../assets/PadroesDeProjeto/GuiaDeEstilo/SecundaryColors.png)](../../assets/PadroesDeProjeto/GuiaDeEstilo/SecundaryColors.png)
-<center>Figura 10: Palhetas de cores secundárias</center>
+<center>Figura 10: Paletas de cores secundárias</center>
 
-As palhetas de cores secundárias foram escolhidas para informações complementares como POP-UPS e alguns botões destacados.
+As paletas de cores secundárias foram escolhidas para informações complementares como POP-UPS e alguns botões destacados.
 
 ## Elementos de interação
 
@@ -129,7 +129,7 @@ Como já mostrado no protótipo de alta fidelidade nesta documentação, as tela
 
 ### Sequências de diálogos (feedback e confirmação de ações)
 
-Na aplicação haverá <i>dialogs</i> para comunicar ao usuário suas ações, sendo confirmações de ações como algo salvo com sucesso, requisições de confirmação, como algo se algo deve realmente ser excluído, por exemplo, ou comunicações de erro.
+Na aplicação haverá <i>dialogs</i> para comunicar ao usuário suas ações, sendo confirmações de ações como algo salvo com sucesso, requisições de confirmação, como se algo deve realmente ser excluído, por exemplo, ou comunicações de erro.
 
 # Bibliografia
 
@@ -140,7 +140,7 @@ Na aplicação haverá <i>dialogs</i> para comunicar ao usuário suas ações, s
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 | 1.0 | 14/03/2022 | Adição Inicial dos Elementos de Interface | Álvaro Leles |
-| 1.1 | 15/03/2022 | Introduçao do documento | Gabriel Avelino |
+| 1.1 | 15/03/2022 | Introdução do documento | Gabriel Avelino |
 | 1.2 | 15/03/2022 | Adição da Tipografia e Bibliografia | Álvaro Leles |
 | 1.3 | 16/03/2022 | Adição das cores e Elementos de ação e interação| Gabriel Avelino |
 | 1.4 | 17/03/2022 | Adição da seção Vocabulário e Padrões | Álvaro Leles |
