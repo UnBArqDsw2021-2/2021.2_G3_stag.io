@@ -114,4 +114,5 @@ nav:
       - Sprint:
         - Planejamento: PadroesDeProjeto/Reunioes/Sprint/Planejamento.md
         - Revisão: PadroesDeProjeto/Reunioes/Sprint/Revisao.md
+        - Relatórios Zenhub: PadroesDeProjeto/Reunioes/Sprint/Relatorio.md
     - Apresentação: PadroesDeProjeto/Apresentacao.md
