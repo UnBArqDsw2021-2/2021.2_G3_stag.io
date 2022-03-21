@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="pt">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <div class="container">
+      <br/><br/><br/>
+      <h2>Stag.io</h2>
+      <br/>
+      <% if (stag.length > 0) { %>
+        <div class="row">
+          <% for(var i = 0; i < stag.length; i++) {%>
+            <div class="col-md-12 jumbotron">
+              <div class="column">
+                <img src= <%= stag[i].imagem %> alt="card__image" class="card__image" width="200">
+                <h4><%= stag[i].titulo %></h4>
+                <p><%= stag[i].vaga %></p>
+              </div>
+            </div>
+          <% } %>
+        </div>
+      <% } %>
+    </div>
+  </body>
+</html>
