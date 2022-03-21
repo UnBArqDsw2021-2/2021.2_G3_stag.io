@@ -1,5 +1,7 @@
 # Introdução
 
+Os padrões de projeto GOF (Gang of Four) são soluções consolidadas para problemas recorrentes no desenvolvimento e manutenção de software orientado a objetos. 
+
 # Metodologia
 
 ## Padrões criacionais
@@ -83,7 +85,7 @@ O padrão Facade será utilizado no contexto do projeto na omissão de alguns co
 
 ##### Modelagem
 
-![Facade](https://i.imgur.com/DlrtkQu.png)
+![Facade(../../assets/PadroesDeProjeto/Facade.png)](../../assets/PadroesDeProjeto/Facade.png)
 
 <figcaption> Figura 3 - Representação da utilização de Facade  </figcaption>
 
@@ -109,7 +111,7 @@ As solicitações do banco de dados serão encapsuladas por meio da API para que
 
 ##### Modelagem
 
-![Proxy](https://i.imgur.com/bSNnW1j.png)
+![Proxy(../../assets/PadroesDeProjeto/Proxy.png)](../../assets/PadroesDeProjeto/Proxy.png)
 
 <figcaption> Figura 4 - Representação da utilização de Proxy  </figcaption>
 
@@ -126,7 +128,6 @@ export default{
 ```
 
 
-
 ## Padrões comportamentais
 
 ### Observer
@@ -141,7 +142,7 @@ O padrão Observer será utilizado quando o usuário se candidata a uma vaga e e
 
 ##### Modelagem
 
-![](https://i.imgur.com/0rayJB1.png)
+![Observer(../../assets/PadroesDeProjeto/Observer.png)](../../assets/PadroesDeProjeto/Observer.png)
 
 <figcaption> Figura 5 - Representação da utilização do Observer  </figcaption>
 
@@ -219,4 +220,5 @@ Versão | Data | Modificação | Autor(es) |
 |2.0|17/03/2022|Adição de padrões criacionais|Guilherme Vial|
 |3.0|18/03/2022|Adição de padrões estruturais|Hérya|
 |4.0|18/03/2022|Adição de padrões comportamentais|Nathan|
-|5.0|120/03/2022|Documento revisado|Ítalo V., Ítalo S., Gabriel, João|
+|5.0|20/03/2022|Documento revisado|Ítalo V., Ítalo S., Gabriel, João|
+|6.0|20/03/2022|Adição de introdução|Hérya|
