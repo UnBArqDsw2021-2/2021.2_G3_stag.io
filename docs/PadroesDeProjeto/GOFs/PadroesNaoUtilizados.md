@@ -20,7 +20,7 @@ O padrão Factory Method sugere que você substitua chamadas diretas de constru�
 
 ##### Justificativa
 
-Utiliza-se o Factory Method quando não souber de antemão os tipos e dependências exatas dos objetos com os quais seu código deve funcionar, ~ou seja, em razão do escopo menor do nosso projeto e que ele é bem definido por meio de nossas GRASPs, decidimos por não utilizá-lo, principalmente pelo fato de que este padrão se identifica mais como incremental do que inicial.
+Utiliza-se o Factory Method quando não souber de antemão os tipos e dependências exatas dos objetos com os quais seu código deve funcionar, ou seja, em razão do escopo menor do nosso projeto e que ele é bem definido por meio de nossas GRASPs, decidimos por não utilizá-lo, principalmente pelo fato de que este padrão se identifica mais como incremental do que inicial.
 
 #### Abstract method
 
@@ -46,7 +46,7 @@ Um adaptador encobre um dos objetos para esconder a complexidade da conversão a
 
 ##### Justificativa
 
-Pensamos em implementar este padrão para facilitar na construção de estruturas que a aplicação e o banco de dados interpretasse, impedindo que possíveis tipagens fossem erroneas, porém o express já trata esta conversão por meio das requisições HTTP, evitando o processo de construção de objetos que adaptassem estas comunicações.
+Pensamos em implementar este padrão para facilitar na construção de estruturas que a aplicação e o banco de dados interpretassem, impedindo que possíveis tipagens fossem errôneas, porém o express já trata esta conversão por meio das requisições HTTP, evitando o processo de construção de objetos que adaptassem estas comunicações.
 
 #### Decorator
 
@@ -56,9 +56,9 @@ O **Decorator** é um padrão de projeto estrutural que permite que você acople
 
 ##### Justificativa
 
-Pensamos em encapsular o fator de autenticação por meio de um decorator, especificando qual foi o valor inserido e assim resgatassémos o login daquele usuário e já identificassemos se é uma empresa ou candidato, no entanto, o método se torna complexo e reforça basicamente o que queríamos evitar, que seria a utilização de condicionais para identificar cada usuário.
+Pensamos em encapsular o fator de autenticação por meio de um decorator, especificando qual foi o valor inserido e assim resgatássemos o login daquele usuário e já identificássemos se é uma empresa ou candidato, no entanto, o método se torna complexo e reforça basicamente o que queríamos evitar, que seria a utilização de condicionais para identificar cada usuário.
 
-Além do que não precisamos projetar comportamentos adicionais para objetos em tempo de execução, pois cada objeta já possui sua própria resposabilidade e é modularizado exatamente para ter esse objetivo.
+Além do que não precisamos projetar comportamentos adicionais para objetos em tempo de execução, pois cada objeta já possui sua própria responsabilidade e é modularizado exatamente para ter esse objetivo.
 
 ### Padrões comportamentais
 
@@ -86,7 +86,7 @@ O padrão State sugere que você crie novas classes para todos os estados possí
 
 ##### Justificativa
 
-Este padrão foi mencionado na hora estávamos debatendo, porém percebemos que seria algo que não precisariamos implementar, principlamente pelo fato de que o React já possui implementados funções que manipulam o estado, evitando que houvesse conflitos na modificação de várias e também confusão ao modificar o estado da variáveis instânciadas.
+Este padrão foi mencionado na hora estávamos debatendo, porém percebemos que seria algo que não precisaríamos implementar, principalmente pelo fato de que o React já possui implementados funções que manipulam o estado, evitando que houvesse conflitos na modificação de várias e também confusão ao modificar o estado das variáveis instanciadas.
 
 O método do React é o useState.
 

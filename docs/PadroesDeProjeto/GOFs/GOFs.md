@@ -18,6 +18,8 @@ Em nosso projeto, o padrão poderá ser aplicado para garantir a criação de ap
 
 [![Singleton](../../assets/PadroesDeProjeto/SingletonModelagem.png)](../../assets/PadroesDeProjeto/SingletonModelagem.png)
 
+<figcaption> Figura 1 - Representação da utilização do Singleton  </figcaption>
+
 
 ##### Código
 
@@ -45,10 +47,9 @@ O padrão multiton será utilizado em nosso projeto com o objetivo de limitar as
 
 ##### Modelagem
 
-[![](https://i.imgur.com/bdjBzTy.png)
-](https://i.imgur.com/bdjBzTy.png)
-
 [![Multiton](../../assets/PadroesDeProjeto/MultitonModelagem.png)](../../assets/PadroesDeProjeto/MultitonModelagem.png)
+
+<figcaption> Figura 2 - Representação da utilização do Multiton  </figcaption>
 
 #### Código
 
@@ -65,7 +66,7 @@ function getMultiton(string key) {
 
 ## Padrões estruturais
 
-As interações entre objetos de um sistema pode causar grande dependência entre os elementos, de forma a aumentar a complexidade de eventuais alterações no funcionamento do sistema. Padrões estruturais estão preocupados com como classes e objetos são compostos para formar estruturas maiores e procuram diminuir o acoplamento entre os objetos de um sistema orientado a objetos.
+As interações entre objetos de um sistema podem causar grande dependência entre os elementos, de forma a aumentar a complexidade de eventuais alterações no funcionamento do sistema. Padrões estruturais estão preocupados com como classes e objetos são compostos para formar estruturas maiores e procuram diminuir o acoplamento entre os objetos de um sistema orientado a objetos.
 
 
 ### Facade
@@ -109,6 +110,7 @@ As solicitações do banco de dados serão encapsuladas por meio da API para que
 ##### Modelagem
 
 ![Proxy](https://i.imgur.com/bSNnW1j.png)
+
 <figcaption> Figura 4 - Representação da utilização de Proxy  </figcaption>
 
 ##### Código
@@ -140,6 +142,7 @@ O padrão Observer será utilizado quando o usuário se candidata a uma vaga e e
 ##### Modelagem
 
 ![](https://i.imgur.com/0rayJB1.png)
+
 <figcaption> Figura 5 - Representação da utilização do Observer  </figcaption>
 
 
@@ -203,12 +206,6 @@ Será utilizado no projeto, por exemplo, nas ações que a empresa contrante tem
 ```
 
 
-
-
-
-
-
-
 # Bibliografia
 
 > Erich Gamma, Richard Helm, Ralph Johnson e John Vlissides. Design Patterns: Elements os Reusable Object Oriented Software. Addison-Wesley, 1995.
@@ -221,3 +218,5 @@ Versão | Data | Modificação | Autor(es) |
 |1.0|16/03/2022|Criando template do documento|Ítalo V., Hérya, Guilherme Vial, Nathan|
 |2.0|17/03/2022|Adição de padrões criacionais|Guilherme Vial|
 |3.0|18/03/2022|Adição de padrões estruturais|Hérya|
+|4.0|18/03/2022|Adição de padrões comportamentais|Nathan|
+|5.0|120/03/2022|Documento revisado|Ítalo V., Ítalo S., Gabriel, João|
