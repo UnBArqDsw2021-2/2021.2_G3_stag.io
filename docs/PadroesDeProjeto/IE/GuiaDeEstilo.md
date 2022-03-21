@@ -144,3 +144,4 @@ Versão | Data | Modificação | Autor(es) |
 | 1.2 | 15/03/2022 | Adição da Tipografia e Bibliografia | Álvaro Leles |
 | 1.3 | 16/03/2022 | Adição das cores e Elementos de ação e interação| Gabriel Avelino |
 | 1.4 | 17/03/2022 | Adição da seção Vocabulário e Padrões | Álvaro Leles |
+| 2.0 | 20/03/2022 | Documento revisado | Ian Fillipe, Guilherme de Morais, Ítalo V. |
