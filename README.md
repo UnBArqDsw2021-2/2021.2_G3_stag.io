@@ -52,8 +52,12 @@ O nosso projeto tem como objetivo facilitar a relação empresa-estudante por me
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
 
+OBS: Não constam Screenshots, na Home Page do Projeto, até o prazo da Terceira Entrega <<Professora>>
+
 ## Vídeo(s) Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
 Adicione o(s)s vídeo(s) da Terceira Entrega.
+  
+OBS: Não constam Vídeos, na Home Page do Projeto, até o prazo da Terceira Entrega <<Professora>>
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
