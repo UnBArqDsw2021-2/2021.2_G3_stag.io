@@ -115,3 +115,13 @@ nav:
         - Planejamento: PadroesDeProjeto/Reunioes/Sprint/Planejamento.md
         - Revisão: PadroesDeProjeto/Reunioes/Sprint/Revisao.md
     - Apresentação: PadroesDeProjeto/Apresentacao.md
+  - Arquitetura e Reutilização de Software:
+    - Documento de Arquitetura de Software: ArquiteturaEReutilizacao/DAS/DAS.md
+    - Reutilização de Software: ArquiteturaEReutilizacao/Reutilizacao/Reutilizacao.md
+    - Reuniões:
+      - Atas:
+        - 04/04/2022: ArquiteturaEReutilizacao/Reunioes/Atas/Ata1.md
+      - Sprint:
+        - Planejamento: ArquiteturaEReutilizacao/Reunioes/Sprint/Planejamento.md
+        - Revisão: ArquiteturaEReutilizacao/Reunioes/Sprint/Revisao.md
+      - Apresentação: ArquiteturaEReutilizacao/Apresentacao.md
