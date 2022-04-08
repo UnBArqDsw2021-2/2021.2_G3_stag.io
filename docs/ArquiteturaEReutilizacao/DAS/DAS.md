@@ -12,8 +12,9 @@ Este Documento de Arquitetura de Software se aplica ao projeto **Stag.io**, dese
 Abreviação | Descrição |
 |--|--|
 |DAS|Documento de Arquitetura de Software|
-|SQL|Structured Query Language|
+|MVC|Model–View–Controller|
 |RUP|Rational Unified Process|
+|SQL|Structured Query Language|
 
 <figcaption>Tabela 1 - Descrição de abreviações</figcaption>
 
@@ -215,16 +216,248 @@ O <a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/Modelagem/ME/Diag
 [![Login](../../assets/Modelagem/DiagramaDeClasses/DiagramaDeClasses.png)](../../assets/Modelagem/DiagramaDeClasses/DiagramaDeClasses.png)
 <figcaption>Figura 4: Diagrama de Classes da aplicação</figcaption>
 
+### Diagrama de Comunicação
+
+O <a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/Modelagem/MD/DiagramaDeComunicacao/"> Diagrama de Comunicação</a> possui um comportamento dinâmico que demonstra a interação entre objetos e/ou partes utilizando mensagens e setas sequenciadas de um aplicativo ou um sistema de software.
+
+#### Diagrama estudante
+
+[![imagem](../../assets/Modelagem/DiagramaDeComunicacao/diagrama_estudante.png)](../../assets/Modelagem/DiagramaDeComunicacao/diagrama_estudante.png)
+
+<figcaption>Figura 5 - Diagrama do fluxo de estudante</figcaption>
+
+#### Diagrama empresa
+
+
+[![imagem](../../assets/Modelagem/DiagramaDeComunicacao/diagrama_empresa.png)](../../assets/Modelagem/DiagramaDeComunicacao/diagrama_empresa.png)
+
+<figcaption>Figura 6 - Diagrama do fluxo de empresa</figcaption>
+
 
 ## Visão de Processos
 
+A Visão de Processos descreve processos, responsabilidades, colaborações e alocação de elementos lógicos como camadas, subsistemas e classes.
+
+### Diagrama de Sequência
+
+O <a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/Modelagem/MD/DiagramaDeSequencia/">Diagrama de Sequência
+</a> tem o objetivo de representar um conjunto de objetos que estão interagindo ao longo do funcionamento da aplicação, descrevendo como esses grupos de objetos colaboram entre si em cada caso de uso. Desse modo, é criado um registro do comportamento e das mensagens trocadas entre esses objetos, determinando a sequência que essas ações ocorrem dentro dos processos.
+
+#### Cadastro de Usuário
+
+<img src="../../../assets/Modelagem/DiagramaSequencia/diagramaCadastro.jpeg"  width="600px">
+
+<figcaption>Figura 7 - Cadastro de Usuário</figcaption>
+
+#### Candidatar em uma vaga de estágio
+
+<img src="../../../assets/Modelagem/DiagramaSequencia/diagramaVagas.jpeg"  width="600px">
+
+<figcaption>Figura 8 - Candidatar em uma vaga de estágio</figcaption>
+
+### Diagrama de Atividades
+O <a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/Modelagem/MD/DiagramaDeAtividades/">Diagrama de Atividades
+</a> é um desenho esquemático que segue a notação UML e que possui o intuito de demonstrar a lógica do projeto que está sendo desenvolvido, e ilustrar as atividades que um usuário pode realizar na aplicação, o que simplifica o esclarecimento das regras de negócio da aplicação e elucida o fluxo de ações de uma determinada atividade.
+
+#### Realizar login
+
+[![Login](../../assets/Modelagem/DiagramaAtividades/Login.png)](../../assets/Modelagem/DiagramaAtividades/Login.png)
+<center>
+<figcaption>
+Figura 9 - Fluxo de Atividade para realizar o Login
+</figcaption>
+</center>
+
+#### Candidatar a uma vaga
+
+[![CandidatarVaga](../../assets/Modelagem/DiagramaAtividades/CandidatarVaga.png)](../../assets/Modelagem/DiagramaAtividades/CandidatarVaga.png)
+<center>
+<figcaption>
+Figura 10 -Fluxo de Atividade para se candidatar à uma vaga
+</figcaption>
+</center>
+
+#### Acessar as vagas para a qual se candidatou
+
+[![AcessoVagas](../../assets/Modelagem/DiagramaAtividades/AcessoVagas.png)](../../assets/Modelagem/DiagramaAtividades/AcessoVagas.png)
+<center>
+<figcaption>
+Figura 11 - Fluxo de Atividade para acessar as vagas para a qual se candidatou
+</figcaption>
+</center>
+
+#### Acessar interessados em vaga
+
+[![EmpresaInteressados](../../assets/Modelagem/DiagramaAtividades/EmpresaInteressados.png)](../../assets/Modelagem/DiagramaAtividades/EmpresaInteressados.png)
+<center>
+<figcaption>
+Figura 12 - Fluxo de Atividade para a empresa acessar os interessados nas suas vagas
+</figcaption>
+</center>
+
+## Visão de Implantação
+
 ## Visão de Implementação
+ A visão de Implementação descreve uma visão do modelo de implementação, especificado em texto, e visualizado com pacotes e diagramas de componentes.
+
+### Diagrama de Componentes
+
+O <a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/Modelagem/ME/DiagramaDeComponentes/">Diagrama de Componentes
+</a>  mostra componentes, interfaces fornecidas e necessárias, portas e relacionamentos entre eles. Esse tipo de diagrama é usado no Desenvolvimento Baseado em Componentes para descrever sistemas com Arquitetura Orientada a Serviços.
+
+[![Imagem3](../../assets/Modelagem/ME/DiagramaDeComponentes.jpg)](../../assets/Modelagem/ME/DiagramaDeComponentes.jpg)
+<center><figcaption>Figura 13 -  Diagrama de componentes do projeto Stag.io</figcaption></center>
 
 ## Visão de Dados
 
-## Tamanho e Desempenho
+A Visão de Dados mapeia os objetos aos dados persistentes. Durante a etapa de modelagem do projeto, a equipe realizou a  <a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/Modelagem/IE/ModelagemDeDados/">modelagem de dados</a> persistentes.
+
+### Diagrama Entidade-Relacionamento (DE-R)
+
+[![Login](../../assets/Modelagem/ModelagemDeDados/der.png)](../../assets/Modelagem/ModelagemDeDados/der.png)
+<center>Figura 14 - Diagrama Entidade-Relacionamento</center>
+
+### Diagrama Lógico de Dados (DLD)
+
+[![Login](../../assets/Modelagem/ModelagemDeDados/dld.png)](../../assets/Modelagem/ModelagemDeDados/dld.png)
+<center>Figura 15 - Diagrama Lógico de Dados</center>
+
+
+### Dicionário de Dados
+
+#### VAGA
+
+Entidade: **VAGA**
+
+Descrição: **Define os dados de uma vaga de estágio sob processo seletivo.**
+
+|  Atributo  | Propriedades do atributo |            Tipo de Dado           |  Tamanho   |                         Descrição                         |
+| :--------: | :--------------------: | :---------------------------------: | :--------: | :-------------------------------------------------------: |
+|idVaga|chave primária, obrigatório|int|-|Identificador de uma vaga.|
+|tituloVaga|obrigatório|varchar|50|Título reduzido de uma vaga.|
+|descricaoVaga|obrigatório|varchar|1000|Descrição detalhada de uma vaga.|
+|modeloTrabalho|obrigatório|enum(‘Presencial’,’Remoto’,’Híbrido’)|-|Modelo de trabalho, sendo dividido entre presencial, remoto e híbrido.|
+|cargaHoraria|obrigatório|int|-|Carga horária de trabalho de uma vaga.|
+|requisitos|obrigatório|varchar|1000|Requisitos solicitados por uma vaga. |
+|privilegios|obrigatório|varchar|1000|Privilégios concedidos por uma vaga.|
+|bolsa|obrigatório|decimal|6,2|Valor monetário da bolsa concedida pela vaga.|
+|siteVaga|obrigatório|varchar|200|Site em que está hospedado o processo da vaga.|
+|status|obrigatório|boolean|-|Situação de uma vaga, sendo “true” = ativada e “false” = inativada.|
+|cnpjEmpresa|obrigatório|bigint|-|CNPJ da empresa que é proprietária de uma vaga.|
+|idLocalizacao|chave estrangeira, obrigatório|int|-|Identificador da localização de trabalho de uma vaga.|
+
+<figcaption>Tabela 12 - Dicionário de dados da entidade VAGA</figcaption>
+
+#### EMPRESA
+
+Entidade: **EMPRESA**
+
+Descrição: **Define os dados de uma empresa que pode contratar estagiários.**
+
+|  Atributo  | Propriedades do atributo |            Tipo de Dado           |  Tamanho   |                         Descrição                         |
+| :--------: | :--------------------: | :---------------------------------: | :--------: | :-------------------------------------------------------: |
+|cnpj|chave primária, obrigatório|bigint|-|Número do CNPJ de uma empresa.|
+|nomeEmpresa|obrigatório|varchar|100|Nome de uma empresa.|
+|siteEmpresa|obrigatório|varchar|200|Site próprio da empresa.|
+|descricaoEmpresa|obrigatório|varchar|1000|Descrição detalhada de uma empresa.|
+|idLocalizacao|chave estrangeira, obrigatório|int|-|Identificador da localização de uma empresa|
+
+<figcaption>Tabela 13 - Dicionário de dados da entidade EMPRESA</figcaption>
+
+#### LOCALIZACAO
+
+Entidade: **LOCALIZACAO**
+
+Descrição: **Define os dados de uma localização dentro do Brasil.**
+
+|  Atributo  | Propriedades do atributo |            Tipo de Dado           |  Tamanho   |                         Descrição                         |
+| :--------: | :--------------------: | :---------------------------------: | :--------: | :-------------------------------------------------------: |
+|idLocalizacao|chave primária, obrigatório|int|-|Identificador de uma localização.|
+|cidade|obrigatório|varchar|50|Nome de uma cidade de uma localização.|
+|uf|obrigatório|char|2|Sigla do estado de uma localização.|
+
+<figcaption>Tabela 14 - Dicionário de dados da entidade LOCALIZACAO</figcaption>
+
+#### CURSO
+
+Entidade: **CURSO**
+
+Descrição: **Define os dados de um curso, seja universitário ou graus do ensino médio.**
+
+|  Atributo  | Propriedades do atributo |            Tipo de Dado           |  Tamanho   |                         Descrição                         |
+| :--------: | :--------------------: | :---------------------------------: | :--------: | :-------------------------------------------------------: |
+|idCurso|chave primária, obrigatório|int|-|Identificador de um curso.|
+|nomeCurso|obrigatório|varchar|50|Nome de um curso.|
+|idEscolaridade|chave estrangeira, obrigatório|int|-|Identificador de escolaridade de um curso.|
+
+<figcaption>Tabela 15 - Dicionário de dados da entidade CURSO</figcaption>
+
+#### INSTITUICAO
+
+Entidade: **INSTITUICAO**
+
+Descrição: **Define os dados de uma instituição de ensino.**
+
+|  Atributo  | Propriedades do atributo |            Tipo de Dado           |  Tamanho   |                         Descrição                         |
+| :--------: | :--------------------: | :---------------------------------: | :--------: | :-------------------------------------------------------: |
+|idInstituicao|chave primária, obrigatório|int|-|Identificador de uma instituição.|
+|nomeInstituicao|obrigatório|varchar|100|Nome de uma instituição de ensino.|
+|idEscolaridade|chave estrangeira, obrigatório|int|-|Identificador de escolaridade de uma instituição.|
+
+<figcaption>Tabela 16 - Dicionário de dados da entidade INSTITUICAO</figcaption>
+
+#### ESCOLARIDADE
+
+Entidade: **ESCOLARIDADE**
+
+Descrição: **Define os dados de um nível de escolaridade.**
+
+|  Atributo  | Propriedades do atributo |            Tipo de Dado           |  Tamanho   |                         Descrição                         |
+| :--------: | :--------------------: | :---------------------------------: | :--------: | :-------------------------------------------------------: |
+|idEscolaridade|chave primária, obrigatório|int|-|Identificador de uma escolaridade.|
+|nomeEscolaridade|obrigatório|varchar|50|Nome de uma escolaridade.|
+
+<figcaption>Tabela 17 - Dicionário de dados da entidade ESCOLARIDADE</figcaption>
+
+#### CANDIDATO
+
+Entidade: **CANDIDATO**
+
+Descrição: **Define os dados de um estudante candidato a estagiário.**
+
+|  Atributo  | Propriedades do atributo |            Tipo de Dado           |  Tamanho   |                         Descrição                         |
+| :--------: | :--------------------: | :---------------------------------: | :--------: | :-------------------------------------------------------: |
+|cpf|chave primária, obrigatório|int|-|Número do documento de CPF de um candidato.|
+|nomeCompleto|obrigatório|varchar|200|Nome de um candidato.|
+|email|obrigatório|varchar|100|Email de um candidato.|
+|descricaoCandidato|optativo|varchar|1000|Descrição detalhada de um candidato.|
+|curriculo|optativo|blob|-|Arquivo do currículo de um candidato.|
+|idEscolaridade|chave estrangeira, obrigatório|int|-|Identificador da escolaridade de um candidato.|
+|idInstituicao|chave estrangeira, obrigatório|int|-|Identificador da instituição de ensino de um candidato. |
+|idCurso|chave estrangeira, obrigatório|int|-|Identificador do curso de um candidato. |
+|idLocalizacao|chave estrangeira, obrigatório|int|-|Identificador da localização de um candidato. |
+
+<figcaption>Tabela 18 - Dicionário de dados da entidade CANDIDATO</figcaption>
+
+#### deseja
+
+Relacionamento: **deseja**
+
+Descrição: **Define relacionamento que corresponde a um candidato desejar (aplicar a) uma vaga, com cardinalidade _n:m._**
+
+|  Atributo  | Propriedades do atributo |            Tipo de Dado           |  Tamanho   |                         Descrição                         |
+| :--------: | :--------------------: | :---------------------------------: | :--------: | :-------------------------------------------------------: |
+|cpfCandidato|chave estrangeira, obrigatório|int|-|Número do CPF de um candidato.|
+|idVaga|chave estrangeira, obrigatório|int|-|Identificador de uma vaga que um candidato deseja.|
+|dataInicioDeseja|obrigatório|date|-|Data de início de desejo em uma vaga.|
+|dataFimDeseja|optativo|date|-|Data de fim de desejo em uma vaga.|
+
+<figcaption>Tabela 19 - Dicionário de dados do relacionamento deseja</figcaption>
+
 
 ## Qualidade
+
+Além da utilização do padrão <a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/PadroesDeProjeto/PadroesExtras/PadroesExtras/"> MVC</a>, a equipe utilizou padrões <a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/PadroesDeProjeto/GRASPs/GRASPs/"> GRASPs</a> e <a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/PadroesDeProjeto/GOFs/GOFs/"> GOFs</a>.
 
 # Bibliografia
 
@@ -233,3 +466,4 @@ O <a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/Modelagem/ME/Diag
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|07/04/2021|Criação do documento e introdução|Hérya|
+|1.1|08/04/2021|Adição de visão lógica, casos de uso, processos, implementação e dados|Hérya|
