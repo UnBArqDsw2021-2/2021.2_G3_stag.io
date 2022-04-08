@@ -461,6 +461,21 @@ Além da utilização do padrão <a href="https://unbarqdsw2021-2.github.io/2021
 
 # Bibliografia
 
+> - Documento de Arquitetura de Software. Disponível <a href="https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/software_architecture_document_F4C93435.html"> aqui</a>. Acesso em 07 de abril de 2022.
+
+> - SERRANO, Milene. Visão Geral ArqSoft & DAS - Material em Slides. Acesso em 07 de abril de 2022. 
+
+> - Template - DAS . Disponível <a href="https://aprender3.unb.br/pluginfile.php/1558855/mod_label/intro/Software%20Architecture%20Document.doc"> aqui</a>. Acesso em 07 de abril de 2022. 
+
+> - NodeJS - About. Disponível <a href="https://nodejs.org/en/about/"> aqui</a>. Acesso em 07 de abril de 2022. 
+
+> - ExpressJS - Web Applications. Disponível <a href="https://expressjs.com/"> aqui</a>. Acesso em 07 de abril de 2022. 
+
+> - React - Docs. Disponível <a href="https://reactjs.org/docs/getting-started.html"> aqui</a>. Acesso em 07 de abril de 2022. 
+
+> - Diretriz - Visão Arquitetural. Disponível <a href="https://www.trt9.jus.br/pds/pdstrt9/guidances/guidelines/architectural_view_FF6EDA37.html"> aqui</a>. Acesso em 08 de abril de 2022.
+
+
 # Versionamento
 
 Versão | Data | Modificação | Autor(es) |
