@@ -12,6 +12,8 @@ Este Documento de Arquitetura de Software se aplica ao projeto **Stag.io**, dese
 Abreviação | Descrição |
 |--|--|
 |DAS|Documento de Arquitetura de Software|
+|GOF| Gang of Four
+|GRASP|  General Responsibility Assignment Software Patterns
 |MVC|Model–View–Controller|
 |RUP|Rational Unified Process|
 |SQL|Structured Query Language|
@@ -19,6 +21,25 @@ Abreviação | Descrição |
 <figcaption>Tabela 1 - Descrição de abreviações</figcaption>
 
 ## Visão geral
+Esse documento de arquitetura está organizado nos seguintes tópicos:
+
+* Introdução
+    * Objetivo
+    * Escopo
+    * Definições, Acrônimos e Abreviações
+    * Visão geral
+* Metodologia
+    * Representação Arquitetural
+    * Metas e Restrições Arquiteturais
+    * Visão de Casos de Uso
+    * Visão Lógica
+    * Visão de Processos
+    * Visão de Implantação
+    * Visão de Implementação
+    * Visão de Dados
+    * Qualidade
+* Bibliografia
+* Versionamento
 
 # Metodologia
 
@@ -214,7 +235,7 @@ Os<a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/Modelagem/ME/Diag
 O <a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/Modelagem/ME/DiagramaDeClasse/"> Diagrama de Classes</a> é um tipo de modelagem que tem como objetivo mostrar a estrutura de um sistema no nível de classes, ou seja, ele define quais as classes que a aplicação terá, e define as características, restrições e relacionamentos de cada uma dessas classes.
 
 [![Login](../../assets/Modelagem/DiagramaDeClasses/DiagramaDeClasses.png)](../../assets/Modelagem/DiagramaDeClasses/DiagramaDeClasses.png)
-<figcaption>Figura 4: Diagrama de Classes da aplicação</figcaption>
+<figcaption>Figura 4 - Diagrama de Classes da aplicação</figcaption>
 
 ### Diagrama de Comunicação
 
@@ -297,8 +318,19 @@ Figura 12 - Fluxo de Atividade para a empresa acessar os interessados nas suas v
 
 ## Visão de Implantação
 
+A  Visão de Implantação descreve a disponibilização da aplicação para uso. A implantação do produto será realizada em etapas.
+
+### Pipeline de desenvolvimento e implantação
+
+|Incremento ➜➜➜ | Pull Request ➜➜➜ | Integração ➜➜➜ | Deploy |
+|--|--|--|--|
+| - Planejamento</br> - Implementação da funcionalidade</br> - Testes</br>  - Build da aplicação</br> |- Validação do incremento</br> - Aprovação ou refatoração da funcionalidade </br>|- Integração das funcionalidades</br> - Build da aplicação</br>| - Deploy para o ambiente de produção</br> - Disponibilização para usuários</br>|
+<figcaption>Tabela 12 -  Pipeline de desenvolvimento e implantação da aplicação</figcaption>
+
+
 ## Visão de Implementação
- A visão de Implementação descreve uma visão do modelo de implementação, especificado em texto, e visualizado com pacotes e diagramas de componentes.
+ A Visão de Implementação descreve uma visão do modelo de implementação, especificado em texto, e visualizado com pacotes e diagramas de componentes.
+
 
 ### Diagrama de Componentes
 
@@ -346,7 +378,7 @@ Descrição: **Define os dados de uma vaga de estágio sob processo seletivo.**
 |cnpjEmpresa|obrigatório|bigint|-|CNPJ da empresa que é proprietária de uma vaga.|
 |idLocalizacao|chave estrangeira, obrigatório|int|-|Identificador da localização de trabalho de uma vaga.|
 
-<figcaption>Tabela 12 - Dicionário de dados da entidade VAGA</figcaption>
+<figcaption>Tabela 13 - Dicionário de dados da entidade VAGA</figcaption>
 
 #### EMPRESA
 
@@ -362,7 +394,7 @@ Descrição: **Define os dados de uma empresa que pode contratar estagiários.**
 |descricaoEmpresa|obrigatório|varchar|1000|Descrição detalhada de uma empresa.|
 |idLocalizacao|chave estrangeira, obrigatório|int|-|Identificador da localização de uma empresa|
 
-<figcaption>Tabela 13 - Dicionário de dados da entidade EMPRESA</figcaption>
+<figcaption>Tabela 14 - Dicionário de dados da entidade EMPRESA</figcaption>
 
 #### LOCALIZACAO
 
@@ -376,7 +408,7 @@ Descrição: **Define os dados de uma localização dentro do Brasil.**
 |cidade|obrigatório|varchar|50|Nome de uma cidade de uma localização.|
 |uf|obrigatório|char|2|Sigla do estado de uma localização.|
 
-<figcaption>Tabela 14 - Dicionário de dados da entidade LOCALIZACAO</figcaption>
+<figcaption>Tabela 15 - Dicionário de dados da entidade LOCALIZACAO</figcaption>
 
 #### CURSO
 
@@ -390,7 +422,7 @@ Descrição: **Define os dados de um curso, seja universitário ou graus do ensi
 |nomeCurso|obrigatório|varchar|50|Nome de um curso.|
 |idEscolaridade|chave estrangeira, obrigatório|int|-|Identificador de escolaridade de um curso.|
 
-<figcaption>Tabela 15 - Dicionário de dados da entidade CURSO</figcaption>
+<figcaption>Tabela 16 - Dicionário de dados da entidade CURSO</figcaption>
 
 #### INSTITUICAO
 
@@ -404,7 +436,7 @@ Descrição: **Define os dados de uma instituição de ensino.**
 |nomeInstituicao|obrigatório|varchar|100|Nome de uma instituição de ensino.|
 |idEscolaridade|chave estrangeira, obrigatório|int|-|Identificador de escolaridade de uma instituição.|
 
-<figcaption>Tabela 16 - Dicionário de dados da entidade INSTITUICAO</figcaption>
+<figcaption>Tabela 17 - Dicionário de dados da entidade INSTITUICAO</figcaption>
 
 #### ESCOLARIDADE
 
@@ -417,7 +449,7 @@ Descrição: **Define os dados de um nível de escolaridade.**
 |idEscolaridade|chave primária, obrigatório|int|-|Identificador de uma escolaridade.|
 |nomeEscolaridade|obrigatório|varchar|50|Nome de uma escolaridade.|
 
-<figcaption>Tabela 17 - Dicionário de dados da entidade ESCOLARIDADE</figcaption>
+<figcaption>Tabela 18 - Dicionário de dados da entidade ESCOLARIDADE</figcaption>
 
 #### CANDIDATO
 
@@ -437,7 +469,7 @@ Descrição: **Define os dados de um estudante candidato a estagiário.**
 |idCurso|chave estrangeira, obrigatório|int|-|Identificador do curso de um candidato. |
 |idLocalizacao|chave estrangeira, obrigatório|int|-|Identificador da localização de um candidato. |
 
-<figcaption>Tabela 18 - Dicionário de dados da entidade CANDIDATO</figcaption>
+<figcaption>Tabela 19 - Dicionário de dados da entidade CANDIDATO</figcaption>
 
 #### deseja
 
@@ -452,18 +484,18 @@ Descrição: **Define relacionamento que corresponde a um candidato desejar (apl
 |dataInicioDeseja|obrigatório|date|-|Data de início de desejo em uma vaga.|
 |dataFimDeseja|optativo|date|-|Data de fim de desejo em uma vaga.|
 
-<figcaption>Tabela 19 - Dicionário de dados do relacionamento deseja</figcaption>
+<figcaption>Tabela 20 - Dicionário de dados do relacionamento deseja</figcaption>
 
 
 ## Qualidade
 
-Além da utilização do padrão <a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/PadroesDeProjeto/PadroesExtras/PadroesExtras/"> MVC</a>, a equipe utilizou padrões <a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/PadroesDeProjeto/GRASPs/GRASPs/"> GRASPs</a> e <a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/PadroesDeProjeto/GOFs/GOFs/"> GOFs</a>.
+Além da utilização do padrão <a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/PadroesDeProjeto/PadroesExtras/PadroesExtras/"> MVC</a>, a equipe utilizou padrões <a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/PadroesDeProjeto/GRASPs/GRASPs/"> GRASPs</a> e <a href="https://unbarqdsw2021-2.github.io/2021.2_G3_stag.io/PadroesDeProjeto/GOFs/GOFs/"> GOFs</a>. Os  GRASPs representam um conjunto de padrões de projeto, que estão relacionados principalmente com as responsabilidades que as classes possuem em um projeto. Já os GOFs são soluções consolidadas para problemas recorrentes no desenvolvimento e manutenção de um software orientado a objetos. 
 
 # Bibliografia
 
 > - Documento de Arquitetura de Software. Disponível <a href="https://www.cin.ufpe.br/~gta/rup-vc/core.base_rup/guidances/guidelines/software_architecture_document_F4C93435.html"> aqui</a>. Acesso em 07 de abril de 2022.
 
-> - SERRANO, Milene. Visão Geral ArqSoft & DAS - Material em Slides. Acesso em 07 de abril de 2022. 
+> - SERRANO, Milene. Visão Geral ArqSoft & DAS - Material em Slides - DAS. Acesso em 07 de abril de 2022. 
 
 > - Template - DAS . Disponível <a href="https://aprender3.unb.br/pluginfile.php/1558855/mod_label/intro/Software%20Architecture%20Document.doc"> aqui</a>. Acesso em 07 de abril de 2022. 
 
@@ -481,4 +513,5 @@ Além da utilização do padrão <a href="https://unbarqdsw2021-2.github.io/2021
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|07/04/2021|Criação do documento e introdução|Hérya|
-|1.1|08/04/2021|Adição de visão lógica, casos de uso, processos, implementação e dados|Hérya|
+|1.1|08/04/2021|Adição da visão lógica, casos de uso, processos, implementação e dados|Hérya|
+|1.2|08/04/2021|Adição da visão de implantação e visão geral |Hérya|
