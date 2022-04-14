@@ -127,3 +127,4 @@ Cada erro especifica a mensagem de erro, ou seja, existe uma melhor compreensão
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|14/04/22|Criando documento| Ítalo Vinícius|
+|1.1|14/04/22|Listagem das requisições| Álvaro |
