@@ -118,6 +118,8 @@ nav:
   - Arquitetura e Reutilização de Software:
     - Documento de Arquitetura de Software: ArquiteturaEReutilizacao/DAS/DAS.md
     - Reutilização de Software: ArquiteturaEReutilizacao/Reutilizacao/Reutilizacao.md
+    - Iniciativas extras:
+      - Redefinições na Modelagem do Banco de Dados: ArquiteturaEReutilizacao/IE/RedefinicoesBancoDeDados.md
     - Reuniões:
       - Atas:
         - 04/04/2022: ArquiteturaEReutilizacao/Reunioes/Atas/Ata1.md
