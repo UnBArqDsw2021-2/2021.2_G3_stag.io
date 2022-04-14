@@ -49,7 +49,7 @@ Quando as mudanças solicitadas forem resolvidas, o autor deve informar o reviso
 </tbody>
 </table>
 
-<figcaption> Tabela 1 - Divisão das revisões por demandas </figcaption>
+<figcaption> Tabela 1: Divisão das revisões por demandas </figcaption>
 
 # Bibliografia
 
