@@ -80,7 +80,7 @@ A equipe criou uma issue para cada objetivo que deveria ser entregue nesta etapa
 </tbody>
 </table>
 
-<figcaption> Tabela 1 - Definição da primeira sprint </figcaption>
+<figcaption> Tabela 1: Definição da primeira sprint </figcaption>
 
 ## 2° Sprint
 
@@ -126,7 +126,7 @@ A equipe criou uma issue para cada objetivo que deveria ser entregue nesta etapa
 </tbody>
 </table>
 
-<figcaption> Tabela 2 - Definição da segunda sprint </figcaption>
+<figcaption> Tabela 2: Definição da segunda sprint </figcaption>
 
 # Bibliografia
 
