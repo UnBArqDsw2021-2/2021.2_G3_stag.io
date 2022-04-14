@@ -6,9 +6,13 @@ O documento abaixo tem como objetivo descrever quais são os métodos HTTP que f
 
 A partir de um estudo feito por meio do protótipo de alta fidelidade e da modelagem de dados já feitos, inferimos quais seriam os métodos necessários, e por meio da ferramenta Insomnia, desenvolvemos exemplos de requisições que necessitamos no front-end da aplicação.
 
-A API foi desenvolvida por meio da biblioteca Express que é compatível com Javascript e é executada e instalada por meio do ambiente Node.js, utilizamos também a biblioteca Nodemon para rodar uma versão hot-reload das alterações que fizemos, assim não precisaríamos para e executar novamente o comando "npm start", aumentando a produtividade do desenvolvimento.
+A API foi desenvolvida por meio da biblioteca Express que é compatível com Javascript e é executada e instalada por meio do ambiente Node.js, utilizamos também a biblioteca Nodemon para rodar uma versão hot-reload das alterações que fizemos, assim não precisaríamos parar a aplicação e executar novamente o comando "npm start", aumentando a produtividade do desenvolvimento.
 
 Os métodos criado no Express foram:
+(O template utilizado foi:
+- NomeAction: TipoAction
+    - SEND = informações que devem ser enviadas pelo cliente / RETURN = informações que serão retornadas pela API
+        - informação que deve ser mandada ou que será mandada de volta)
 
 - Login: GET
     - SEND:
@@ -128,3 +132,4 @@ Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|14/04/22|Criando documento| Ítalo Vinícius|
 |1.1|14/04/22|Listagem das requisições| Álvaro |
+|1.2|14/04/22|Correções e adição de informações| Álvaro |
