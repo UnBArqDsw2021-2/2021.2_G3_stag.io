@@ -32,6 +32,7 @@ A sprint está sendo mapeada por meio do Zenhub e possui os seguintes objetivos:
 - Fazer a conexão do frontend com o backend;
 - Desenvolver a documentação de Reutilização de Software;
 - Desenvolver a documentação de Iniciativas extras;
+- Fazer a revisão da documentação;
 - Fazer a apresentação final do projeto.
 
 # Metodologia
@@ -79,6 +80,53 @@ A equipe criou uma issue para cada objetivo que deveria ser entregue nesta etapa
 </tbody>
 </table>
 
+<figcaption> Tabela 1 - Definição da primeira sprint </figcaption>
+
+## 2° Sprint
+
+A equipe criou uma issue para cada objetivo que deveria ser entregue nesta etapa do trabalho. Após a separação de todas as issues, os dez integrantes foram separados levando em consideração as equipes formadas na primeira sprint.
+
+<table>
+<thead>
+  <tr>
+    <th>Categoria</th>
+    <th>Tarefa</th>
+    <th>Responsável</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Frontend</td>
+    <td>Conexão de todos os fluxos</td>
+    <td>Hérya Rodrigues, Guilherme de Morais, João Victor Valadão e Nathan Fernandes</td>
+  </tr>
+  <tr>
+    <td>Backend</td>
+    <td>Conexão do frontend com o backend</td>
+    <td>Álvaro Guimarães, Gabriel Avelino, Guilherme Vial, Ian Fillipe, Ítalo Fernandes, Ítalo Vinícius e Nathan Fernandes</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Documentação</td>
+    <td>Iniciativas Extras</td>
+    <td>Álvaro Guimarães, Ian Fillipe e Ítalo Vinícius</td>
+  </tr>
+    <tr>
+      <td>Documentação de Reutilização de Software</td>
+      <td>Hérya Rodrigues e Ian Fillipe</td>
+    </tr>
+    <tr>
+      <td>Revisão dos documentos</td>
+      <td>Todos</td>
+    </tr>
+  <tr>
+    <td>Apresentação</td>
+    <td></td>
+    <td>Todos</td>
+  </tr>
+</tbody>
+</table>
+
+<figcaption> Tabela 2 - Definição da segunda sprint </figcaption>
 
 # Bibliografia
 
@@ -89,3 +137,4 @@ A equipe criou uma issue para cada objetivo que deveria ser entregue nesta etapa
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|11/04/2022|Definição da primeira sprint|Ian Fillipe|
+|1.0|14/04/2022|Definição da segunda sprint|Ian Fillipe|
