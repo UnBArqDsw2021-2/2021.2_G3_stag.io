@@ -30,7 +30,7 @@ Quando as mudanças solicitadas forem resolvidas, o autor deve informar o reviso
   <tr>
     <td rowspan="2">Iniciativas extras</td>
     <td>Redefinição do banco de dados</td>
-    <td>Guilherme de Morais e Guilherme Vial</td>
+    <td>Guilherme de Morais, Guilherme Vial e Ítalo Vinícius</td>
   </tr>
   <tr>
     <td>Documento de requisições</td>
