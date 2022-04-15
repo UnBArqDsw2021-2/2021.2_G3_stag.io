@@ -37,11 +37,11 @@ Dentro da construção do frontend a utilização da Reutilização de Software 
 
 # Bibliografia
 
-> Express - framework de aplicativo da web Node.js. Disponível em: <https://expressjs.com/pt-br/>. Acesso em: 15 de abril de 2022.
+> Express - framework de aplicativo da web Node.js. Disponível em: <https://expressjs.com/pt-br/>. Acesso em: 14 de abril de 2022.
 
-> Felipe Batista. Como converter os dados de uma requisição com o body-parser. Disponível em: <https://medium.com/@febatista107/como-converter-os-dados-de-uma-requisição-com-o-body-parser-2b5b93100f00> . Acesso em: 15 de abril de 2022.
+> Felipe Batista. Como converter os dados de uma requisição com o body-parser. Disponível em: <https://medium.com/@febatista107/como-converter-os-dados-de-uma-requisição-com-o-body-parser-2b5b93100f00> . Acesso em: 14 de abril de 2022.
 
-> React. Disponível em: <https://pt-br.reactjs.org>. Acesso em: 15 de abril de 2022.
+> React. Disponível em: <https://pt-br.reactjs.org>. Acesso em: 14 de abril de 2022.
 
 # Versionamento
 
