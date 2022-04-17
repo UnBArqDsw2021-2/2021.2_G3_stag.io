@@ -516,3 +516,9 @@ Versão | Data | Modificação | Autor(es) |
 |1.1|08/04/2022|Adição da visão lógica, casos de uso, processos, implementação e dados|Hérya|
 |1.2|08/04/2022|Adição da visão de implantação e visão geral |Hérya|
 |1.3|17/04/2022| Revisão de visão de Implantação e Qualidade | Ítalo Fernandes
+|1.4|17/04/2022| Revisão de visão lógica, introdução, visão de dados | Nathan, Guilherme Vial, Guilherme de Morais
+|1.5|17/04/2022| Revisão de visão de implementação | Álvaro
+|1.6|17/04/2022| Revisão de visão de processos e representação arquitetural| Gabriel Avelino, Ian 
+|1.7|17/04/2022| Revisão de Metas e Restrições Arquiteturais|  Ítalo V.
+|1.8|17/04/2022| Revisão de Visão de Casos de Uso| João Victor
+
