@@ -76,10 +76,10 @@ OBS: Não constam Vídeos, na Home Page do Projeto, até o prazo da Terceira Ent
 
 ## Vídeo(s) Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 
-#### [DocumentoDeArquitetura](https://youtu.be/AeRdzPvC81A)
-#### [ReutilizacaoDeSoftware](https://youtu.be/78CjargOrhg)
-#### [IEModelagemDeDados](https://youtu.be/H8tOqjT750Q)
-#### [IERequisicoes](https://youtu.be/xDzCc7-YdiA)
+#### [Documento de Arquitetura](https://youtu.be/AeRdzPvC81A)
+#### [Reutilizacao de Software](https://youtu.be/78CjargOrhg)
+#### [Iniciativas extras e reuniões](https://youtu.be/H8tOqjT750Q)
+#### [Apresentação da aplicação, API e banco de dados](https://youtu.be/xDzCc7-YdiA)
 
 ## Descritivo dos Principais Aspectos Técnicos 
 **Principal(is) Metodologia(s) Adotada(s)**: Scrum e eXtreme Programming<br>
