@@ -137,4 +137,5 @@ A equipe criou uma issue para cada objetivo que deveria ser entregue nesta etapa
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|11/04/2022|Definição da primeira sprint|Ian Fillipe|
-|1.0|14/04/2022|Definição da segunda sprint|Ian Fillipe|
+|1.1|14/04/2022|Definição da segunda sprint|Ian Fillipe|
+|1.2|15/04/2022|Revisão do documento de sprints|Hérya|
