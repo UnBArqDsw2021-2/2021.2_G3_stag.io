@@ -1,6 +1,6 @@
 # Introdução
 
-Esta ata apresenta as informações do que foi feito e abordado entre a equipe referente a primeira reunião, que ocorreu no dia 12/04/2022, da quarta entrega do projeto (Arquitetura de Software & Reutilização de Software).
+Esta ata apresenta as informações do que foi feito e abordado entre a equipe referente a segunda reunião, que ocorreu no dia 12/04/2022, da quarta entrega do projeto (Arquitetura de Software & Reutilização de Software).
 
 # Metodologia
 

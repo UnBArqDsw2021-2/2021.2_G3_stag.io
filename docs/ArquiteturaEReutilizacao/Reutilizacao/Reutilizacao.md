@@ -18,7 +18,7 @@ O _Node.js_ é um ambiente de execução Javascript server-side, ou seja, com el
 
 ### Framework _Express.js_
 
-A framework _Express.js_ que foi utilizamos para otimizar o processo de construção da API da aplicação. Entre as funções desta framework, as principais são:
+O framework _Express.js_ foi utilizado para otimizar o processo de construção da API da aplicação. Entre as funções desta framework, as principais são:
 
 - Possui um sistema de rotas completo;
 - Possibilita o tratamento de exceções dentro da aplicação;
