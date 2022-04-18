@@ -28,4 +28,4 @@ logo, a entidade 'VAGA' ficou da seguinte maneira:
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|14/04/2022|Criação do documento de redefinições do Banco de Dados|Ian Fillipe|
-|1.0|14/04/2022|Revisão do documento de redefinições do Banco de Dados|Gabriel Avelino e Hérya|
+|1.1|15/04/2022|Revisão do documento de redefinições do Banco de Dados|Gabriel Avelino e Hérya|
