@@ -1,0 +1,30 @@
+{
+	"vagas": [
+		{
+			"titulo": "Estágio em Farmácia ",
+			"vaga": "Atividades a serem desenvolvidas: receber, enviar e acompanhar a entrega de pedidos na plataforma; inserir e ajustar dados de medicamentos e produtos de saúde na plataforma; realizar contato com clientes parceiros; auxiliar a realização de visitas técnicas aos clientes parceiros; auxiliar na verificação de receitas médicas; dar suporte às demais atividades da área. Requisitos:Estar cursando a partir do 4º semestre de farmáciaConhecimentos de básico a intermediário de pacote office e ferramentas do google.",
+			"imagem":"https://images.pexels.com/photos/139398/thermometer-headache-pain-pills-139398.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+		},
+		{
+			"titulo": "Estágio em Administração",
+			"vaga": "Atividades a serem desenvolvidas: Apoio à diretoria de vendas em atividades administrativas, tais como: Organização e gestão de documentos; Comunicações com a equipe interna; Elaboração de planilhas. Requisitos: Estar cursando a partir do 2º semestre de administração; Conhecimentos básicos a intermediários de Pacote Office, principalmente excel e word.",
+			"imagem":"https://images.pexels.com/photos/357514/pexels-photo-357514.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+		},
+		{
+			"titulo": "Estágio em Direito",
+			"vaga": "Atividades a serem desenvolvidas: Acompanhar pedidos de esclarecimentos e impugnações aos órgãos públicos; Tirar dúvidas, por e-mail ou pelo sistema de licitação; Fazer a cobrança, junto aos órgãos, caso necessários, antes do pregão; Alimentar o sistema e alertar as analistas acerca das respostas que forem enviadas. Requisitos: Estar cursando 4º Semestre de Direito; Desejável conhecimento no pacote office; Facilidade de trabalhar com sistemas e fazer buscas pela internet",
+			"imagem":"https://media.istockphoto.com/photos/attorney-picture-id1158703224?s=612x612"
+		},
+		{
+			"titulo": "Estágio em Psicologia",
+			"vaga": "Atividades a serem desenvolvidas: Apoio na condução dos processos seletivos; realizando análise curricular; abordagem de candidatos; agendamento de entrevistas; aplicação e correção de testes psicológicos; preenchimento de relatórios e planilha. Requisitos: Conhecimento do Pacote office.",
+			"imagem":"https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+		},
+		{
+			"titulo": "Estágio em Venda",
+			"vaga": "Requisitos: Cursando Ensino superior; Pacote Office básico; Conhecimento em vendas online (e-commerce); Conhecimento em elaborar e alimentar indicadores de vendas online, produtos e clientes.",
+			"imagem":"https://images.pexels.com/photos/2529787/pexels-photo-2529787.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+		}
+
+	]
+}

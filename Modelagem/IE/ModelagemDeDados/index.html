@@ -1,0 +1,3389 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../../assets/icons/logo-white.png">
+      <meta name="generator" content="mkdocs-1.3.0, mkdocs-material-8.2.9">
+    
+    
+      
+        <title>Modelagem de dados - Stag.io</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.120efc48.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.9647289d.min.css">
+        
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#modelagem-de-dados" class="md-skip">
+          Ir para o conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../../.." title="Stag.io" class="md-header__button md-logo" aria-label="Stag.io" data-md-component="logo">
+      
+  <img src="../../../assets/icons/logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Stag.io
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Modelagem de dados
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Limpar" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando a pesquisa
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/UnBArqDsw2021-2/2021.2_G3_stag.io" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Stag.io
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Abas" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../.." class="md-tabs__link">
+      Início
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../Base/PNOAE/DesignSprint/Documento/" class="md-tabs__link">
+        Base
+      </a>
+    </li>
+  
+
+  
+
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../ME/DiagramaDeClasse/" class="md-tabs__link md-tabs__link--active">
+        Modelagem
+      </a>
+    </li>
+  
+
+  
+
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../PadroesDeProjeto/GRASPs/GRASPs/" class="md-tabs__link">
+        Padrões de projeto
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../ArquiteturaEReutilizacao/DAS/DAS/" class="md-tabs__link">
+        Arquitetura e Reutilização de Software
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Stag.io" class="md-nav__button md-logo" aria-label="Stag.io" data-md-component="logo">
+      
+  <img src="../../../assets/icons/logo.png" alt="logo">
+
+    </a>
+    Stag.io
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/UnBArqDsw2021-2/2021.2_G3_stag.io" title="Ir ao repositório" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Stag.io
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Início
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Base
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Base" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Base
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1" type="checkbox" id="__nav_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1">
+          Projeto Não Orientado a Abordagens Específicas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Projeto Não Orientado a Abordagens Específicas" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Projeto Não Orientado a Abordagens Específicas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1" type="checkbox" id="__nav_2_1_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1">
+          Design Sprint
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Design Sprint" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Design Sprint
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PNOAE/DesignSprint/Documento/" class="md-nav__link">
+        Documento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_1_2" type="checkbox" id="__nav_2_1_1_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_1_2">
+          Prototipação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Prototipação" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Prototipação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PNOAE/DesignSprint/Prototipacao/PrototipoBaixaFidelidade/" class="md-nav__link">
+        Protótipo de Baixa Fidelidade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PNOAE/DesignSprint/Prototipacao/PlanejAvalProtAltaFidelidade/" class="md-nav__link">
+        Planejamento da Avaliação do Protótipo de Alta Fidelidade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PNOAE/DesignSprint/Prototipacao/AvalProtAltaFidelidade/" class="md-nav__link">
+        Resultados da Avaliação do Protótipo de Alta Fidelidade
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PNOAE/DesignSprint/Prototipacao/PrototipoAltaFidelidade/" class="md-nav__link">
+        Protótipo de Alta Fidelidade
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_2" type="checkbox" id="__nav_2_1_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_2">
+          Requisitos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Requisitos" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Requisitos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_2_1" type="checkbox" id="__nav_2_1_2_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_2_1">
+          Pré-Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Pré-Rastreabilidade" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_2_1">
+          <span class="md-nav__icon md-icon"></span>
+          Pré-Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PNOAE/Requisitos/PreRastreabilidade/5W2H/" class="md-nav__link">
+        5W2H
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PNOAE/Requisitos/PreRastreabilidade/MapaMental/" class="md-nav__link">
+        Mapa Mental
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PNOAE/Requisitos/PreRastreabilidade/RichPicture/" class="md-nav__link">
+        Rich Picture
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PNOAE/Requisitos/PreRastreabilidade/CausaEfeito/" class="md-nav__link">
+        Causa e Efeito
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_2_2" type="checkbox" id="__nav_2_1_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_2_2">
+          Rastreabilidade
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Rastreabilidade" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Rastreabilidade
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PNOAE/Requisitos/Rastreabilidade/MatrizRastreabilidade/" class="md-nav__link">
+        Matriz de Rastreabilidade
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_2_3" type="checkbox" id="__nav_2_1_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_2_3">
+          Elicitação
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Elicitação" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Elicitação
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PNOAE/Requisitos/Elicitacao/Brainstorming/" class="md-nav__link">
+        Brainstorming
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PNOAE/Requisitos/Elicitacao/StoryBoards/" class="md-nav__link">
+        StoryBoards
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PNOAE/Requisitos/Elicitacao/Introspeccao/" class="md-nav__link">
+        Introspecção
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_2_4" type="checkbox" id="__nav_2_1_2_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_2_4">
+          Priorização
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Priorização" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Priorização
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PNOAE/Requisitos/Priorizacao/Moscow/" class="md-nav__link">
+        MoSCoW
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_1_2_5" type="checkbox" id="__nav_2_1_2_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_1_2_5">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Modelagem" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_1_2_5">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PNOAE/Requisitos/Modelagem/EspecificacaoSuplementar/" class="md-nav__link">
+        Especificação Suplementar
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PNOAE/Requisitos/Modelagem/Lexico/" class="md-nav__link">
+        Léxico
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Processos, Metodologias e Abordagens
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Processos, Metodologias e Abordagens" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Processos, Metodologias e Abordagens
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PMA/Metodologia/" class="md-nav__link">
+        Metodologia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/PMA/ModelagemBPMN/" class="md-nav__link">
+        Modelagem BPMN
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Iniciativas Extras
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Iniciativas Extras" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Iniciativas Extras
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_1" type="checkbox" id="__nav_2_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_1">
+          Backlog do Produto
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Backlog do Produto" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Backlog do Produto
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_1_1" type="checkbox" id="__nav_2_3_1_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_1_1">
+          Histórias de Usuário
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Histórias de Usuário" data-md-level="4">
+        <label class="md-nav__title" for="__nav_2_3_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Histórias de Usuário
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/IE/BacklogProduto/HistoriasUsuario/Metodologia/" class="md-nav__link">
+        Metodologia
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_1_1_2" type="checkbox" id="__nav_2_3_1_1_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_1_1_2">
+          Épicos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Épicos" data-md-level="5">
+        <label class="md-nav__title" for="__nav_2_3_1_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Épicos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/IE/BacklogProduto/HistoriasUsuario/Epicos/Epico00/" class="md-nav__link">
+        Épico 00
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/IE/BacklogProduto/HistoriasUsuario/Epicos/Epico01/" class="md-nav__link">
+        Épico 01
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/IE/BacklogProduto/HistoriasUsuario/Epicos/Epico02/" class="md-nav__link">
+        Épico 02
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/IE/BacklogProduto/HistoriasUsuario/Epicos/Epico03/" class="md-nav__link">
+        Épico 03
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/IE/BacklogProduto/HistoriasUsuario/Epicos/Epico04/" class="md-nav__link">
+        Épico 04
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/IE/BacklogProduto/HistoriasUsuario/Epicos/Epico05/" class="md-nav__link">
+        Épico 05
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_2" type="checkbox" id="__nav_2_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_2">
+          Riscos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Riscos" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Riscos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/IE/Riscos/TAP/" class="md-nav__link">
+        TAP
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/IE/Riscos/PlanoGerenciamentoRisco/" class="md-nav__link">
+        Plano de Gerenciamento de Risco
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/IE/Personas/" class="md-nav__link">
+        Personas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/IE/ValorCustoRisco/" class="md-nav__link">
+        Valor, Custo e Risco
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4" type="checkbox" id="__nav_2_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4">
+          Reuniões
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reuniões" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_4">
+          <span class="md-nav__icon md-icon"></span>
+          Reuniões
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_1" type="checkbox" id="__nav_2_4_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4_1">
+          Atas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Atas" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Atas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/Reunioes/Atas/Ata1/" class="md-nav__link">
+        21/01/2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/Reunioes/Atas/Ata2/" class="md-nav__link">
+        24/01/2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/Reunioes/Atas/Ata3/" class="md-nav__link">
+        25/01/2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/Reunioes/Atas/Ata4/" class="md-nav__link">
+        26/01/2022
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_4_2" type="checkbox" id="__nav_2_4_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_4_2">
+          Sprint
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/Reunioes/Sprint/Planejamento/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/Reunioes/Sprint/Revisao/" class="md-nav__link">
+        Revisão
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Base/Apresentacao/" class="md-nav__link">
+        Apresentação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Modelagem
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Modelagem" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1">
+          Projeto orientado a abordagens tradicionais
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Projeto orientado a abordagens tradicionais" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Projeto orientado a abordagens tradicionais
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_1" type="checkbox" id="__nav_3_1_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_1">
+          Notação UML - Diagramas estáticos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Notação UML - Diagramas estáticos" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_1">
+          <span class="md-nav__icon md-icon"></span>
+          Notação UML - Diagramas estáticos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ME/DiagramaDeClasse/" class="md-nav__link">
+        Diagrama de Classes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ME/DiagramaDePacotes/" class="md-nav__link">
+        Diagrama de Pacotes
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ME/DiagramaDeComponentes/" class="md-nav__link">
+        Diagrama de Componentes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_2" type="checkbox" id="__nav_3_1_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_2">
+          Notação UML - Diagramas dinâmicos
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Notação UML - Diagramas dinâmicos" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_2">
+          <span class="md-nav__icon md-icon"></span>
+          Notação UML - Diagramas dinâmicos
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../MD/DiagramaDeSequencia/" class="md-nav__link">
+        Diagrama de Sequência
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../MD/DiagramaDeComunicacao/" class="md-nav__link">
+        Diagrama de Comunicação
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../MD/DiagramaDeAtividades/" class="md-nav__link">
+        Diagrama de Atividades
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../MD/DiagramaDeEstados/" class="md-nav__link">
+        Diagrama de Estados
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1_3" type="checkbox" id="__nav_3_1_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_1_3">
+          Modelagem ágil
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Modelagem ágil" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_1_3">
+          <span class="md-nav__icon md-icon"></span>
+          Modelagem ágil
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../MA/backlog/" class="md-nav__link">
+        Backlog do produto
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../MA/CriteriosDeAceitacao/" class="md-nav__link">
+        Critérios de aceitação do backlog do produto
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_2">
+          Iniciativas extras
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Iniciativas extras" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Iniciativas extras
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../CasosDeUso/" class="md-nav__link">
+        Casos de uso
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Modelagem de dados
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Modelagem de dados
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelo-entidade-relacionamento-me-r" class="md-nav__link">
+    Modelo Entidade-Relacionamento (ME-R)
+  </a>
+  
+    <nav class="md-nav" aria-label="Modelo Entidade-Relacionamento (ME-R)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entidades" class="md-nav__link">
+    Entidades
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atributos" class="md-nav__link">
+    Atributos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacionamentos" class="md-nav__link">
+    Relacionamentos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-entidade-relacionamento-de-r" class="md-nav__link">
+    Diagrama Entidade-Relacionamento (DE-R)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-logico-de-dados-dld" class="md-nav__link">
+    Diagrama Lógico de Dados (DLD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dicionario-de-dados" class="md-nav__link">
+    Dicionário de Dados
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3" type="checkbox" id="__nav_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3">
+          Reuniões
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reuniões" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          Reuniões
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_1" type="checkbox" id="__nav_3_3_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_1">
+          Atas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Atas" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Atas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Reunioes/Atas/Ata1/" class="md-nav__link">
+        11/02/2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Reunioes/Atas/Ata2/" class="md-nav__link">
+        17/02/2022
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_3_2" type="checkbox" id="__nav_3_3_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3_3_2">
+          Sprint
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Reunioes/Sprint/Planejamento/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Reunioes/Sprint/Revisao/" class="md-nav__link">
+        Revisão
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Apresentacao/" class="md-nav__link">
+        Apresentação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Padrões de projeto
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Padrões de projeto" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Padrões de projeto
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PadroesDeProjeto/GRASPs/GRASPs/" class="md-nav__link">
+        GRASPs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_2" type="checkbox" id="__nav_4_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_2">
+          GOFs
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="GOFs" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          GOFs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PadroesDeProjeto/GOFs/GOFs/" class="md-nav__link">
+        Padrões utilizados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PadroesDeProjeto/GOFs/PadroesNaoUtilizados/" class="md-nav__link">
+        Padrões não utilizados
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PadroesDeProjeto/PadroesExtras/PadroesExtras/" class="md-nav__link">
+        Padrões Extras
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_4" type="checkbox" id="__nav_4_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_4">
+          Iniciativas extras
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Iniciativas extras" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_4">
+          <span class="md-nav__icon md-icon"></span>
+          Iniciativas extras
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PadroesDeProjeto/IE/GuiaDeEstilo/" class="md-nav__link">
+        Guia de estilo
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_5" type="checkbox" id="__nav_4_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_5">
+          Reuniões
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reuniões" data-md-level="2">
+        <label class="md-nav__title" for="__nav_4_5">
+          <span class="md-nav__icon md-icon"></span>
+          Reuniões
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_5_1" type="checkbox" id="__nav_4_5_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_5_1">
+          Atas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Atas" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_5_1">
+          <span class="md-nav__icon md-icon"></span>
+          Atas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PadroesDeProjeto/Reunioes/Atas/Ata1/" class="md-nav__link">
+        11/03/2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PadroesDeProjeto/Reunioes/Atas/Ata2/" class="md-nav__link">
+        14/03/2022
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4_5_2" type="checkbox" id="__nav_4_5_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4_5_2">
+          Sprint
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint" data-md-level="3">
+        <label class="md-nav__title" for="__nav_4_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PadroesDeProjeto/Reunioes/Sprint/Planejamento/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PadroesDeProjeto/Reunioes/Sprint/Revisao/" class="md-nav__link">
+        Revisão
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PadroesDeProjeto/Reunioes/Sprint/Relatorio/" class="md-nav__link">
+        Relatórios Zenhub
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../PadroesDeProjeto/Apresentacao/" class="md-nav__link">
+        Apresentação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Arquitetura e Reutilização de Software
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Arquitetura e Reutilização de Software" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Arquitetura e Reutilização de Software
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ArquiteturaEReutilizacao/DAS/DAS/" class="md-nav__link">
+        Documento de Arquitetura de Software
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ArquiteturaEReutilizacao/Reutilizacao/Reutilizacao/" class="md-nav__link">
+        Reutilização de Software
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_3" type="checkbox" id="__nav_5_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_3">
+          Iniciativas extras
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Iniciativas extras" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          Iniciativas extras
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ArquiteturaEReutilizacao/IE/RedefinicoesBancoDeDados/" class="md-nav__link">
+        Redefinições na Modelagem do Banco de Dados
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ArquiteturaEReutilizacao/IE/RequisicoesAPI/" class="md-nav__link">
+        Requisições HTTP e API
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4" type="checkbox" id="__nav_5_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_4">
+          Reuniões
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reuniões" data-md-level="2">
+        <label class="md-nav__title" for="__nav_5_4">
+          <span class="md-nav__icon md-icon"></span>
+          Reuniões
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4_1" type="checkbox" id="__nav_5_4_1" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_4_1">
+          Atas
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Atas" data-md-level="3">
+        <label class="md-nav__title" for="__nav_5_4_1">
+          <span class="md-nav__icon md-icon"></span>
+          Atas
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ArquiteturaEReutilizacao/Reunioes/Atas/Ata1/" class="md-nav__link">
+        04/04/2022
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ArquiteturaEReutilizacao/Reunioes/Atas/Ata2/" class="md-nav__link">
+        12/04/2022
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5_4_2" type="checkbox" id="__nav_5_4_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5_4_2">
+          Sprint
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Sprint" data-md-level="3">
+        <label class="md-nav__title" for="__nav_5_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Sprint
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ArquiteturaEReutilizacao/Reunioes/Sprint/Planejamento/" class="md-nav__link">
+        Planejamento
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ArquiteturaEReutilizacao/Reunioes/Sprint/Revisao/" class="md-nav__link">
+        Revisão
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../ArquiteturaEReutilizacao/Apresentacao/" class="md-nav__link">
+        Apresentação
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introducao" class="md-nav__link">
+    Introdução
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelo-entidade-relacionamento-me-r" class="md-nav__link">
+    Modelo Entidade-Relacionamento (ME-R)
+  </a>
+  
+    <nav class="md-nav" aria-label="Modelo Entidade-Relacionamento (ME-R)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#entidades" class="md-nav__link">
+    Entidades
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#atributos" class="md-nav__link">
+    Atributos
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#relacionamentos" class="md-nav__link">
+    Relacionamentos
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-entidade-relacionamento-de-r" class="md-nav__link">
+    Diagrama Entidade-Relacionamento (DE-R)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#diagrama-logico-de-dados-dld" class="md-nav__link">
+    Diagrama Lógico de Dados (DLD)
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dicionario-de-dados" class="md-nav__link">
+    Dicionário de Dados
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+  <a href="https://github.com/UnBArqDsw2021-2/2021.2_G3_stag.io/edit/master/docs/Modelagem/IE/ModelagemDeDados.md" title="Editar esta página" class="md-content__button md-icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+
+<h1 id="modelagem-de-dados">Modelagem de Dados</h1>
+<h2 id="introducao">Introdução</h2>
+<p>A modelagem de dados é um processo muito importante do desenvolvimento de um software, pois está relacionado com a demonstração de como serão construídas as estruturas de dados que darão suporte aos processos de negócio, e como esses dados estarão organizados e quais relacionamentos podemos estabelecer entre eles. O principal papel da modelagem é descrever a abstração, que é o processo de trazer para o mundo digital as informações e requisitos que os clientes propuseram no mundo real, de modo a absorver o negócio de forma suficiente.</p>
+<p>Essa modelagem é dividida entre conceitual, lógica e física. Neste documento, focaremos em demonstrar as duas primeiras etapas, a conceitual, com a documentação do Diagrama Entidade-Relacionamento, e a lógica, com o Diagrama Lógico de Dados e o Dicionário de Dados para complementá-lo.</p>
+<h2 id="modelo-entidade-relacionamento-me-r">Modelo Entidade-Relacionamento (ME-R)</h2>
+<p>Neste nível são levantadas as entidades, que buscam representar objetos da vida real, os atributos, que são suas características e os relacionamentos, que são o que faz associação entre uma e outra entidade (representando a relação entre esses objetos no mundo real), possuindo cada um sua própria cardinalidade.</p>
+<h3 id="entidades">Entidades</h3>
+<ul>
+<li><b>VAGA</b></li>
+<li><b>EMPRESA</b></li>
+<li><b>CANDIDATO</b></li>
+<li><b>LOCALIZACAO</b></li>
+<li><b>CURSO</b></li>
+<li><b>INSTITUICAO</b></li>
+<li><b>ESCOLARIDADE</b></li>
+</ul>
+<h3 id="atributos">Atributos</h3>
+<ul>
+<li><b>VAGA</b> (<u>idVaga</u>, tituloVaga, descricaoVaga, modeloTrabalho, cargaHoraria, requisitos, privilegios, bolsa, siteVaga, status, cnpjEmpresa, idLocalizacao)</li>
+<li><b>EMPRESA</b> (<u>cnpj</u>, nomeEmpresa, siteEmpresa, descricaoEmpresa, idLocalizacao)</li>
+<li><b>CANDIDATO</b> (<u>cpf</u>, nomeCompleto, email, descricaoCandidato, curriculo, idEscolaridade, idInstituicao, idCurso, idLocalizacao)</li>
+<li><b>LOCALIZACAO</b> (<u>idLocalizacao</u>, cidade, uf)</li>
+<li><b>CURSO</b> (<u>idCurso</u>, nomeCurso, idEscolaridade)</li>
+<li><b>INSTITUICAO</b> (<u>idInstituicao</u>, nomeInstituicao, idEscolaridade)</li>
+<li><b>ESCOLARIDADE</b> (<u>idEscolaridade</u>, nomeEscolaridade)</li>
+</ul>
+<h3 id="relacionamentos">Relacionamentos</h3>
+<ul>
+<li><b>CANDIDATO</b> deseja <b>VAGA</b> - Um <b>CANDIDATO</b> deseja uma ou várias <b>VAGA</b>, e uma <b>VAGA</b> é desejada por um ou vários <b>CANDIDATO</b>. Cardinalidade: <b>n:m</b>.</li>
+<li><b>VAGA</b> possui <b>LOCALIZACAO</b> - Uma <b>VAGA</b> possui uma <b>LOCALIZACAO</b>, e uma <b>LOCALIZACAO</b> é possuída por uma ou várias <b>VAGA</b>. Cardinalidade: <b>n:1</b>.</li>
+<li><b>EMPRESA</b> possui <b>LOCALIZACAO</b> - Uma <b>EMPRESA</b> possui uma <b>LOCALIZACAO</b>, e uma <b>LOCALIZACAO</b> é possuída por uma ou várias <b>EMPRESA</b>. Cardinalidade: <b>n:1</b>.</li>
+<li><b>CANDIDATO</b> vive <b>LOCALIZACAO</b> - Um <b>CANDIDATO</b> vive em uma <b>LOCALIZACAO</b>, e uma <b>LOCALIZACAO</b> é vivida por um ou vários <b>CANDIDATO</b>. Cardinalidade: <b>n:1</b>.</li>
+<li><b>EMPRESA</b> mantém <b>VAGA</b> - Uma <b>EMPRESA</b> mantém uma ou várias <b>VAGA</b>, e uma <b>VAGA</b> é mantida por uma <b>EMPRESA</b>. Cardinalidade: <b>1:n</b>.</li>
+<li><b>CANDIDATO</b> possui <b>ESCOLARIDADE</b> - Um <b>CANDIDATO</b> possui uma <b>ESCOLARIDADE</b>, e uma <b>ESCOLARIDADE</b> é possuída por um ou vários <b>CANDIDATO</b>. Cardinalidade: <b>n:1</b>. </li>
+<li><b>CANDIDATO</b> estuda <b>INSTITUICAO</b> - Um <b>CANDIDATO</b> estuda em uma <b>INSTITUICAO</b>, e uma <b>INSTITUICAO</b> é onde estuda um ou vários <b>CANDIDATO</b>. Cardinalidade: <b>n:1</b>.</li>
+<li><b>CANDIDATO</b> cursa <b>CURSO</b> - Um <b>CANDIDATO</b> cursa um <b>CURSO</b>, e um <b>CURSO</b> é cursado por um ou vários <b>CANDIDATO</b>. Cardinalidade: <b>n:1</b>.</li>
+<li><b>CURSO</b> possui <b>ESCOLARIDADE</b> - Um <b>CURSO</b> possui uma <b>ESCOLARIDADE</b>, e uma <b>ESCOLARIDADE</b> é possuída por um ou vários <b>CURSO</b>. Cardinalidade: <b>n:1</b>.</li>
+</ul>
+<h2 id="diagrama-entidade-relacionamento-de-r">Diagrama Entidade-Relacionamento (DE-R)</h2>
+<p><a href="../../../assets/Modelagem/ModelagemDeDados/der.png"><img alt="Login" src="../../../assets/Modelagem/ModelagemDeDados/der.png" /></a>
+<center>Figura 1: Diagrama Entidade-Relacionamento</center></p>
+<h2 id="diagrama-logico-de-dados-dld">Diagrama Lógico de Dados (DLD)</h2>
+<p><a href="../../../assets/Modelagem/ModelagemDeDados/dld.png"><img alt="Login" src="../../../assets/Modelagem/ModelagemDeDados/dld.png" /></a>
+<center>Figura 2: Diagrama Lógico de Dados</center></p>
+<h2 id="dicionario-de-dados">Dicionário de Dados</h2>
+<p>Entidade: <strong>VAGA</strong></p>
+<p>Descrição: <strong>Define os dados de uma vaga de estágio sob processo seletivo.</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">Atributo</th>
+<th align="center">Propriedades do atributo</th>
+<th align="center">Tipo de Dado</th>
+<th align="center">Tamanho</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">idVaga</td>
+<td align="center">chave primária, obrigatório</td>
+<td align="center">int</td>
+<td align="center">-</td>
+<td align="center">Identificador de uma vaga.</td>
+</tr>
+<tr>
+<td align="center">tituloVaga</td>
+<td align="center">obrigatório</td>
+<td align="center">varchar</td>
+<td align="center">50</td>
+<td align="center">Título reduzido de uma vaga.</td>
+</tr>
+<tr>
+<td align="center">descricaoVaga</td>
+<td align="center">obrigatório</td>
+<td align="center">varchar</td>
+<td align="center">1000</td>
+<td align="center">Descrição detalhada de uma vaga.</td>
+</tr>
+<tr>
+<td align="center">modeloTrabalho</td>
+<td align="center">obrigatório</td>
+<td align="center">enum(‘Presencial’,’Remoto’,’Híbrido’)</td>
+<td align="center">-</td>
+<td align="center">Modelo de trabalho, sendo dividido entre presencial, remoto e híbrido.</td>
+</tr>
+<tr>
+<td align="center">cargaHoraria</td>
+<td align="center">obrigatório</td>
+<td align="center">int</td>
+<td align="center">-</td>
+<td align="center">Carga horária de trabalho de uma vaga.</td>
+</tr>
+<tr>
+<td align="center">requisitos</td>
+<td align="center">obrigatório</td>
+<td align="center">varchar</td>
+<td align="center">1000</td>
+<td align="center">Requisitos solicitados por uma vaga.</td>
+</tr>
+<tr>
+<td align="center">privilegios</td>
+<td align="center">obrigatório</td>
+<td align="center">varchar</td>
+<td align="center">1000</td>
+<td align="center">Privilégios concedidos por uma vaga.</td>
+</tr>
+<tr>
+<td align="center">bolsa</td>
+<td align="center">obrigatório</td>
+<td align="center">decimal</td>
+<td align="center">6,2</td>
+<td align="center">Valor monetário da bolsa concedida pela vaga.</td>
+</tr>
+<tr>
+<td align="center">siteVaga</td>
+<td align="center">obrigatório</td>
+<td align="center">varchar</td>
+<td align="center">200</td>
+<td align="center">Site em que está hospedado o processo da vaga.</td>
+</tr>
+<tr>
+<td align="center">status</td>
+<td align="center">obrigatório</td>
+<td align="center">boolean</td>
+<td align="center">-</td>
+<td align="center">Situação de uma vaga, sendo “true” = ativada e “false” = inativada.</td>
+</tr>
+<tr>
+<td align="center">cnpjEmpresa</td>
+<td align="center">obrigatório</td>
+<td align="center">bigint</td>
+<td align="center">-</td>
+<td align="center">CNPJ da empresa que é proprietária de uma vaga.</td>
+</tr>
+<tr>
+<td align="center">idLocalizacao</td>
+<td align="center">chave estrangeira, obrigatório</td>
+<td align="center">int</td>
+<td align="center">-</td>
+<td align="center">Identificador da localização de trabalho de uma vaga.</td>
+</tr>
+</tbody>
+</table>
+<p>Entidade: <strong>EMPRESA</strong></p>
+<p>Descrição: <strong>Define os dados de uma empresa que pode contratar estagiários.</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">Atributo</th>
+<th align="center">Propriedades do atributo</th>
+<th align="center">Tipo de Dado</th>
+<th align="center">Tamanho</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">cnpj</td>
+<td align="center">chave primária, obrigatório</td>
+<td align="center">bigint</td>
+<td align="center">-</td>
+<td align="center">Número do CNPJ de uma empresa.</td>
+</tr>
+<tr>
+<td align="center">nomeEmpresa</td>
+<td align="center">obrigatório</td>
+<td align="center">varchar</td>
+<td align="center">100</td>
+<td align="center">Nome de uma empresa.</td>
+</tr>
+<tr>
+<td align="center">siteEmpresa</td>
+<td align="center">obrigatório</td>
+<td align="center">varchar</td>
+<td align="center">200</td>
+<td align="center">Site próprio da empresa.</td>
+</tr>
+<tr>
+<td align="center">descricaoEmpresa</td>
+<td align="center">obrigatório</td>
+<td align="center">varchar</td>
+<td align="center">1000</td>
+<td align="center">Descrição detalhada de uma empresa.</td>
+</tr>
+<tr>
+<td align="center">idLocalizacao</td>
+<td align="center">chave estrangeira, obrigatório</td>
+<td align="center">int</td>
+<td align="center">-</td>
+<td align="center">Identificador da localização de uma empresa</td>
+</tr>
+</tbody>
+</table>
+<p>Entidade: <strong>LOCALIZACAO</strong></p>
+<p>Descrição: <strong>Define os dados de uma localização dentro do Brasil.</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">Atributo</th>
+<th align="center">Propriedades do atributo</th>
+<th align="center">Tipo de Dado</th>
+<th align="center">Tamanho</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">idLocalizacao</td>
+<td align="center">chave primária, obrigatório</td>
+<td align="center">int</td>
+<td align="center">-</td>
+<td align="center">Identificador de uma localização.</td>
+</tr>
+<tr>
+<td align="center">cidade</td>
+<td align="center">obrigatório</td>
+<td align="center">varchar</td>
+<td align="center">50</td>
+<td align="center">Nome de uma cidade de uma localização.</td>
+</tr>
+<tr>
+<td align="center">uf</td>
+<td align="center">obrigatório</td>
+<td align="center">char</td>
+<td align="center">2</td>
+<td align="center">Sigla do estado de uma localização.</td>
+</tr>
+</tbody>
+</table>
+<p>Entidade: <strong>CURSO</strong></p>
+<p>Descrição: <strong>Define os dados de um curso, seja universitário ou graus do ensino médio.</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">Atributo</th>
+<th align="center">Propriedades do atributo</th>
+<th align="center">Tipo de Dado</th>
+<th align="center">Tamanho</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">idCurso</td>
+<td align="center">chave primária, obrigatório</td>
+<td align="center">int</td>
+<td align="center">-</td>
+<td align="center">Identificador de um curso.</td>
+</tr>
+<tr>
+<td align="center">nomeCurso</td>
+<td align="center">obrigatório</td>
+<td align="center">varchar</td>
+<td align="center">50</td>
+<td align="center">Nome de um curso.</td>
+</tr>
+<tr>
+<td align="center">idEscolaridade</td>
+<td align="center">chave estrangeira, obrigatório</td>
+<td align="center">int</td>
+<td align="center">-</td>
+<td align="center">Identificador de escolaridade de um curso.</td>
+</tr>
+</tbody>
+</table>
+<p>Entidade: <strong>INSTITUICAO</strong></p>
+<p>Descrição: <strong>Define os dados de uma instituição de ensino.</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">Atributo</th>
+<th align="center">Propriedades do atributo</th>
+<th align="center">Tipo de Dado</th>
+<th align="center">Tamanho</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">idInstituicao</td>
+<td align="center">chave primária, obrigatório</td>
+<td align="center">int</td>
+<td align="center">-</td>
+<td align="center">Identificador de uma instituição.</td>
+</tr>
+<tr>
+<td align="center">nomeInstituicao</td>
+<td align="center">obrigatório</td>
+<td align="center">varchar</td>
+<td align="center">100</td>
+<td align="center">Nome de uma instituição de ensino.</td>
+</tr>
+<tr>
+<td align="center">idEscolaridade</td>
+<td align="center">chave estrangeira, obrigatório</td>
+<td align="center">int</td>
+<td align="center">-</td>
+<td align="center">Identificador de escolaridade de uma instituição.</td>
+</tr>
+</tbody>
+</table>
+<p>Entidade: <strong>ESCOLARIDADE</strong></p>
+<p>Descrição: <strong>Define os dados de um nível de escolaridade.</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">Atributo</th>
+<th align="center">Propriedades do atributo</th>
+<th align="center">Tipo de Dado</th>
+<th align="center">Tamanho</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">idEscolaridade</td>
+<td align="center">chave primária, obrigatório</td>
+<td align="center">int</td>
+<td align="center">-</td>
+<td align="center">Identificador de uma escolaridade.</td>
+</tr>
+<tr>
+<td align="center">nomeEscolaridade</td>
+<td align="center">obrigatório</td>
+<td align="center">varchar</td>
+<td align="center">50</td>
+<td align="center">Nome de uma escolaridade.</td>
+</tr>
+</tbody>
+</table>
+<p>Entidade: <strong>CANDIDATO</strong></p>
+<p>Descrição: <strong>Define os dados de um estudante candidato a estagiário.</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">Atributo</th>
+<th align="center">Propriedades do atributo</th>
+<th align="center">Tipo de Dado</th>
+<th align="center">Tamanho</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">cpf</td>
+<td align="center">chave primária, obrigatório</td>
+<td align="center">int</td>
+<td align="center">-</td>
+<td align="center">Número do documento de CPF de um candidato.</td>
+</tr>
+<tr>
+<td align="center">nomeCompleto</td>
+<td align="center">obrigatório</td>
+<td align="center">varchar</td>
+<td align="center">200</td>
+<td align="center">Nome de um candidato.</td>
+</tr>
+<tr>
+<td align="center">email</td>
+<td align="center">obrigatório</td>
+<td align="center">varchar</td>
+<td align="center">100</td>
+<td align="center">Email de um candidato.</td>
+</tr>
+<tr>
+<td align="center">descricaoCandidato</td>
+<td align="center">optativo</td>
+<td align="center">varchar</td>
+<td align="center">1000</td>
+<td align="center">Descrição detalhada de um candidato.</td>
+</tr>
+<tr>
+<td align="center">curriculo</td>
+<td align="center">optativo</td>
+<td align="center">blob</td>
+<td align="center">-</td>
+<td align="center">Arquivo do currículo de um candidato.</td>
+</tr>
+<tr>
+<td align="center">idEscolaridade</td>
+<td align="center">chave estrangeira, obrigatório</td>
+<td align="center">int</td>
+<td align="center">-</td>
+<td align="center">Identificador da escolaridade de um candidato.</td>
+</tr>
+<tr>
+<td align="center">idInstituicao</td>
+<td align="center">chave estrangeira, obrigatório</td>
+<td align="center">int</td>
+<td align="center">-</td>
+<td align="center">Identificador da instituição de ensino de um candidato.</td>
+</tr>
+<tr>
+<td align="center">idCurso</td>
+<td align="center">chave estrangeira, obrigatório</td>
+<td align="center">int</td>
+<td align="center">-</td>
+<td align="center">Identificador do curso de um candidato.</td>
+</tr>
+<tr>
+<td align="center">idLocalizacao</td>
+<td align="center">chave estrangeira, obrigatório</td>
+<td align="center">int</td>
+<td align="center">-</td>
+<td align="center">Identificador da localização de um candidato.</td>
+</tr>
+</tbody>
+</table>
+<p>Relacionamento: <strong>deseja</strong></p>
+<p>Descrição: <strong>Define relacionamento que corresponde a um candidato desejar (aplicar a) uma vaga, com cardinalidade <em>n:m.</em></strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">Atributo</th>
+<th align="center">Propriedades do atributo</th>
+<th align="center">Tipo de Dado</th>
+<th align="center">Tamanho</th>
+<th align="center">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">cpfCandidato</td>
+<td align="center">chave estrangeira, obrigatório</td>
+<td align="center">int</td>
+<td align="center">-</td>
+<td align="center">Número do CPF de um candidato.</td>
+</tr>
+<tr>
+<td align="center">idVaga</td>
+<td align="center">chave estrangeira, obrigatório</td>
+<td align="center">int</td>
+<td align="center">-</td>
+<td align="center">Identificador de uma vaga que um candidato deseja.</td>
+</tr>
+<tr>
+<td align="center">dataInicioDeseja</td>
+<td align="center">obrigatório</td>
+<td align="center">date</td>
+<td align="center">-</td>
+<td align="center">Data de início de desejo em uma vaga.</td>
+</tr>
+<tr>
+<td align="center">dataFimDeseja</td>
+<td align="center">optativo</td>
+<td align="center">date</td>
+<td align="center">-</td>
+<td align="center">Data de fim de desejo em uma vaga.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="bibliografia">Bibliografia</h1>
+<blockquote>
+<ul>
+<li>Modelagem de dados. SAE UnB. Disponível <a href="https://sae.unb.br/cae/conteudo/unbfga/sbd/new_bancomodelagem.html">aqui</a>. Acesso em: 15 fev. 2022;</li>
+</ul>
+</blockquote>
+<h1 id="versionamento">Versionamento</h1>
+<table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Data</th>
+<th>Modificação</th>
+<th>Autor(es)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.0</td>
+<td>16/02/2022</td>
+<td>Criação do documento</td>
+<td>Guilherme de Morais e Ian Ferreira</td>
+</tr>
+<tr>
+<td>1.1</td>
+<td>18/02/2022</td>
+<td>Correção de erros no Dicionário de Dados</td>
+<td>Guilherme de Morais</td>
+</tr>
+</tbody>
+</table>
+
+              
+            </article>
+          </div>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    <nav class="md-footer__inner md-grid" aria-label="Rodapé">
+      
+        
+        <a href="../CasosDeUso/" class="md-footer__link md-footer__link--prev" aria-label="Anterior: Casos de uso" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Anterior
+              </span>
+              Casos de uso
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../../Reunioes/Atas/Ata1/" class="md-footer__link md-footer__link--next" aria-label="Próximo: 11/02/2022" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Próximo
+              </span>
+              11/02/2022
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../../..", "features": ["navigation.tabs"], "search": "../../../assets/javascripts/workers/search.2a1c317c.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.config.lang": "pt", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Buscar", "search.result.more.one": "Mais 1 nesta p\u00e1gina", "search.result.more.other": "Mais # nesta p\u00e1gina", "search.result.none": "Nenhum resultado encontrado", "search.result.one": "1 resultado encontrado", "search.result.other": "# resultados encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version.title": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.6e54b5cd.min.js"></script>
+      
+    
+  </body>
+</html>
