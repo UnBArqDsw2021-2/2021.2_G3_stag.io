@@ -120,10 +120,12 @@ nav:
     - Reutilização de Software: ArquiteturaEReutilizacao/Reutilizacao/Reutilizacao.md
     - Iniciativas extras:
       - Redefinições na Modelagem do Banco de Dados: ArquiteturaEReutilizacao/IE/RedefinicoesBancoDeDados.md
+      - Requisições HTTP e API: ArquiteturaEReutilizacao/IE/RequisicoesAPI.md
     - Reuniões:
       - Atas:
         - 04/04/2022: ArquiteturaEReutilizacao/Reunioes/Atas/Ata1.md
+        - 12/04/2022: ArquiteturaEReutilizacao/Reunioes/Atas/Ata2.md
       - Sprint:
         - Planejamento: ArquiteturaEReutilizacao/Reunioes/Sprint/Planejamento.md
         - Revisão: ArquiteturaEReutilizacao/Reunioes/Sprint/Revisao.md
-      - Apresentação: ArquiteturaEReutilizacao/Apresentacao.md
+    - Apresentação: ArquiteturaEReutilizacao/Apresentacao.md
