@@ -50,10 +50,22 @@ O nosso projeto tem como objetivo facilitar a relação empresa-estudante por me
 #### [Iniciativas extras e reuniões](https://youtu.be/4xZfjb-JQ7o)
 
 ## Screenshots Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
-Adicione 2 ou mais screenshots do projeto em termos de artefatos da Terceira Entrega.
+![GRASP](docs/assets/PadroesDeProjeto/Screenshots/GRASP.png)
+![GOF](docs/assets/PadroesDeProjeto/Screenshots/GOF.png)
+![PadroesExtras](docs/assets/PadroesDeProjeto/Screenshots/PadroesExtras.png)
+
+OBS: Não constam Screenshots, na Home Page do Projeto, até o prazo da Terceira Entrega (Professora)
 
 ## Vídeo(s) Terceira Entrega <<FOCO: DSW(Padrões de Projeto)>>
-Adicione o(s)s vídeo(s) da Terceira Entrega.
+#### [GRASPS](https://youtu.be/F6Z662Jk1QM)
+
+#### [GOFs](https://youtu.be/CTIqRVlneEU)
+
+#### [Padrões Extras](https://youtu.be/XX9w3tuVDL8)
+
+#### [Iniciativas Extras e Reuniões](https://youtu.be/g5zsd8-kDNQ)
+  
+OBS: Não constam Vídeos, na Home Page do Projeto, até o prazo da Terceira Entrega (Professora)
 
 ## Screenshots Quarta Entrega (FINAL) <<FOCOS: Arquitetura & Reutilização de Software & PROJETO FINAL>>
 Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
