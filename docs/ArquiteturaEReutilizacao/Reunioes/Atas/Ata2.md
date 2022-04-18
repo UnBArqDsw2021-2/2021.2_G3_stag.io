@@ -25,3 +25,4 @@ Não atende.
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |0.1|14/04/2022|Criação da ata|Ian|
+|0.2|15/04/2022|Revisão da ata|Álvaro|
