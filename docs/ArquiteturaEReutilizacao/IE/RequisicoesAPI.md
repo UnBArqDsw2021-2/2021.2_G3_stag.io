@@ -133,3 +133,4 @@ Versão | Data | Modificação | Autor(es) |
 |1.0|14/04/22|Criando documento| Ítalo Vinícius|
 |1.1|14/04/22|Listagem das requisições| Álvaro |
 |1.2|14/04/22|Correções e adição de informações| Álvaro |
+|1.3|15/04/22|Revisão do documento| João Victor e Guilherme Vial |
