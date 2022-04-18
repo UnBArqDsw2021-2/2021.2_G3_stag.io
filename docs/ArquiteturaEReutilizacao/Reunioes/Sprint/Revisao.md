@@ -105,3 +105,4 @@ Quando as mudanças solicitadas forem resolvidas, o autor deve informar o reviso
 Versão | Data | Modificação | Autor(es) |
 |--|--|--|--|
 |1.0|15/04/2022|Elaboração do documento|Hérya|
+|1.1|16/04/2022|Revisão do documento|Ian|
